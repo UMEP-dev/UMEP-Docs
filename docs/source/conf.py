@@ -98,6 +98,12 @@ rst_prolog = u"""
 .. |lambdaP| replace:: λ\ :sub:`P`
 .. |ZHσ| replace:: Z\ :sub:`Hσ`
 
+.. only:: html
+
+    .. note::
+
+      Need help? Please let us know in the `UMEP Community <https://github.com/UMEP-dev/UMEP/discussions>`_.
+
 
 """
 # -- Options for HTML output -------------------------------------------------
