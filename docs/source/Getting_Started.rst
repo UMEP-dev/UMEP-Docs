@@ -44,10 +44,7 @@ Updating the UMEP-plugin
 Adding missing Python libraries and other OSGeo functionalities
 ---------------------------------------------------------------
 
-Some of the plugins in the UMEP tool requires some Python libraries such as
-**scipy** and **pandas** that
-might not been included when you installed QGIS. If so, it is necessary
-to install them to make this plugin work. Below are instructions on how
+If a Python library for some reason is missing you can manually install libraries on your system. Below are instructions on how
 to this for different operation systems. The same procedures can also be
 used to obtain other tools and functionalities from the OSGeo
 repository.
@@ -79,7 +76,7 @@ repository.
                 If nececcary, you can also install other versions of python libraries using **pip**
                 ::
                    pip uninstall netCDF4
-                   pip install netCDF4==1.2.9
+                   pip install netCDF4==1.5.1
 
                 to upgade a library:
                 ::
