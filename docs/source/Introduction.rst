@@ -161,6 +161,8 @@ Processor
      - Spatial variations of T\ :sub:`mrt` in complex urban environments. *Human Health: Outdoor thermal comfort; Park planning; Heat/Health warning; Daily Operations: visitors to parks*
    * - `ExtremeFinder <ExtremeFinder>`
      - Identify heat waves and cold waves for a certain location. *Human Health: Outdoor thermal comfort; Daily City Operations: Energy use; Gas consumption*
+   * - `TreePlanter <TreePlanter>`
+     - Identify locations for new trees based on mitigation of high radiant loads (heat stress). *Human Health: Outdoor thermal comfort; Park planning; Heat/Health warning; Urban vegations; Street trees*
 
 **Urban Energy Balance**
 

@@ -90,8 +90,8 @@ Below you can see which tools that have been migrated to UMEP fro processing and
      - NOT READY
    * - ERA5 DownloadData
      - READY
-   * - UMEP_Data_Download 
-     - NOT READY
+   * - TreePlanter 
+     - READY (only available via **UMEP for processing**)
    * - ExtremeFinder
      - NOT READY
    * - LQF
