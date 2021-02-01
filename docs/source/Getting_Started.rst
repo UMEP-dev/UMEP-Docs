@@ -73,7 +73,7 @@ repository.
                   py3_env
                   python3 -m pip install pandas
 
-                If nececcary, you can also install other versions of python libraries using **pip**
+                If necessary, you can also install other versions of python libraries using **pip**
                 ::
                    pip uninstall netCDF4
                    pip install netCDF4==1.5.1
