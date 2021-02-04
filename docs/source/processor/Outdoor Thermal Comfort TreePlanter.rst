@@ -18,7 +18,7 @@ Outdoor Thermal Comfort: TreePlanter
         - Gothenburg
 
 * Introduction
-    -  The **TreePlanter** plugin is a model for optimization of tree arrangement to mitigate thermal heat stress with respect to radiant load represented by mean radiant temperature (T\ :sub:`mrt`). The optimization of tree arrangement is achieved by utilizing a metaheuristic hill-climbing algorithm that evaluates the combined shading effect of 1 to N trees and their corresponding mitigating decrease in T\ :sub:`mrt`.
+    -  The **TreePlanter** plugin is a model for optimization of tree arrangement to mitigate thermal heat stress with respect to radiant load represented by mean radiant temperature (T\ :sub:`mrt`). The optimization of tree arrangement is achieved by utilizing a metaheuristic hill climbing algorithm that evaluates the combined shading effect of 1 to N trees and their corresponding mitigating decrease in T\ :sub:`mrt`.
     -  The TreePlanter is only available via `UMEPforProcessing`.
 
 * Related Preprocessors and Processors
@@ -37,17 +37,25 @@ Outdoor Thermal Comfort: TreePlanter
       :header-rows: 0
 
       * - Path to SOLWEIG output directory
-        - text
+        - Path that contains necessary files from SOLWEIG run.
       * - Planting area (Vector polygon)
-        - text
+        - A vectory polygon that depicts the planting area.
       * - From (hour)
-        - text
+        - Starting hour of analysis.
       * - Thru (hour)
-        - text
+        - Ending hour of analysis.
       * - Tree type
-        - text
-      * - osv
-        - osv
+        - Decideuous or coniferuous tree.
+      * - Tree height (meter above ground level)
+        - Tree height from ground to top of canopy (in meters).
+      * - Tree canopy diameter (meter)
+      	- Tree canopy diameter (in meters).
+      * - Trunk zone height (meter above ground level)
+      	- Height of bare trunk between ground and canopy.
+      * - Transmissivity of light through vegetation (%)
+      	- Sets how much of the solar irradiance that will penetrate though the canopy (0-100 %), where 0 is none and 100 is all irradiance.
+      * - Number of trees to plant
+      	- Number of trees for which the model will search for optimized positions.
 
 * Advanced Parameters
    .. list-table::
@@ -55,9 +63,13 @@ Outdoor Thermal Comfort: TreePlanter
       :header-rows: 0
 
       * - Number of restart iterations
-        - text
-      * - osv
-        - osv
+        - Number of times the model will restart with new starting positions for the trees.
+      * - Allow areas outside Planting area to be included in calculation
+        - If ticked, areas outside Planting area are included in the TreePlanter calculations and can be shaded by the trees.
+      * - Use random starting positions in the hill climbing algorithm
+      	- If ticked, the trees will start with random starting positions in each iteration. If not ticked, the starting positions will be based on the local optimal positions of the previous iteration.
+      * - Use a greedy algorithm to position trees
+      	- Disables the hill climbing algorithm and enables the greedy algorithm. The greedy algorithm finds positions for trees one at a time. This enables positioning of large number of trees in large areas.
 
 * Output parameters
    .. list-table::
@@ -65,9 +77,9 @@ Outdoor Thermal Comfort: TreePlanter
       :header-rows: 0
 
       * - Canopy Digital Surface Model
-        - text
-      * - osv
-        - osv
+        - Output is a Canopy Digital Surface Model (CDSM) with the positions of the new trees. If a CDSM with existing trees were included as input data to the SOLWEIG run, it will be updated to include the new trees.
+      * - Vector point file with tree location(s)
+        - Output is a vector point file with the positions of the new trees.
 
 
 * Run
@@ -80,17 +92,20 @@ Outdoor Thermal Comfort: TreePlanter
     Closes the plugin.
 
 * Quick example on how to run TreePlanter
-             #. Download the (`test dataset <https://urban-meteorology-reading.github.io>`__).
-             #. Add the raster layers (DSM, CDSM and land cover) from the Goteborg folder into a new QGIS session. The coordinate system of the grids is **Sweref99 1200 (EPSG:3007)**.
-             #. In order to run SOLWEIG, some additional datasets must be created based on the raster grids you just added. Open the SkyViewFactor Calculator from the UMEP Pre-processor and calculate SVFs using both your DSM and CDSM. Leave all other settings as default.
-             #. Open the Wall height and aspect plugin from the UMEP Pre-processor and calculate both wall height and aspect using the DSM and your input raster. Tick in the box to add them to your project. Leave all other settings as default.
-             #. Now you are ready to generate your first T\ :sub:`mrt` map. Open SOLWEIG and use the settings as shown in the figure below but replace the paths to the fit your computer environment. When you are finished, press *Run*.
+             #. Download the `TreePlanter test dataset <https://github.com/Urban-Meteorology-Reading/Urban-Meteorology-Reading.github.io/blob/master/other%20files/TreePlanterTestData.zip>`__.
+             #. Add the raster layers (DEM, DSM and CDSM) from the Goteborg folder into a new QGIS session. The coordinate system of the grids is **Sweref99 1200 (EPSG:3007)**.
+             #. Run SOLWEIG (see `Introduction to SOLWEIG <https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/IntroductionToSolweig.html>`__). Remember to tick **Save necessary raster(s) for the TreePlanter tool**.
+             #. Now you are ready to generate positions for trees. Open TreePlanter and use the settings as shown in the figure below but replace the Path to SOLWEIG output directory and paths to output files to the fit your computer environment. When you are finished, press *Run*.
 
+   .. figure:: /images/TreePlanterQuickRun.jpg
+      :width: 100%
+      :align: center
+
+      Settings for a first try with the TreePlanter model. Click on image for enlargement.
  
 * Remarks
-      -  All DSMs need to have the same extent and pixel size.
-      -  This plugin is computationally intensive i.e. large grids will take a lot of time and very large grids will not be possible to use. Large grids e.g. larger than 4000000 pixels should preferably be tiled before.
-      -  SOLWEIG focus on pedestrian radiation fluxes and it is not recommended to consider fluxes on building roofs.
+      -  This plugin is computationally intensive i.e. large grids will take a lot of time and very large grids will not be possible to use. If on a large grid, consider using a small number of trees or the greedy algorithm.
+      -  The greedy algorithm should be used when running the model with large number of trees.
 
 * References
       -  Wallenberg and Lindberg...
