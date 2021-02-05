@@ -4,11 +4,12 @@
 UMEP for Processing
 ===================
 
-**UMEP for Processing** ports the UMEP tools to the `QGIS processing framework <https://docs.qgis.org/3.10/en/docs/user_manual/processing/intro.html>`__, which is a geoprocessing environment that can be used to call native and third-party algorithms from QGIS, making your spatial analysis tasks more productive and easy to accomplish. You can for example call the UMEP tools directly as functions in a Python script or include them in the Graphical Modeler in QIS.
+**UMEP for Processing** ports the UMEP tools to the `QGIS processing framework <https://docs.qgis.org/3.10/en/docs/user_manual/processing/intro.html>`__, 
+which is a geoprocessing environment that can be used to call native and third-party algorithms from QGIS, making your spatial analysis tasks more 
+productive and easy to accomplish. You can for example call the UMEP tools directly as functions in a Python script or include them in the 
+Graphical Modeler in QIS.
 
-UMEP for processing (Experimental and not complete) is available from *Plugins -> Manage and Install Plugins...* in the menu bar in QGIS. Remember to tick in **show also experimental plugins** under the **Settings**-tab.
-
-More tools, info and tutorials is under contruction. The code is available on our Github page, under the `umep-processing <https://github.com/UMEP-dev/UMEP/tree/umep-processing>`__ branch.
+UMEP for processing (Experimental and not complete) is available from *Plugins -> Manage and Install Plugins...* in the menu bar in QGIS. More tools, info and tutorials is under contruction. The code is available via our `Github page <https://github.com/UMEP-dev/UMEP-processing>`__.
 
 
 Accessing algorithms in a stand-alone Python script 
@@ -85,7 +86,7 @@ Below you can see which tools that have been migrated to UMEP fro processing and
    * - UMEP_Data_Download 
      - NOT READY
    * - DSMGenerator
-     - NOT READY
+     - READY
    * - GreaterQF
      - NOT READY
    * - ERA5 DownloadData
