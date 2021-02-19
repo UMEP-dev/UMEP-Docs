@@ -9,7 +9,7 @@ which is a geoprocessing environment that can be used to call native and third-p
 productive and easy to accomplish. You can for example call the UMEP tools directly as functions in a Python script or include them in the 
 Graphical Modeler in QIS.
 
-UMEP for processing (Experimental and not complete) is available from *Plugins -> Manage and Install Plugins...* in the menu bar in QGIS. More tools, info and tutorials is under contruction. The code is available via our `Github page <https://github.com/UMEP-dev/UMEP-processing>`__.
+UMEP for processing is available from *Plugins -> Manage and Install Plugins...* in the menu bar in QGIS. More tools, info and tutorials is under contruction. The code is available via our `Github page <https://github.com/UMEP-dev/UMEP-processing>`__.
 
 
 Accessing algorithms in a stand-alone Python script 
@@ -24,8 +24,7 @@ Below you see a commmand example running the *Wall Height and Aspect*-tool copie
      'ASPECT_BOOL':True,
      'INPUT_LIMIT':3,
      'OUTPUT_HEIGHT':'C:/temp/height.tif',
-     'OUTPUT_ASPECT':'C:/temp/aspect.tif'}
-  )
+     'OUTPUT_ASPECT':'C:/temp/aspect.tif'})
 
 To access third party processing plugins (such as UMEP) in a stand-alone Python script, use the following lines of code (example for Windows users):
 ::
@@ -51,7 +50,7 @@ To access third party processing plugins (such as UMEP) in a stand-alone Python 
 Road map for UMEP for Processing
 --------------------------------
 
-Below you can see which tools that have been migrated to UMEP fro processing and what tools that will not be migrated. Please report any issues to our `repository <https://github.com/UMEP-dev/UMEP>`__. 
+Below you can see which tools that have been migrated to UMEP fro processing and what tools that will not be migrated. Please report any issues to our `repository <https://github.com/UMEP-dev/UMEP-processing>`__. 
 
 .. list-table:: 
    :widths: 50 50
@@ -76,7 +75,7 @@ Below you can see which tools that have been migrated to UMEP fro processing and
    * - WallHeight
      - READY
    * - TreeGenerator
-     - NOT READY
+     - READY
    * - FootprintModel
      - NOT READY
    * - LCZ_converter
@@ -114,9 +113,9 @@ Below you can see which tools that have been migrated to UMEP fro processing and
    * - SEBEVisual
      - Will not be migrated
    * - SolweigAnalyzer
-     - Parts will be migrated
+     - READY (only spatial section migrated)
    * - SUEWSAnalyzer
-     - Parts will be migrated
+     - READY (only spatial section migrated)
 
 
 

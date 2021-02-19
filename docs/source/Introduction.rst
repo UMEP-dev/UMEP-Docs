@@ -22,7 +22,7 @@ releases*:
    `repository <https://github.com/UMEP-dev/UMEP>`__. This
    version you need to manually install yourself `(see details) <Getting_Started>`.
 
-As of Spring 2020, UMEP for processing is also available. Find more info `here <UMEPforProcessing>`. 
+As of Spring 2020, **UMEP for processing** is also available. Find more info `here <UMEPforProcessing>`. 
 
 The UMEP plugin consist of three
 parts; a pre-processor, a processor and a post-processor. The

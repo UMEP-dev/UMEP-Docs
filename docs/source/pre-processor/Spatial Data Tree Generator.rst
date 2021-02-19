@@ -15,7 +15,7 @@ Spatial Data: Tree Generator
 
 
 * Introduction
-    Information 3d vegetation is not a common spatial information available. The **Tree Generator** can be used to create or alter a vegetation CDSM and TDSM (see `abbreviations <Abbreviations>`. Be using information from a point layer where the location of the points specifies the tree positions and the attributes sets the shape of the trees, it is possible to produce a the 3d vegetation needed for e.g. Mean radiant temperature modelling (SOLWEIG) or Urban Energy Balance modelling (SUEWS) in UMEP.
+    Information 3d vegetation is not a common spatial information available. The **Tree Generator** can be used to create or alter a vegetation CDSM and TDSM (see `abbreviations <Abbreviations>`). By using information from a point layer where the location of the points specifies the tree positions and the attributes sets the shape of the trees, it is possible to produce a 3d vegetation rasters needed for e.g. Mean radiant temperature modelling (SOLWEIG) or Urban Energy Balance modelling (SUEWS) in UMEP.
 
 * Dialog box
     .. figure:: /images/Treegeneratorsolweig.png

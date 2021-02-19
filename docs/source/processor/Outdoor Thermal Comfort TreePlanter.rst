@@ -97,7 +97,7 @@ Outdoor Thermal Comfort: TreePlanter
              #. Run SOLWEIG (see `Introduction to SOLWEIG <https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/IntroductionToSolweig.html>`__). Remember to tick **Save necessary raster(s) for the TreePlanter tool**.
              #. Now you are ready to generate positions for trees. Open TreePlanter and use the settings as shown in the figure below but replace the Path to SOLWEIG output directory and paths to output files to the fit your computer environment. When you are finished, press *Run*.
 
-   .. figure:: /images/TreePlanterQuickRun_v2.jpg
+   .. figure:: /images/TreePlanterQuickRun.jpg
       :width: 100%
       :align: center
 
