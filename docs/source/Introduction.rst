@@ -333,6 +333,14 @@ Evaluation and application studies
            - `Thorsson et al. (2011) <http://onlinelibrary.wiley.com/doi/10.1002/joc.2231/abstract>`__
          * - Stockholm, Sweden
            - `Thorsson et al. (2014) <http://www.sciencedirect.com/science/article/pii/S2212095514000054>`__
+         * - Santos, Brazil
+           - `Pereira et al. (2021) <https://link.springer.com/article/10.1007%2Fs00484-021-02099-9>`__
+         * - Montreal, Canada
+           - `HosseiniHaghighi et al. (2020) <https://www.mdpi.com/2220-9964/9/11/688>`__
+         * - Vancouver, Canada
+           - `Aminipouri et al. (2019) <https://www.sciencedirect.com/science/article/pii/S0360132319303403?via%3Dihub>`__
+         * - Seoul, South Korea
+           - `Yi et al. (2018) <http://koreascience.or.kr/article/JAKO201810760745513.page>`__
 
 * Pedestrian Wind Speed
             - References: Evaluation
