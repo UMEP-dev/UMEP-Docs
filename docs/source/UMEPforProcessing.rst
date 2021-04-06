@@ -71,7 +71,7 @@ Below you can see which tools that have been migrated to UMEP fro processing and
    * - LandCoverFractionPoint
      - READY
    * - LandCoverReclassifier
-     - READY
+     - Will not be migrated (Use any other built-in reclassifier)
    * - WallHeight
      - READY
    * - TreeGenerator
