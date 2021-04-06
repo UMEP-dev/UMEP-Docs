@@ -62,7 +62,7 @@ Email list
 To get updates, news and get help from other users, join our email list: `www.lists.reading.ac.uk/mailman/listinfo/met-umep <https://www.lists.reading.ac.uk/mailman/listinfo/met-umep>`_.
 
 
-For a detailed description including how to install QGIS on a Windows PC (see below) or watch this instruction `video <https://www.youtube.com/watch?v=ZEw_DVl772Q>`__. You can find more introductory videos on how to use UMEP on our `YouTube-channel <https://www.youtube.com/channel/UCTPkXncD3ghb5ZTdZe_u7gA>`__.
+For a detailed description including how to install QGIS and UMEP for Windows, watch instruction video 1 and 2 on our `YouTube-channel <https://www.youtube.com/channel/UCTPkXncD3ghb5ZTdZe_u7gA>`__ where you also can find other instructional vidoes related to UMEP and QGIS.
 
 .. _PluginArchitecture:
 
