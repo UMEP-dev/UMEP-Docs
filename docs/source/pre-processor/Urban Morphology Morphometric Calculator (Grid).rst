@@ -101,10 +101,10 @@ Urban Morphology: Morphometric Calculator (Grid)
      #. **Isotropic** results where all directions are integrated into one value for each parameter.
 
 * Remarks
-      All DSMs need to have the same extent and pixel size.
-      Polygon grids must be squared (or rectangular) and allinged with the CRS used. This will be fixed in future versions so that any shaped grid can be used (see issue #12 in the `repository <https://github.com/UMEP-dev/UMEP/issues>`__).
-      Units of wai is non dimensional (area building walls / total horizontal area).
-
+      #. Units of **wai** is non dimensional (area building walls / total horizontal area).
+      #. All DSMs need to have the same extent and pixel size.
+      #. Polygon grids must be squared (or rectangular) and allinged with the CRS used. This will be fixed in future versions so that any shaped grid can be used (see issue #12 in the `repository <https://github.com/UMEP-dev/UMEP/issues>`__).
+      
 * References
       -  Kent CW, CSB Grimmond, J Barlow, D Gatey, S Kotthaus, F Lindberg, CH Halios 2017: Evaluation of urban local-scale aerodynamic parameters: implications for the vertical profile of wind and source areas Boundary Layer Meteorology 164 183–213 doi: [10.1007/s10546-017-0248-z https://link.springer.com/article/10.1007/s10546-017-0248-z]
       -  Kent CW, S Grimmond, D Gatey Aerodynamic roughness parameters in cities: inclusion of vegetation Journal of Wind Engineering & Industrial Aerodynamics http://dx.doi.org/10.1016/j.jweia.2017.07.016
