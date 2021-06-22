@@ -1,7 +1,7 @@
 .. _DevelopmentGuidelines:
 
 DevelopmentGuidelines
-#########################
+#####################
 
 Contributing with python code to the UMEP plugin in QGIS
 --------------------------------------------------------
@@ -26,14 +26,13 @@ Guide <http://locatepress.com/ppg>`__.
    your plugin.
 #. Another useful plugin is the **PluginReloader** which makes it
    possible to reload a plugin in QGIS without restarting the software.
-#. pb\_tool is another useful program to use for installing your plugin
-   in the QGIS plugin folder as well as cleaning etc.
+#. **pb\_tool** is another useful program to use for installing your plugin
+   in the QGIS plugin folder as well as cleaning etc. Install via **pip**.
 
 Please use the python libraries that comes with the QGIS installation as
 much as possible without including external libraries when developing
 your plugin. All libraries are not included when a common installation
-of QGIS is installed. Go to our `Getting
-started <Getting_Started>`
+of QGIS is installed. Go to our `Getting started <Getting_Started>`
 section for further instructions.
 
 External Python libraries currently included in the UMEP plugin
@@ -48,8 +47,7 @@ To use the f90nml library located in the Utilities folder:
 
   from ..Utilities import f90nml
 
-The **pandas** library is not install by default so a simple install
-pandas cannot be used use instead a try statement:
+If a Python library is not common and not installed, use a **try** statement to avoid plugin failure:
 
 ::
 
@@ -58,13 +56,23 @@ pandas cannot be used use instead a try statement:
   except Exception, e:
       QMessageBox.critical(None, 'Error', 'The WATCH data download/extract feature requires the pandas package '
                              'to be installed. Please consult the FAQ in the manual for further information')
-      return
+      pass
 
-The same goes for **matplotlib** and other libraries that you are
-uncertain of.
+
+Setting up an UMEP Python IDE on Windows
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**WORK IN PROGRESS**
+
+Here follows an example on how to set up a integrated development environment (IDE) on your Windows 10 machine for UMEP plugin development of general Python PyQGIS scripting. Prerequisites for these instruction is that you have installed QGIS according to our `Getting started <Getting_Started>`
+section for further instructions.
+
+#. Install `VSCode <https://code.visualstudio.com/>`__ on your system
+#. not ready
+
 
 SUEWS wrapper
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 The main file of the python wrapper for the SUEWS model is called
 SUEWSwrapper.py. To change version of SUEWS when running the wrapper,
@@ -72,10 +80,10 @@ simple go in to SUEWSwrapper.py and activate the line which is calling
 the appropriate wrapper (e.g. SUEWSwrapper\_v2016a) and comment out
 other versions.
 
-In SUEWS v2017b - this is no longer used/needed
+As from SUEWS v2017b - this is no longer used/needed
 
 f2py
-~~~~~~~~~~~~~~~
+~~~~
 
 A possibility to make use of fortran subroutines in python. See
 `here <http://docs.scipy.org/doc/numpy-dev/f2py/>`__ for documetation.
@@ -85,7 +93,7 @@ A possibility to make use of fortran subroutines in python. See
    Should use KIND=8.
 
 Setting up Windows machine for running f2py
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Please note that the steps below contain some links that over time could
 change, however, the basics should remain the same. This has been tested
