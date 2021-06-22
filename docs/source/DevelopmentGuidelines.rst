@@ -59,16 +59,17 @@ If a Python library is not common and not installed, use a **try** statement to 
       pass
 
 
-Setting up an UMEP Python IDE on Windows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Setting up a Python IDE on Windows
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **WORK IN PROGRESS**
 
-Here follows an example on how to set up a integrated development environment (IDE) on your Windows 10 machine for UMEP plugin development of general Python PyQGIS scripting. Prerequisites for these instruction is that you have installed QGIS according to our `Getting started <Getting_Started>`
+Here follows an example on how to set up a integrated development environment (IDE) on your Windows 10 machine for UMEP plugin development or general stand alone Python PyQGIS scripting. Prerequisites for these instruction is that you have installed QGIS  and UMEP according to our `Getting started <Getting_Started>`
 section for further instructions.
 
 #. Install `VSCode <https://code.visualstudio.com/>`__ on your system
-#. not ready
+#. Next step is to create a .bat-file that will be used to start up VSCode pointing towards the correct Python environment on your computer. Create a new textfile and paste the lines from `here <https://github.com/biglimp/PhDCourseVT2021/blob/main/CodeAndStuff/VSCodeQGIS3.bat>`__. Make sure that the last line in correct, i.e. pointing to the location on your computer where Code.exe is located. Save as "VSCodeQGIS3.bat". 
+#. Start VSCode by executing your new bat-file.
 
 
 SUEWS wrapper
@@ -96,7 +97,7 @@ Setting up Windows machine for running f2py
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Please note that the steps below contain some links that over time could
-change, however, the basics should remain the same. This has been tested
+change, however, the basics should remain the same. This has been testedMake sure that VSCode the last line is correct, i.e. that VSCode is installed 
 and established for an Intel 64-bit machine running NT operating system.
 This is still to be tested on other versions of Windows operating
 system. If you carry out on both OS, please add to the list below or
