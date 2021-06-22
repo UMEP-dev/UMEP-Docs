@@ -59,10 +59,8 @@ If a Python library is not common and not installed, use a **try** statement to 
       pass
 
 
-Setting up a Python IDE on Windows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**WORK IN PROGRESS**
+Quick guide to set up a Python IDE on Windows
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Here follows an example on how to set up a integrated development environment (IDE) on your Windows 10 machine for UMEP plugin development or general stand alone Python PyQGIS scripting. Prerequisites for these instruction is that you have installed QGIS  and UMEP according to our `Getting started <Getting_Started>`
 section for further instructions.
@@ -297,7 +295,7 @@ developed python libraries.
 The .dll files to include are: NEED TO LIST THEM
 
 Importing and using in Python
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Import the module into python script in the same way you would import
    any other module:
@@ -374,55 +372,15 @@ Upcoming Developments
      - Göteborg Univ/Reading
 
 Benchmarking system
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 `Benchmark <Benchmark>`
 
-Coding Guidelines
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-SUEWS
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-If you are interested in contributing to the code please contact Sue
-Grimmond.
-
-#. Code written in Fortran – currently Fortran 95
-#. Variables
-
-   -  Names should be defined at least in one place in the code –
-      ideally when defined
-   -  Implicit None should be used in all subroutines
-   -  Variable name should include units. e.g. Temp\_C, Temp\_K
-   -  Output variable attributes should be provided in the TYPE
-      structure defined in the ctrl_output module as follows:
-
-       ::
-
-           : TYPE varAttr
-           : CHARACTER(len = 15) :: header ! short name in headers
-           : CHARACTER(len = 12) :: unit   ! unit
-           : CHARACTER(len = 14) :: fmt    ! output format
-           : CHARACTER(len = 50) :: longNm ! long name for detailed description
-           : CHARACTER(len = 1)  :: aggreg ! aggregation method
-           : CHARACTER(len = 10) :: group  ! group: datetime, default, ESTM, Snow, etc.
-           : INTEGER             :: level  ! output priority level: 0 for highest (defualt output)
-           : END TYPE varAttr
-
-#. Code should be written generally
-#. Data set for testing should be provided
-#. Demonstration that the model performance has improved when new code
-   has been added or that any deterioration is warranted.
-#. Additional requirements for modelling need to be indicated in the
-   manual
-#. All code should be commented in the program (with initials of who
-   made the changes – name specified somewhere and institution)
-#. The references used in the code and in the equations will be
-   collected to a webpage
-#. Current developments that are being actively worked on
 
 How to setup your development environment on Windows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This section is rather old and might not be working instructions.
 
 gfortran with NetBeans
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
