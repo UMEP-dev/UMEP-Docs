@@ -70,6 +70,8 @@ section for further instructions.
 #. Install `VSCode <https://code.visualstudio.com/>`__ on your system
 #. Next step is to create a .bat-file that will be used to start up VSCode pointing towards the correct Python environment on your computer. Create a new textfile and paste the lines from `here <https://github.com/biglimp/PhDCourseVT2021/blob/main/CodeAndStuff/VSCodeQGIS3.bat>`__. Make sure that the last line in correct, i.e. pointing to the location on your computer where Code.exe is located. Save as "VSCodeQGIS3.bat". 
 #. Start VSCode by executing your new bat-file.
+#. Some initial settings in VSCode need to be performed e.g. installing Python extension. VSCode usually assist you with that by recommending extentions to install (e.g. pylint etc.). Also, make sure that VSCode is pointing to your **python.exe**-file located in your QGIS installation folder (C:\OSGeo4W64\...).
+#. 
 
 
 SUEWS wrapper
