@@ -158,11 +158,11 @@ gfortran with NetBeans
    is needed so I tend to install too many packages rather that too few.
    Install in c:\\cygwin64
 #. Go to your Environment Variables in advanced system settings in
-   windows and include
-
-   C:\\cygwin64\\bin;C:\\cygwin64\\usr\\bin;C:\\cygwin64\\usr\\local\\bin;C:\\cygwin64\\lib;C:\\cygwin64\\usr\\lib
-   in your Path.
-
+   windows and include in your Path:
+    ::
+      
+      C:\\cygwin64\\bin;C:\\cygwin64\\usr\\bin;C:\\cygwin64\\usr\\local\\bin;C:\\cygwin64\\lib;C:\\cygwin64\\usr\\lib
+   
 #. Install NetBeans from www.netbeans.org. You only need to download the
    C/C++ version.
 #. If you don’t have the correct Java, follow the link presented to you
@@ -178,41 +178,12 @@ your windows PC. Do the following:
 -  In Netbeans, go to Tools>Options>C/C++ and click Edit next to
    localhost. Click Add… and write metcl2. Just keep on clicking until
    you need to give your username and password for the cluster.
--  Now you should be able to run GNU on the cluster from your windows
+-  Now you should be able to run GNU on the cluster from your Windows
    PC.
 
-Python and PyCharm (Not so good alternative)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-#. Install python 3.7.X, 64 bit from python.org (Windows x86-64 MSI
-   installer). Install with default settings.
-#. Visit JetBrain, Pycharm website and obtain a student account (go to
-   **Discounted and Complimentary Licenses**,
-   https://www.jetbrains.com/pycharm/buy/). Click on **For Students and
-   Teachers**, go to bottom of the page and click **Apply Now**. Choose
-   either a student or a teacher status. You will get an email where you
-   activate your license.
-#. Create a folder which you can use as a project folder. Copy the
-   python code (\*.py) from the suews repository and put it the folder.
-   If you don’t have access to the repository talk to Fredrik Lindberg.
-#. Download PyCharm professional
-   (https://www.jetbrains.com/pycharm/download/) and install.
-#. Start PyCharm and activate license using your JetBrains account.
-#. Create a new project (Pure python) and choose the created folder (3)
-   as your project folder and use your python installation as
-   interpreter. Click ok in the next message box.
-#. Go to File>Settings >Project Interpreter. Add a new package by
-   clicking the green plus sign. Search for numpy and install package.
-   If you get errors, you probably need correct version of Visual
-   studio. There is an address of a website where you can download it in
-   the error message when you tried to install numpy.
-#. Also install matplotlib (used for plotting)
-#. Run mainfileLondon.py to do stuff.
-
- 
 
 Python and PyCharm (good alternative)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Go to qgis.org and click on download. Choose the installation for
    advanced users (64-bit). Choose the **advanced desktop installation**
@@ -239,42 +210,6 @@ Python and PyCharm (good alternative)
 
 #. Run the bat-file.
 
-How to make standalone application using py2exe (this is not used, see below)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-#. In PyCharm, add the pip package (if not already there). See bullet
-   point 6. Above.7.
-#. Go to http://www.lfd.uci.edu/~gohlke/pythonlibs/ and download the
-   appropriate py2exe package (.whl).
-#. Open a command prompt and go to the folder where you download the
-   py2exe package and write:
-   ::
-     pip name_of_whl_file
-
-#. Create a file called setup.py in your working directory with the
-   following code:
-      ::
-
-          from distutils.core import setup
-          import py2exe
-
-      ::
-
-            setup(console=['Suews_wrapper_v2015a.py'])
-
-#. From a command prompt (can use terminal in PyCharm) write:
-
-python setup.py install
-
-#. Then write:
-
-     ::
-
-         python setup.py py2exe
-
-#. All files and folders needed are now created in a subfolder call
-   dist. You also have to add the SUEWS executable and all files needed
-   to run the model.
 
 How to make standalone application using Pyinstaller (use this)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -295,14 +230,15 @@ How to make standalone application using Pyinstaller (use this)
 
            pip install pyinstaller
 
-#. Locate yourself where you have your script and write:
+#. Locate yourself where you have your script and e.g. write:
 
       ::
 
           pyinstaller suews_wrapper_v3.py
 
+
 SUEWS Prepare Developer
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 This is for advanced users regarding SUEWS Prepare plugin in UMEP. The
 information in should help with translating the plugin, adding new tabs
