@@ -130,6 +130,14 @@ Upcoming Developments
      - Radiation coupling
      - Active
      - Göteborg Univ/Reading
+   * - SOLWEIG
+     - Anisotrophic radiation
+     - Active
+     - Göteborg Uinv
+   * - URock
+     - Pedestrian wind model
+     - Active
+     - Göteborg Univ
 
 Benchmarking system
 ~~~~~~~~~~~~~~~~~~~
