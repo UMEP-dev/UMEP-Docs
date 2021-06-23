@@ -72,19 +72,8 @@ section for further instructions.
 #. Now e.g. try `this UMEP tutorial <https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/IntrodutionToProcessingSEBE.html#introduction-to-umep-and-the-qgis-processing-framework>`__ , especially last section to see your Python environment is up to date. If not, post an item in our `Discussions page <https://github.com/UMEP-dev/UMEP/discussions>`__ in our code repository and we will try to help you out.
 
 
-Other development information
------------------------------
-
-SUEWS wrapper
-~~~~~~~~~~~~~
-
-The main file of the python wrapper for the SUEWS model is called
-SUEWSwrapper.py. To change version of SUEWS when running the wrapper,
-simple go in to SUEWSwrapper.py and activate the line which is calling
-the appropriate wrapper (e.g. SUEWSwrapper\_v2016a) and comment out
-other versions.
-
-As from SUEWS v2017b - this is no longer used/needed
+Other useful information
+------------------------
 
 Upcoming Developments
 ~~~~~~~~~~~~~~~~~~~~~
@@ -154,7 +143,7 @@ How to setup your development environment on Windows
 This section is rather old and might not be working instructions. Use instructions above instead.
 
 gfortran with NetBeans
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 
 #. Go to Cygwin and install 64-bit. You need to make sure that you
    install gfortran, g++, gdb, make and gcc. I am not really sure what
@@ -205,17 +194,17 @@ Python and PyCharm (good alternative)
       SET QGISNAME=qgis
       SET QGIS=%OSGEO4W_ROOT%\apps\%QGISNAME%
       SET QGIS_PREFIX_PATH=%QGIS%
-      SET PYCHARM= “C:\Program   Files   (x86)\JetBrains\PyCharm   2020.1.3\bin\pycharm.exe
+      SET PYCHARM= “C:\Program Files (x86)\JetBrains\PyCharm 2020.1.3\bin\pycharm.exe"
       CALL %OSGEO4W_ROOT%\bin\o4w_env.bat
       SET PATH=%PATH%;%QGIS%\bin
       SET PYTHONPATH=%QGIS%\python;%PYTHONPATH%
-      start  “PyCharm   aware   of   QGIS”\  /B %PYCHARM% %*
+      start “PyCharm aware of QGIS”\ /B %PYCHARM% %*
 
-#. Run the bat-file.
+#. Execute the bat-file.
 
 
-How to make standalone application using Pyinstaller (use this)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+How to make standalone application using Pyinstaller
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Add the pip package (see above)
 #. You need to add the path to where pip.exe is located (usually
@@ -267,7 +256,7 @@ or adding new variables.
           Empty widget not connected to any sheet from the SUEWS_SiteLibrary document.
 
 SUEWS\_SiteSelect.xlsx
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 
 * A detailed look at the SUEWS_init document
     - This file contains an example of one line of output from the plugin. It is used by the plugin to check the order of the outputs. It can be considered the least important and useful for developers.  
@@ -365,7 +354,7 @@ SUEWS\_SiteSelect.xlsx
     - The second row of the sheet SUEWS\_SiteSelect contains text strings that are used by the plugin to identify a variables place in the final output of the plugin. Changing the order of the strings in the second row will similarly affect the final output.
 
 Adding to the plugin
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^
 How to make additions to the plugin (e.g. adding new tabs). Earlier information will be useful when adding to the plugin. i.e. read earlier sections before reading this one.
 
 * Adding a new tab to the plugin
