@@ -60,7 +60,7 @@ If a Python library is not common and not installed, use a **try** statement to 
 
 
 Quick guide to set up a Python IDE on Windows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 
 Here follows an example on how to set up a integrated development environment (IDE) on your Windows 10 machine for UMEP plugin development or general stand alone Python PyQGIS scripting. Prerequisites for these instruction is that you have installed QGIS  and UMEP according to our `Getting started <Getting_Started>`
 section for further instructions.
@@ -71,6 +71,9 @@ section for further instructions.
 #. Some initial settings in VSCode need to be performed e.g. installing Python extension. VSCode usually assist you with that by recommending extentions to install (e.g. pylint etc.). Also, make sure that VSCode is pointing to your **python.exe** -file located in your QGIS installation folder.
 #. Now e.g. try `this UMEP tutorial <https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/IntrodutionToProcessingSEBE.html#introduction-to-umep-and-the-qgis-processing-framework>`__ , especially last section to see your Python environment is up to date. If not, post an item in our `Discussions page <https://github.com/UMEP-dev/UMEP/discussions>`__ in our code repository and we will try to help you out.
 
+
+Other development information
+-----------------------------
 
 SUEWS wrapper
 ~~~~~~~~~~~~~
