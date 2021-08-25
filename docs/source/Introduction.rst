@@ -341,6 +341,8 @@ Evaluation and application studies
            - `Aminipouri et al. (2019) <https://www.sciencedirect.com/science/article/pii/S0360132319303403?via%3Dihub>`__
          * - Seoul, South Korea
            - `Yi et al. (2018) <http://koreascience.or.kr/article/JAKO201810760745513.page>`__
+	 * - Bilbao, Spain
+	   - `Azcarate et al. (2021) <https://www.sciencedirect.com/science/article/pii/S2210670721002821>`__
 
 * Pedestrian Wind Speed
             - References: Evaluation
