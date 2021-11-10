@@ -5,7 +5,7 @@ Meteorological Data: Download data (ERA5)
 
 	  .. note:: (February/2020) This plugin replaces the WATCH download plugin. To make use of this plugin you need to make additional configurations outside QGIS/UMEP (see below).
 	  
-
+	  .. note:: ERA5 data is adjusted to UTC = 0. This has implications for other tools in UMEP (see respective tool documentation). 
 
 
 * Contributors：
@@ -51,7 +51,6 @@ Meteorological Data: Download data (ERA5)
 * Configuring your computer to enable download：
       - You might need to install/update the SuPy library. Follow the instruction at `link <Python_Libraries>` (**pip install supy --upgrade**).
 	  - If your computer is not configured for downloading data from the Climate Data Store, follow the instructions `here <https://cds.climate.copernicus.eu/api-how-to>`__. You only need to consider the section **Install the CDS API key**.
-      
 
 * Obtaining ERA5 data via UMEP：
       .. figure::  /images/CopernicusDownloader.jpg
