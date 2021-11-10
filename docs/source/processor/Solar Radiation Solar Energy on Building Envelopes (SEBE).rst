@@ -60,13 +60,13 @@ Solar Radiation: Solar Energy on Building Envelopes (SEBE)
     This parameter specifies the reflectivity of shortwave radiation of all surfaces (ground, roofs, walls and vegetation). It should be a value between 0 and 1. The default value is set to 0.15.
 
 * UTC Offset (Hours)
-    Time zone needs to be specified. Positive numbers increase when moving east (e.g. Stockholm UTC +1).
+    Time zone needs to be specified. Positive numbers increase when moving east (e.g. Stockholm UTC +1). **This is related to the meteorological forcing data so if ERA5 data is used, UTC should be equal to zero**.
 
 * Estimate Diffuse and Direct Shortwave Components from Global Radiation
     Tick this if only global radiation is present. Diffuse and direct shortwave components will then be estimated from global radiation based on the statistical model presented by Reindl et al. (1990). If air temperature and relative humidity is present, the statistical model will perform better but it is able to estimate the components using only global shortwave radiation.
 
 * Input Meteorological File
-    Input meteorological data specifically formatted to be used in UMEP. This specific format can be created using UMEP  -> Pre-processing  -> Meteorological data  -> Prepare existing data. A dataset with **hourly** time resolution should be used for SEBE, preferably at least **one year in length**. The time should be in `LST <Abbreviations>` for the specific location to be modelled. Multiple years can also be used to improve the model outcome. Model output is dependent on the meteorological input data so if a short dataset is used, potential solar energy would be valid for that particular time period only.
+    Input meteorological data specifically formatted to be used in UMEP. This specific format can be created using UMEP  -> Pre-processing  -> Meteorological data  -> Prepare existing data. A dataset with **hourly** time resolution should be used for SEBE, preferably at least **one year in length**. The time should preferably be in `LST <Abbreviations>` for the specific location to be modelled (ERA5 data, UTC=0). Multiple years can also be used to improve the model outcome. Model output is dependent on the meteorological input data so if a short dataset is used, potential solar energy would be valid for that particular time period only.
   
      - Mandatory data is global shortwave radiation, but the model will perform best if also diffuse and direct components are available.
      - The direct radiation component used as input in the SOLWEIG model is not the direct shortwave radiation on a horizontal surface but on a surface perpendicular to the light source. Hence, the relationship between global radiation and the two separate components are:
