@@ -90,7 +90,7 @@ Outdoor Thermal Comfort: SOLWEIG
       * - Settings for one iteration.
         - If a meteorological dataset is not used there is a possibility to run the model for one iteration using the calendar and spin-boxes to set meteorological variables present here. The default values are for a clear Summer day at 1230 in Göteborg, Sweden.
       * - UTC offset
-        - Time zone needs to be specified. Positive numbers moving east (e.g. Stockholm UTC +1).
+        - Time zone needs to be specified. Positive numbers moving east (e.g. Stockholm UTC +1). **This is related to the meteorological forcing data so if ERA5 data is used, UTC should be equal to zero**.
 
 
 * Optional settings
