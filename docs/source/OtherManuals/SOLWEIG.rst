@@ -3,7 +3,7 @@
 SOLWEIG Manual
 --------------
 
-The current version of SOLWEIG is v2019a (released 22 May 2019).
+The current version of SOLWEIG is v2021a (released 19 MArch 2022).
 
 NEW in this version: see `Version History`_.
 
@@ -156,7 +156,8 @@ Preprocessor <MetPreprocessor>`
 could be used. If no data is available a single point in time can
 modelled using the SOLWEIG interface. There is also a possibility to
 download a dataset for any location on Earth using the `Download data
-(ERA5) <ERA5>`-plugin.
+(ERA5) <ERA5>`-plugin. Note that ERA5 data is adjusted to UTC=0. Thus,
+The UTC offset parameter should also be set to 0 if ERA5 data is used.
 The variables required for SOLWIEG are:
 
 -  *Air temperature* [degC]
@@ -481,6 +482,8 @@ Version History
 
    * - Version
      - Changes from previous version
+   * - v2021a
+     - Bug fixes and small improvements. See https://github.com/UMEP-dev/UMEP for more details.
    * - v2019a 
      - Possibilities to make use of an anisotrophic diffuse shortwave scheme is added. 
    * - v2018a
