@@ -72,81 +72,94 @@ Plugin Architecture
 Pre-Processor
 ~~~~~~~~~~~~~
 
+**P** and **M** indicates is the plugin is avialable in UMEP for processing and/or UMEP from the menubar in QGIS, respectively.
+
 **Meteorological Data**
 
 .. list-table:: 
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
 
-   * - `Prepare Existing Data <MetPreprocessor>`
-     - Transforms meteorological data into UMEP format
+   * - `Prepare Existing Data <MetPreprocessor>` 
+     - Transforms meteorological data into UMEP format. (M)
    * - `Download data (WATCH) <WATCH>`
-     - Prepare meteorological dataset from `WATCH <http://www.eu-watch.org/data_availability>`__ (deprecated)
-   * - `Download data (ERA5) <ERA5>`
-     - Prepare meteorological dataset from `the Coopernicus programme <https://climate.copernicus.eu/>`__
+     - Prepare meteorological dataset from `WATCH <http://www.eu-watch.org/data_availability>`__ (**deprecated**).
+   * - `Download data (ERA5) <ERA5>` 
+     - Prepare meteorological dataset from `the Coopernicus programme <https://climate.copernicus.eu/>`__. (PM)
 
 **Spatial Data**
 
 .. list-table::
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
 
    * - `Spatial Data Downloader <SpatialDataDownloader>`
-     - Plugin for retrieving geodata from online services suitable for various UMEP related tools
+     - Plugin for retrieving geodata from online services suitable for various UMEP related tools (**deprecated**, see `FAQ` on how to retrieve data such population density).
    * - `DSM generator <DSMGenerator>`
-     - Creation/manipulation of a DSM based on user-specified building footprint vector data and/or `Open Street Map <http://www.openstreetmap.org>`__ data (if available)
+     - Creation/manipulation of a DSM based on user-specified building footprint vector data and/or `Open Street Map <http://www.openstreetmap.org>`__ data (if available) (PM).
    * - `Tree generator <TreeGenerator>`
-     - Creation/manipulation of vegetation input data
+     - Creation/manipulation of vegetation input data. (PM)
    * - `LCZ Converter <LCZConverter>`
-     - Conversion from Local Climate Zones (LCZs) in the WUDAPT database into SUEWS input data
+     - Conversion from Local Climate Zones (LCZs) in the WUDAPT database into SUEWS input data. (M)
 
 **Urban geometry**
 
 .. list-table::
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
 
    * - `Sky View Factor <SkyViewFactorCalculator>`
-     - Calculation of continuous maps of Sky View Factors (SVF) based on high resolution digital surface models (DSM). *Solar access, urban heat island*
+     - Calculation of continuous maps of Sky View Factors (SVF) based on high resolution digital surface models (DSM). *Solar access, urban heat island* (PM)
    * - `Wall Height and Aspect <WallHeightandAspect>`
-     - Calculation of height and aspect of building walls based on a DSM
+     - Calculation of height and aspect of building walls based on a DSM. (PM)
 
 **Urban land cover**
 
 .. list-table::
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
 
    * - `Land Cover Reclassifier <LandCoverReclassifier>`
-     - Reclassifies a grid into UMEP format land cover grid. *Land surface models*
+     - Reclassifies a grid into UMEP format land cover grid. *Land surface models* (M)
    * - `Land Cover Fraction (Point) <LandCoverFraction(Point)>`
-     - Land cover fractions estimates from a land cover grid based on a specific point in space
+     - Land cover fractions estimates from a land cover grid based on a specific point in space. (PM)
    * - `Land Cover Fraction (Grid) <LandCoverFraction(Grid)>`
-     - Land cover fractions estimates from a land cover grid based on a polygon grid
+     - Land cover fractions estimates from a land cover grid based on a polygon grid (PM)
 
 **Urban Morphology**
 
 .. list-table::
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
 
    * - `Morphometric Calculator (Point) <MorphometricCalculator(Point)>`
-     - Morphometric parameters from a DSM based on a specific point in space
+     - Morphometric parameters from a DSM based on a specific point in space. (PM)
    * - `Morphometric Calculator (Grid) <MorphometricCalculator(Grid)>`__
-     - Morphometric parameters estimated from a DSM based on a polygon grid
+     - Morphometric parameters estimated from a DSM based on a polygon grid. (PM)
    * - `Source Area Model (Point) <SourceArea(Point)>`
-     - Source area calculated from a DSM based on a specific point in space. *Interpretation of observations*
+     - Source area calculated from a DSM based on a specific point in space. *Interpretation of observations* (M)
 
-**Other**
+**Urban Energy Balance**
 
 .. list-table::
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
    
    * - `SUEWS Prepare <SUEWSPrepare>`
-     - Preprocessing and preparing input data for the SUEWS model
+     - Preprocessing and preparing input data for the SUEWS model (M)
    * - `SUEWS Converter <SUEWSConverter>`
-     - Tool for converting input forcing data from older versions of SUEWS
+     - Tool for converting input forcing data from older versions of SUEWS (M)
+
+**Urban Heat Island**
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 0
+   
+   * - `UWG Prepare <UWGPrepare>`
+     - Preprocessing and preparing input data for the Urban Weather Generator. *Urban heat island*  (UWG) (M)
+   * - `UWG Reclassifier <UWGReclassifier>`
+     - Tool to reclassify urban topologies into UWG building classes. *Urban heat island* (M)
 
 Processor
 ~~~~~~~~~
@@ -154,42 +167,51 @@ Processor
 **Outdoor Thermal Comfort**
 
 .. list-table::
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
 
    * - `Mean Radiant Temperature (SOLWEIG) <SOLWEIG>`
-     - Spatial variations of T\ :sub:`mrt` in complex urban environments. *Human Health: Outdoor thermal comfort; Park planning; Heat/Health warning; Daily Operations: visitors to parks*
+     - Spatial variations of T\ :sub:`mrt` in complex urban environments. *Human Health: Outdoor thermal comfort; Park planning; Heat/Health warning; Daily Operations: visitors to parks* (PM)
    * - `ExtremeFinder <ExtremeFinder>`
-     - Identify heat waves and cold waves for a certain location. *Human Health: Outdoor thermal comfort; Daily City Operations: Energy use; Gas consumption*
+     - Identify heat waves and cold waves for a certain location. *Human Health: Outdoor thermal comfort; Daily City Operations: Energy use; Gas consumption* (M)
    * - `TreePlanter <TreePlanter>`
-     - Identify locations for new trees based on mitigation of high radiant loads (heat stress). *Human Health: Outdoor thermal comfort; Park planning; Heat/Health warning; Urban vegations; Street trees*
+     - Identify locations for new trees based on mitigation of high radiant loads (heat stress). *Human Health: Outdoor thermal comfort; Park planning; Heat/Health warning; Urban vegations; Street trees* (P)
 
 **Urban Energy Balance**
 
 .. list-table::
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
 
    * - `LQF <LQF>`
-     - Spatial variations anthropogenic heat release for urban areas
+     - Spatial variations anthropogenic heat release for urban areas (M)
    * - `GQF <GQF>`
-     - Anthropogenic Heat (Q\ :sub:`F`). *Daily City Operations: Energy use; Gas consumption; Traffic heat loads*
+     - Anthropogenic Heat (Q\ :sub:`F`). *Daily City Operations: Energy use; Gas consumption; Traffic heat loads* (M)
    * - `SUEWS (Simple) <SUEWSSimple>`
-     - Urban Energy and Water Balance. *Disaster Risk Management: Drought, Heat; Environment evaluation for construction, Water Management, Green infrastructure*
+     - Urban Energy and Water Balance. *Disaster Risk Management: Drought, Heat; Environment evaluation for construction, Water Management, Green infrastructure* (M)
    * - `SUEWS (Advanced) <SUEWSadvanced>`
-     - Urban Energy and Water Balance. *Disaster Risk Management: Drought, Heat; Environment evaluation for construction, Water Management, Green infrastructure*
+     - Urban Energy and Water Balance. *Disaster Risk Management: Drought, Heat; Environment evaluation for construction, Water Management, Green infrastructure* (PM)
 
  
 **Solar Radiation**
 
 .. list-table::
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
 
    * - `Solar Energy on Building Envelopes (SEBE) <SEBE>`
-     - Solar irradiance on building roofs and walls in urban environments. *Economy and planning: Energy production, resource planning*
+     - Solar irradiance on building roofs and walls in urban environments. *Economy and planning: Energy production, resource planning* (PM)
    * - `Daily Shadow Patterns <DailyShadowPattern>`
-     - Shadow patterns on a DSM and CDSM. *Economy and planning: Resource planning Human Health: Outdoor thermal comfort; Park planning*
+     - Shadow patterns on a DSM and CDSM. *Economy and planning: Resource planning Human Health: Outdoor thermal comfort; Park planning* (PM)
+
+**Urban Heat Island**
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 0
+   
+   * - `Urban Weather Generatore  <UWG>`
+     - Model to calculate nocturnal urban heat island. *Urban heat island* (P)
 
 
 Post-Processor
@@ -197,41 +219,51 @@ Post-Processor
 **Solar Radiation**
 
 .. list-table::
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
 
    * - `SEBE Visualisation <SEBEVisualisation>`
-     - Plugin to visualse output irradiation from SEBE on building roofs, walls and ground 
+     - Plugin to visualse output irradiation from SEBE on building roofs, walls and ground. (M)
 
 
 **Outdoor Thermal Comfort**
 
 .. list-table::
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
 
    * - `SOLWEIG analyzer <SOLWEIGAnalyzer>`
-     - Plugin for plotting, statistical analysis and post-processing of model results from SOLWEIG
+     - Plugin for plotting, statistical analysis and post-processing of model results from SOLWEIG. (PM)
 
- 
+
 **Urban Energy Balance**
 
 .. list-table::
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
 
    * - `SUEWS analyser <SUEWSAnalyser>`
-     - Plugin for plotting and statistical analysis of model results from SUEWS simple and SUEWS advanced
+     - Plugin for plotting and statistical analysis of model results from SUEWS simple and SUEWS advanced. (PM)
+
+
+**Urban Heat Island**
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 0
+
+   * - `UWG analyser <UWGAnalyser>`
+     - Plugin for statistical spatial analysis of model results from UWG (P)
 
 
 **Benchmark**
 
 .. list-table::
-   :widths: 35 65
+   :widths: 30 70
    :header-rows: 0
 
    * - `Benchmark System <Benchmark>`
-     - For statistical analysis of model results, such as SUEWS
+     - For statistical analysis of model results, such as SUEWS. (M)
 
 .. _ToolApplications:
      
@@ -278,7 +310,7 @@ Evaluation and application studies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Mean Radiant Temperature (`SOLWEIG <SOLWEIG>`)
       - References: Evaluation
-  
+
       .. list-table::
          :widths: 50 50
          :header-rows: 1
@@ -301,8 +333,9 @@ Evaluation and application studies
            - `Chen et al. (2016) <http://www.sciencedirect.com/science/article/pii/S037877881630812X>`__
          * - Szeged, Hungary
            - `Gal and Kantor (2020) <https://www.sciencedirect.com/science/article/pii/S2212095519301804?via%3Dihub>`__
+
       - References: Application
-	  
+
       .. list-table::
          :widths: 50 50
          :header-rows: 1
@@ -341,19 +374,20 @@ Evaluation and application studies
            - `Aminipouri et al. (2019) <https://www.sciencedirect.com/science/article/pii/S0360132319303403?via%3Dihub>`__
          * - Seoul, South Korea
            - `Yi et al. (2018) <http://koreascience.or.kr/article/JAKO201810760745513.page>`__
-	 * - Bilbao, Spain
-	   - `Azcarate et al. (2021) <https://www.sciencedirect.com/science/article/pii/S2210670721002821>`__
+         * - Bilbao, Spain
+           - `Azcarate et al. (2021) <https://www.sciencedirect.com/science/article/pii/S2210670721002821>`__
 
 * Pedestrian Wind Speed
-            - References: Evaluation
-            .. list-table::
-               :widths: 50 50
-               :header-rows: 1
+      - References: Evaluation
+      
+      .. list-table::
+         :widths: 50 50
+         :header-rows: 1
 
-               * - Spatial reference
-                 - Reference
-               * - Global
-                 - `Johansson et al. (2015) <http://link.springer.com/article/10.1007/s00704-015-1405-2>`__
+         * - Spatial reference
+           - Reference
+         * - Global
+           - `Johansson et al. (2015) <http://link.springer.com/article/10.1007/s00704-015-1405-2>`__
 
 
 * Anthropogenic Heat (Qf) (LUCY)
@@ -367,16 +401,17 @@ Evaluation and application studies
                  - Reference
                * - Global
                  - `Allen et al. (2011) <http://onlinelibrary.wiley.com/doi/10.1002/joc.2210/abstract>`__
-            - References: Application
 
-            .. list-table::
-               :widths: 50 50
-               :header-rows: 1
+      - References: Application
 
-               * - Spatial reference
-                 - Reference
-               * - Europe
-                 - `Lindberg et al. (2013) <http://www.sciencedirect.com/science/article/pii/S2212095513000059>`__
+      .. list-table::
+         :widths: 50 50
+         :header-rows: 1
+
+         * - Spatial reference
+           - Reference
+         * - Europe
+           - `Lindberg et al. (2013) <http://www.sciencedirect.com/science/article/pii/S2212095513000059>`__
 
 
 * Urban Energy and Water Balance (`SUEWS <SUEWSSimple>`)
@@ -429,6 +464,7 @@ Evaluation and application studies
                  - `Hu et al. (2015) <http://link.springer.com/article/10.1007/s00704-015-1508-9>`__
             
             - References: Application
+            
             .. list-table::
                :widths: 50 50
                :header-rows: 1

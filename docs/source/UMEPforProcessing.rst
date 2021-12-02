@@ -53,7 +53,7 @@ Road map for UMEP for Processing
 Below you can see which tools that have been migrated to UMEP fro processing and what tools that will not be migrated. Please report any issues to our `repository <https://github.com/UMEP-dev/UMEP-processing>`__. 
 
 .. list-table:: 
-   :widths: 50 50
+   :widths: 30 70
    :header-rows: 1
 
    * - MetdataProcessor
@@ -116,6 +116,14 @@ Below you can see which tools that have been migrated to UMEP fro processing and
      - READY (only spatial section migrated)
    * - SUEWSAnalyzer
      - READY (only spatial section migrated)
+   * - UWGReclassifier
+     - Will not be migrated
+   * - UWGPrepare
+     - NOT READY 
+   * - Urban Weather Generator
+     - READY (only available via **UMEP for processing**)
+   * - UWGAnalyzer
+     - READY (only available via **UMEP for processing**)
 
 
 

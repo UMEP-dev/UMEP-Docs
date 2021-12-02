@@ -1,18 +1,19 @@
 .. _SUEWSConverter:
 
-SUEWS Converter
-~~~~~~~~~~~~~
-* Contributor:
-.. list-table::
-   :widths: 50 50
-   :header-rows: 1
+Urban Energy Balance: SUEWS Converter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   * - Name
-     - Institution
-   * - Ting Sun
-     - Reading
-   * - Fredrik Lindberg
-     - Gothenburg
+* Contributor:
+    .. list-table::
+       :widths: 50 50
+       :header-rows: 1
+
+       * - Name
+         - Institution
+       * - Ting Sun
+         - Reading
+       * - Fredrik Lindberg
+         - Gothenburg
 
 
 * Introduction:

@@ -113,7 +113,7 @@ term, **G**: GIS term, **O**: Organisation/Research Institute.
    * - SUEWS 
      - Surface urban energy and water balance scheme
      - S
-     - `Link to manual <SUEWS>`
+     - `Link to manual <https://suews-docs.readthedocs.io/en/latest/>`__
    * - SVF 
      - Sky View Factor
      - S
@@ -133,7 +133,7 @@ term, **G**: GIS term, **O**: Organisation/Research Institute.
    * - WATCH 
      - Integrated Project Water and Global Change
      - S
-     - `Link to website <http://www.eu-watch.org/>`
+     - `Link to website <http://www.eu-watch.org/>`__
    * - WFDEI 
      - WATCH Forcing Data methodology applied to ERA-Interim data
      - S
@@ -145,7 +145,7 @@ term, **G**: GIS term, **O**: Organisation/Research Institute.
    * - WUDAPT 
      - The World Urban Database and Access Portal Tools
      - S
-     - `Link to website <http://www.wudapt.org/>`
+     - `Link to website <http://www.wudapt.org/>`__
    * - z\ :sub:`0` 
      - Roughness length for momentum
      - S
