@@ -15,7 +15,20 @@ Solar Radiation: Solar Energy on Building Envelopes (SEBE)
         - Ramböll
 
 * Introduction
-    The **SEBE** plugin (Solar Energy on Building Envelopes) can be used to calculate pixel wise potential solar energy using ground and building digital surface models (DSM). SEBE is also able to estimate irradiance on building walls. Optionally, vegetation DSMs could also be used. The methodology that is used to generate irradiance is presented in Lindberg et al. (2015).
+    The **SEBE** plugin (Solar Energy on Building Envelopes) can be used to calculate pixel wise potential solar energy using ground and building digital surface models (DSM). SEBE is also able to estimate irradiance on building walls. Optionally, vegetation DSMs could also be used. 
+    
+    The total irradiance for a roof pixel (R) on a DSM is calculated by summing the direct, diffuse and reflected radiation such as:
+    
+    .. math::
+       R={\sum_{i=0}^p}[(I{\omega}S + DS + G(1-S){\alpha})]
+    
+    where *p* is the number of patches on the hemisphere. *I* is the incidence direct radiation, *D* is diffuse radiation and *G* is the global radiation originating from the ith patch. α is the surface albedo and S is the shadow calculated to each pixel. ω is the Sun incidence angle given by:
+
+    .. math::
+       {\omega}=sin(DSM_{slope}) * cos(Sun_{altitude}) * cos(Sun_{azimuth}-DSM_{aspect}) + \\
+       cos(DSM_{slope}) * sin(Sun_{altitude})
+   
+    The methodology and evaluation is described in detail in `Lindberg et al. (2015) <http://www.sciencedirect.com/science/article/pii/S0038092X15001164>`__.
 
 * Related Preprocessors
     `MetPreprocessor`, `ERA5`, `WallHeightandAspect`, `LandCoverReclassifier`
