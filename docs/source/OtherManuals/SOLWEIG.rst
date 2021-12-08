@@ -3,7 +3,7 @@
 SOLWEIG Manual
 --------------
 
-The current version of SOLWEIG is v2021a (released 19 MArch 2022).
+The current version of SOLWEIG is v2021a (released 19 March 2022).
 
 NEW in this version: see `Version History`_.
 
