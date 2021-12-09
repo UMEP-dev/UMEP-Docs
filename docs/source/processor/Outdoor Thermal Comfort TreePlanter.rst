@@ -3,8 +3,6 @@
 Outdoor Thermal Comfort: TreePlanter
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note:: Under Construction. NOT READY.
-
 * Contributors:
    .. list-table::
       :widths: 50 50
