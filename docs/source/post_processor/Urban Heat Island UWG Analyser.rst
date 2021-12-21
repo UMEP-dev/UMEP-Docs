@@ -66,5 +66,5 @@ Urban Heat Island: UWG Analyser
 
 * Remarks
       - This is a very simple tool for generating spatial information from the UWG. Another version is planned where you also can plot temporal UHI for a specific grid.
-      - In the menu-based UMEP tool there is also possibility to plot time series of urban heat island for specific grids
+      - In the menu-based UMEP tool there is also possibility to plot time series of urban heat island for specific grids as well as specify spesific days to examine.
 
