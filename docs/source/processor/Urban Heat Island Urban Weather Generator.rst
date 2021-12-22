@@ -17,6 +17,8 @@ Urban Heat Island: Urban Weather Generator
     The **Urban Weather Generator** (UWG) tool is an implementation of the `Ladybug <https://github.com/ladybug-tools/uwg>`__ application with the same name. The `original Urban Weather Generator <http://urbanmicroclimate.scripts.mit.edu/uwg.php>`__ was developed by Bruno Bueno for `his PhD thesis at MIT <https://dspace.mit.edu/handle/1721.1/59107>`__. Since this time, it has been validated 3 times and has been `enhanced by Aiko Nakano <https://dspace.mit.edu/handle/1721.1/108779>`__. In 2016, Joseph Yang also `improved the engine and added a range of building templates <https://dspace.mit.edu/handle/1721.1/107347>`__. For more detailed information on UWG, follow the links above.
 
     In UMEP, we have configured this tool so you can run the UWG on mutiple grids to obtain spatial informationon on the urban heat island for your specific city. It is also possible to run for a sinlge location within your city. See `UWGPrepare` for more information. UWG is only available via `UMEPforProcessing`.
+    
+    .. note:: **This plugin is still experimental. please report any issues to our code repository**
 
 * Related Preprocessors and PostProcessors
    `UWGReclassifier`, `UWGPrepare`, `UWGAnalyser`
