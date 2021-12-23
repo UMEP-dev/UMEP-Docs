@@ -71,7 +71,7 @@ repository.
                 You need to run the shell as an administrator of your PC. To do this, right-click on **OSGeo4W shell** and choose *run as administrator*. To install e.g. the urban weather generator (uwg), write the command below in the command window that has appeared (QGIS < 3.20):
                 ::
                   py3_env
-                  pip install uwg
+                  python -m pip install uwg
 
                 As from QGIS version 3.20 there is no python 2.x availalbe. Hence, the command **py3_env** is not needed. If necessary, you can also install other versions of python libraries using **pip**
                 ::
