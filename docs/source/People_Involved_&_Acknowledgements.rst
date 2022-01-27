@@ -19,6 +19,7 @@ People Involved & Acknowledgements
        - Izzy Capel-Timms
        - Andy Gabey
        - Bei HUANG
+       - Natalie Theeuwes
      -  - Met Office/Newton Fund CSSP - China
         - NERC TRUC
         - NERC ClearfLo
