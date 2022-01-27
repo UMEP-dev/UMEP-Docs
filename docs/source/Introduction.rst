@@ -415,7 +415,7 @@ Evaluation and application studies
 
 
 * Urban Energy and Water Balance (`SUEWS <SUEWSSimple>`)
-            Publications related to SUEWS is found `here <https://suews-docs.readthedocs.io/en/latest/recent-publications.html>`__.
+            Publications related to SUEWS is found `here <https://suews.readthedocs.io/en/latest/related_publications.html>`__.
 
 
 * Solar Energy on Building Envelopes (SEBE)
