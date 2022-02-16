@@ -7,7 +7,7 @@ Getting Started
 Recommended Installation of QGIS on Windows
 -------------------------------------------
 
-#. Visit `QGIS <http://www.qgis.org>`__ and go to the download page. Preferably, choose the `OSGEO4W Network Installer (64-bit) <http://download.osgeo.org/osgeo4w/osgeo4w-setup-x86_64.exe>`__, start the installation and choose *installation (64-bit) For Advanced Users*.
+#. Visit `QGIS <http://www.qgis.org>`__ and go to the download page. Preferably, choose the `OSGEO4W Network Installer (64-bit) <https://download.osgeo.org/osgeo4w/v2/osgeo4w-setup.exe>`__, start the installation and choose *installation (64-bit) For Advanced Users*.
 #. **To install the latest version (3.x)**, start the installation and choose *Express Desktop Install*.
 
 Visit `www.qgis.org <http://www.qgis.org>`__ for installation on other operating systems.
