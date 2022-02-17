@@ -174,31 +174,34 @@ your windows PC. Do the following:
    PC.
 
 
-Python and PyCharm (good alternative)
+Python and VSCode (good alternative)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Go to qgis.org and click on download. Choose the installation for
    advanced users (64-bit). Choose the **advanced desktop installation**
    and make sure that **qgis-ltr** is included. Keep other default
    settings. This give you a python installation with everything you
-   need (pretty much). IF you are missing python libraries after the
+   need (pretty much). If you are missing python libraries after the
    installation, you can restart the installation file and add more
    components.
-#. If you haven’t installed PyCharm, follow set 2 through 5 above.
-#. Create a .bat-file (e.g. PyCharmWithQgis.bat) with the following
+#. If you haven’t installed VSCode, visit https://code.visualstudio.com/download.
+#. Create a .bat-file (e.g. VSCodeWithQgis.bat) with the following
    content (put it in your folder created earlier and edit it so that
    the paths on line 1 and 5 is correct):
     ::
-
-      SET OSGEO4W_ROOT=C:\OSGeo4W64
-      SET QGISNAME=qgis
-      SET QGIS=%OSGEO4W_ROOT%\apps\%QGISNAME%
-      SET QGIS_PREFIX_PATH=%QGIS%
-      SET PYCHARM= “C:\Program Files (x86)\JetBrains\PyCharm 2020.1.3\bin\pycharm.exe"
-      CALL %OSGEO4W_ROOT%\bin\o4w_env.bat
-      SET PATH=%PATH%;%QGIS%\bin
-      SET PYTHONPATH=%QGIS%\python;%PYTHONPATH%
-      start “PyCharm aware of QGIS”\ /B %PYCHARM% %*
+      SET OSGEO4W_ROOT=C:\OSGeo4W
+      call %OSGEO4W_ROOT%\bin\o4w_env.bat"
+      rem call py3_env.bat
+      rem call qt5_env.bat
+      path %OSGEO4W_ROOT%\apps\qgis\bin;%PATH%
+      set QGIS_PREFIX_PATH=%OSGEO4W_ROOT:\=/%/apps/qgis
+      set GDAL_FILENAME_IS_UTF8=YES
+      rem Set VSI cache to be used as buffer, see #6448
+      set VSI_CACHE=TRUE
+      set VSI_CACHE_SIZE=1000000
+      set QT_PLUGIN_PATH=%OSGEO4W_ROOT%\apps\qgis-dev\qtplugins;%OSGEO4W_ROOT%\apps\qt5\plugins
+      set PYTHONPATH=%OSGEO4W_ROOT%\apps\qgis\python;%PYTHONPATH%
+      start /d "C:\Users\xlinfr\AppData\Local\Programs\Microsoft VS Code\" Code.exe
 
 #. Execute the bat-file.
 
