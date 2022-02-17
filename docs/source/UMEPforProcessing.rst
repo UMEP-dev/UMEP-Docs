@@ -32,7 +32,7 @@ To access third party processing plugins (such as UMEP) in a stand-alone Python 
   import sys
 
   # Initiating a QGIS application
-  qgishome = 'C:/OSGeo4W64/apps/qgis/'
+  qgishome = 'C:/OSGeo4W/apps/qgis/'
   QgsApplication.setPrefixPath(qgishome, True)
   app = QgsApplication([], False)
   app.initQgis()
@@ -42,8 +42,9 @@ To access third party processing plugins (such as UMEP) in a stand-alone Python 
   from processing_umep.processing_umep_provider import ProcessingUMEPProvider
   umep_provider = ProcessingUMEPProvider()
   QgsApplication.processingRegistry().addProvider(umep_provider)
-
-
+  
+  from processing.core.Processing import Processing
+  Processing.initialize()
 
 .. _UMEPforProcessingRoadMap:
 
@@ -71,7 +72,7 @@ Below you can see which tools that have been migrated to UMEP fro processing and
    * - LandCoverFractionPoint
      - READY
    * - LandCoverReclassifier
-     - Will not be migrated (Use any other built-in reclassifier)
+     - Will not be migrated (Use any other built-in reclassifier in QGIS)
    * - WallHeight
      - READY
    * - TreeGenerator
@@ -119,7 +120,7 @@ Below you can see which tools that have been migrated to UMEP fro processing and
    * - UWGReclassifier
      - Will not be migrated
    * - UWGPrepare
-     - NOT READY 
+     - READY 
    * - Urban Weather Generator
      - READY (only available via **UMEP for processing**)
    * - UWGAnalyzer
