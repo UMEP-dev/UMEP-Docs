@@ -110,18 +110,6 @@ Upcoming Developments
      - Benchmark
      - Active
      - Reading
-   * - Wind
-     - Pedestrian wind speed
-     - Active
-     - Göteborg Univ/Reading
-   * - Multi
-     - Downscaling data \*download WATCH
-     - Active
-     - Lingbo Xue (Reading)/TS
-   * - Multi
-     - Downscaling data \*precip mass check
-     - Active
-     - TK/ LX (LJ/TS)
    * - Multi
      - Downscaling data \*precip intensity
      - Active
@@ -132,10 +120,14 @@ Upcoming Developments
      - Göteborg Univ/Reading
    * - SOLWEIG
      - Anisotrophic radiation
-     - Active
+     - Completed
      - Göteborg Uinv
    * - URock
      - Pedestrian wind model
+     - Active
+     - Göteborg Univ
+   * - Urban Weather Generator
+     - Urban heat island
      - Active
      - Göteborg Univ
 
