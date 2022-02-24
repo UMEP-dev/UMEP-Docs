@@ -308,6 +308,9 @@ other.
 
 Evaluation and application studies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The lists of studies below is by no means complete. Please help us adding studies by submitting an issue to this documentation repository found at the top of this page.
+
 * Mean Radiant Temperature (`SOLWEIG <SOLWEIG>`)
       - References: Evaluation
 
@@ -333,6 +336,8 @@ Evaluation and application studies
            - `Chen et al. (2016) <http://www.sciencedirect.com/science/article/pii/S037877881630812X>`__
          * - Szeged, Hungary
            - `Gal and Kantor (2020) <https://www.sciencedirect.com/science/article/pii/S2212095519301804?via%3Dihub>`__
+         * - Nanjing, China
+           - `Kong et al. (2022) <https://doi.org/10.1016/j.compenvurbsys.2022.101773>`__
 
       - References: Application
 
