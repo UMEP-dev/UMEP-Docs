@@ -336,8 +336,7 @@ The tables of studies below is by no means complete. Please help us adding studi
            - `Chen et al. (2016) <http://www.sciencedirect.com/science/article/pii/S037877881630812X>`__
          * - Szeged, Hungary
            - `Gal and Kantor (2020) <https://www.sciencedirect.com/science/article/pii/S2212095519301804?via%3Dihub>`__
-         * - Nanjing, China
-           - `Kong et al. (2022) <https://doi.org/10.1016/j.compenvurbsys.2022.101773>`__
+
 
       - References: Application
 
@@ -381,6 +380,8 @@ The tables of studies below is by no means complete. Please help us adding studi
            - `Yi et al. (2018) <http://koreascience.or.kr/article/JAKO201810760745513.page>`__
          * - Bilbao, Spain
            - `Azcarate et al. (2021) <https://www.sciencedirect.com/science/article/pii/S2210670721002821>`__
+         * - Nanjing, China
+           - `Kong et al. (2022) <https://doi.org/10.1016/j.compenvurbsys.2022.101773>`__
 
 * Pedestrian Wind Speed
       - References: Evaluation
