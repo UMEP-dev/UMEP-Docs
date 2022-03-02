@@ -164,10 +164,13 @@ The variables required for SOLWIEG are:
 -  *Relative humidity* [%]
 -  *Incoming shortwave radiation* [W m\ :sup:`-2`]
 
-Required are also the components of *diffuse* and *direct* shortwave
+Required are also the components of *diffuse* and *direct-beam* shortwave
 radiation. If these are unavailable, and submodel developed by Reindl et
 al. (1990)  [4]_ is included in SOLWEIG. Direct radiation perpendicular
-to the solar beam should be used.
+to the solar beam should be used. If global and diffuse radiation is availalbe, the 
+direct-beam can be calculated using:
+
+*direct-beam radiation = (global−diffuse) / sin(sun altitude)*
 
 Environmental parameters
 ^^^^^^^^^^^^^^^^^^^^^^^^
