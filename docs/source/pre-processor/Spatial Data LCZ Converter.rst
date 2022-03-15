@@ -29,7 +29,7 @@ Spatial Data: LCZ Converter
 
       The definition of the different local climate zones (LCZ)
 
-   Note: In UMEP we refer to the rural LCZ's as 101, 102, 103, 104, 105, 106 and 107 instead of A, B, C, D, E, F and G.
+.. note:: In UMEP we refer to the rural LCZ's as 101, 102, 103, 104, 105, 106 and 107 instead of A, B, C, D, E, F and G.
 
 
 * **Dialog box**
