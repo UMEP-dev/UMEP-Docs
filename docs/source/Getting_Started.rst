@@ -65,6 +65,8 @@ repository.
                 .. figure::  /images/Pandas.png
 
                    Example of installation of pandas using the *Installation (64-bit) For Advanced Users*
+                   
+                   **IMPORTANT**: on Windows, **scipy** needs to be installed via this option to include the correct dependencies.
 
               2. **pip** is a command to install python packages but pip cannot be used directly from a common command line window (**cmd.exe**). However, if you installed QGIS according to the recommendations in `Getting started <Getting_Started>` you should have a **OSGeo4W shell** installed where you can use pip to add desired Python libraries. **OSGeo4W shell** is found in the Windows start menu. To use it with QGIS3 versions before **3.20**, type **py3_env** the first thing you do after you have open **OSGeo4W shell**.
 
