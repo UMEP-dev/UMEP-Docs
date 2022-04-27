@@ -74,7 +74,7 @@ As SOLWEIG is included in UMEP (as from version 0.2.1) follow the
 `Getting_Started`
 on how to install QGIS and UMEP. When installed successfully, SOLWEIG is
 found under *UMEP -> Processor -> Outdoor Thermal Comfort -> Mean
-Radiant Temperature (SOLWEIG)*.
+Radiant Temperature (SOLWEIG)*. SOLWEIG is also available as a processing tool.
 
 Input data
 ~~~~~~~~~~
@@ -171,6 +171,8 @@ to the solar beam should be used. If global and diffuse radiation is availalbe, 
 direct-beam can be calculated using:
 
 *direct-beam radiation = (global−diffuse) / sin(sun altitude)*
+
+If thermal indicies (PET and UTCI) should be calculated correctly at the POIs (se below), wind speed is required in the forcing data.
 
 Environmental parameters
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -352,8 +354,13 @@ specifiedː
    * - 33
      - KsideI
      - Direct shortwave radiation from side if cylinder option is used
-
-
+   * - 34
+     - PET
+     - Phyciological Equivalent Temperature
+   * - 35
+     - UTCI
+     - Universal Thermal Comfort Index
+     
 How to run the model
 ~~~~~~~~~~~~~~~~~~~~
 
