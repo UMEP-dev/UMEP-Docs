@@ -85,7 +85,9 @@ repository.
                   pip install netCDF4 --upgrade
 
         #. Mac OS X
-            - Follow the instructions for Linux. **Note**: this approach is tested to be working under Mac OS X 10.11.5.
+            - You could try to follow the instructions for Linux. **Note**: this approach is tested to be working under Mac OS X 10.11.5.
+            - Otherwise, a nice description on how to install packages is posted `here <https://github.com/UMEP-dev/UMEP/discussions/409>`__.
+            
         #. Other Platforms
             - Other platforms require the packages to be installed to the QGIS Python path, which differs depending on operating system.
               Or refer to `startup.py <http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/intro.html#the-startup-py-file>`__
