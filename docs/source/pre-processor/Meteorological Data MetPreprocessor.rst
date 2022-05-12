@@ -122,7 +122,7 @@ Meteorological Data: MetPreprocessor
      - kdown
      - Incoming shortwave radiation [W m\ :sup:`-2`]
      - 0 to 1200
-     -
+     - Global irradiance on the horizontal plane
    * - 16
      - snow
      - Snow [mm]
@@ -157,12 +157,12 @@ Meteorological Data: MetPreprocessor
      - kdiff
      - Diffuse shortwave radiation [W m\ :sup:`-2`]
      - 0 to 600
-     -
+     - Diffuse irradiance on the horizontal plane
    * - 23
      - kdir
      - Direct shortwave radiation [W m\ :sup:`-2`]
      - 0 to 1200
-     - Should be perpendicular to the Sun beam.\  One way to check this is to compare direct and global radiation and see if kdir is higher than global radiation during clear weather. Then kdir is measured perpendicular to the solar beam.
+     - Beam/direct irradiance on a plane always normal to sun rays. One way to check this is to compare direct and global radiation and see if kdir is higher than global radiation during clear weather. 
    * - 24
      - wdir
      - Wind direction [°]
