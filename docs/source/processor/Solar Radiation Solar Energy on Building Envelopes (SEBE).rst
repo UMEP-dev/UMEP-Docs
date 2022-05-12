@@ -82,7 +82,7 @@ Solar Radiation: Solar Energy on Building Envelopes (SEBE)
     Input meteorological data specifically formatted to be used in UMEP. This specific format can be created using UMEP  -> Pre-processing  -> Meteorological data  -> Prepare existing data. A dataset with **hourly** time resolution should be used for SEBE, preferably at least **one year in length**. The time should preferably be in `LST <Abbreviations>` for the specific location to be modelled (ERA5 data, UTC=0). Multiple years can also be used to improve the model outcome. Model output is dependent on the meteorological input data so if a short dataset is used, potential solar energy would be valid for that particular time period only.
   
      - Mandatory data is global shortwave radiation, but the model will perform best if also diffuse and direct components are available.
-     - The direct radiation component used as input in the SOLWEIG model is not the direct shortwave radiation on a horizontal surface but on a surface perpendicular to the light source. Hence, the relationship between global radiation and the two separate components are:
+     - The direct radiation component used as input in the SOLWEIG model is not the direct shortwave radiation on a horizontal surface but the beam/direct irradiance on a plane always normal to sun rays. Hence, the relationship between global radiation and the two separate components are:
  
           +   *Global radiation = direct radiation \* sin(h) + diffuse radiation*
           +   where h is the sun altitude. Since diffuse and direct components of short wave radiation is not common data, it is also possible to calculate diffuse and direct shortwave radiation (see above).
