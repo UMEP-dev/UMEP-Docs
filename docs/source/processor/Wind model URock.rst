@@ -1,4 +1,4 @@
-.. _SOLWEIG:
+.. _URock:
 
 Wind model: URock
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -17,11 +17,10 @@ Wind model: URock
         - Vienna (ZAMG)
 
 * Introduction
-    -  The **URock** plugin can be used to calculate spatial variations of wind speed and wind direction in 3 dimensions using 2.5D building and vegetation data. The methodology originates from Röckle (1990), has been implemented in proprietary softwares such as QUIC-URB (Brown et al., 2013) or SkyHelios (Fröhlich and Matzarakis, 2018) and is further described in (Bernard et al., 2022 - not published). The current version of the model is 2022a.
-    -  The full manual of the SOLWEIG model can be found `here <missingPage>`.
+    The **URock** plugin can be used to calculate spatial variations of wind speed and wind direction in 3 dimensions using 2.5D building and vegetation data. The methodology originates from Röckle (1990), has been implemented in proprietary softwares such as QUIC-URB (Brown et al., 2013) or SkyHelios (Fröhlich and Matzarakis, 2018) and is further described in (Bernard et al., 2022 - not published). The current version of the model is 2022a.
 
 * Related Preprocessors
-   `MetPreprocessor`, `ERA5`, `Urock_preprocessor`
+   `MetPreprocessor`, `ERA5`, `VectorGenerator`
 
 * Dialog box
    .. figure:: /images/URock_v2022a.png
@@ -86,9 +85,9 @@ Wind model: URock
 
 * Quick example on how to run URock
              #. Download the (`Göteborg test dataset <https://urban-meteorology-reading.github.io>`__).
-             #. Add the raster layers (DEM, DSM, and CDSM) and the building vector (buildings.shp) from the Goteborg folder into a new QGIS session. The coordinate system of the grids is **Sweref99 1200 (EPSG:3007)**.
-             #. In order to run URock, some additional datasets must be created based on the raster grids and vector layer you just added. Open the 'BuildingVegetation vectorizator' from the UMEP Pre-processor and create building and vegetation vectors using DEM, DSM and buildings vector for buildings and DEM and CDSM for vegetation. Leave all other settings as default.
-             #. Now you are ready to generate your first wind maps. Open URock and use the settings as shown in the figure below but replace the paths to fit your computer environment. When you are finished, press *Run*.
+             #. Add the raster layers (DEM, DSM, and CDSM) and the building vector (buildings.shp) from the Goteborg folder into a new QGIS session. The coordinate system of the rasters is **Sweref99 1200 (EPSG:3007)**. Please verify that it is the case. If not, save it with this coordinate system.
+             #. In order to run URock, some additional datasets must be created based on the raster grids and vector layer you just added. Open the 'GenBuildVegVlayers' from the UMEP Pre-processor and create building and / or vegetation vectors using DEM, DSM and buildings vector for buildings and CDSM for vegetation. Leave all other settings as default. Two layers should be created at the end of this preprocess: 'Building with height' and 'Vegetation with height'.
+             #. Now you are ready to generate your first wind maps. Open URock and use the settings as shown in the figure below but replace the paths to fit your computer environment (Java environment path should be set automatically, do not modify this one). When you are finished, press *Run*.
 
 .. figure:: /images/URockfirsttry.png
    :width: 100%
@@ -96,10 +95,9 @@ Wind model: URock
 
    Setting for a first try with the URock model. Click on image for enlargement.
  
-There is also a meteorological file present in the test dataset that can be used to run the model for a whole day.
 
 * Remarks
-      -  This plugin is computationally intensive i.e. large grids will take a lot of time and very large grids (more than 30'000'000) will not be possible to use.
+      -  This plugin is computationally intensive i.e. large grids will take a lot of time and very large grids (more than 30'000'000 3D grid cells) will not be possible to use.
       -  URock consider building roofs as flat, thus do not trust wind speed near roofs if your building roof is normally not flat.
 
 * References
