@@ -24,7 +24,7 @@ Installing the UMEP-plugin
      :alt:  None
      :align: center
 
-     When installing UMEP related Python packages can be installed by clicking **OK**. Packages can also be installed later (see below).
+     When installing UMEP, related Python packages can be installed by clicking **OK**. Packages can also be installed later (see below).
 
 As from Spring 2020 parts of UMEP is also available as a `processing plugin <UMEPforProcessing>`. Install the same way but search for **UMEP for processing**. Also remember to tick in **show also experimental plugins** under the *Settings*-tab.
 
