@@ -127,7 +127,7 @@ One essential information needed is to know what pixels that are
 occupied with buildings. In order to locate these pixels, there are two
 possible ways:
 
-#. By including a DEM which can bu used in conjunction with the ground
+#. By including a DEM which can be used in conjunction with the ground
    and building DSM to derive building pixels.
 #. By using a land cover grid (see below) where buildings are
    represented.

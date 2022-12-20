@@ -23,7 +23,7 @@ Reporting a Bug
    solve your issue as easy as fast as possible, please provide a full
    description of the problem including steps to repeat it. The more
    info given, the easier it is for us to solve your issues.
--  Please have a look at `Known Issues <Known_Issues>` and `FAQ <FAQ>` before
+-  Please take a look at `Known Issues <Known_Issues>` and `FAQ <FAQ>` before
    submitting an issue to the repository **OR** taka look at our `Discussion forum <https://github.com/UMEP-dev/UMEP/discussions>`_.
 -  A bug may also be caused by `QGIS <https://github.com/qgis/QGIS/issues>`__. By
    reporting bugs (and also maybe helping out to solve them) is
