@@ -43,7 +43,7 @@ We are keen to get input and contributions from others. You can contribute in th
 #. Participate in `coding or adding new features <How_to_Contribute>`.
 #. Write `UMEP tutorials <https://tutorial-docs.readthedocs.io/en/latest/>`__ and share with other UMEP users.
 #. Submit comments or report issues about the UMEP manual `here <https://github.com/UMEP-dev/UMEP-Docs/issues>`__.
-#. To get updates, news and get help from other users, join our email list `here <https://www.lists.reading.ac.uk/mailman/listinfo/met-umep>`_.
+#. To get updates, news and get help from other users, visit our Discussions page `here <https://github.com/UMEP-dev/UMEP/discussions>`_.
 
 
 .. toctree::
