@@ -57,10 +57,8 @@ The manual should be cited as:
   Urban Multi-scale Environmental Predictor (UMEP) Manual. https://umep-docs.readthedocs.io/  
   University of Reading UK, University of Gothenburg Sweden, SIMS China*
 
-Email list
-----------
-To get updates, news and get help from other users, join our email list: `www.lists.reading.ac.uk/mailman/listinfo/met-umep <https://www.lists.reading.ac.uk/mailman/listinfo/met-umep>`_.
-
+YouTube channel
+---------------
 
 For a detailed description including how to install QGIS and UMEP for Windows, watch instruction video 1 and 2 on our `YouTube-channel <https://www.youtube.com/channel/UCTPkXncD3ghb5ZTdZe_u7gA>`__ where you also can find other instructional vidoes related to UMEP and QGIS.
 
