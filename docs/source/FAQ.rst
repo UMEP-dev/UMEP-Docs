@@ -51,4 +51,4 @@ FAQ (Frequently Asked Questions)
               QGIS installation dialog (Advanced)
 
 * How do I ask other questions?
-    There is an email list. Or you can ask them at the `UMEP Community <https://github.com/UMEP-dev/UMEP/discussions>`_.
+   You can ask them at the `UMEP Community <https://github.com/UMEP-dev/UMEP/discussions>`_.
