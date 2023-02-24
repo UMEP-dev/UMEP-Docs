@@ -492,6 +492,8 @@ Version History
 
    * - Version
      - Changes from previous version
+   * - v2022a
+     - Introducing anisotropic longwave radiation according to Wallenberg et al. (2023).
    * - v2021a
      - Bug fixes and small improvements. See https://github.com/UMEP-dev/UMEP for more details.
    * - v2019a 
