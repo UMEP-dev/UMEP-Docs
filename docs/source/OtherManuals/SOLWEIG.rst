@@ -493,11 +493,11 @@ Version History
    * - Version
      - Changes from previous version
    * - v2022a
-     - Introducing anisotropic longwave radiation according to Wallenberg et al. (2023).
+     - Introducing anisotropic longwave radiation according to Wallenberg et al. (2023)[11].
    * - v2021a
      - Bug fixes and small improvements. See https://github.com/UMEP-dev/UMEP for more details.
    * - v2019a 
-     - Possibilities to make use of an anisotrophic diffuse shortwave scheme is added. 
+     - Possibilities to make use of an anisotropic diffuse shortwave scheme (Wallenberg et al. 2020)[10] is added. 
    * - v2018a
      - Minor bug fixing in ground view factor calculation. Introduction to PET and UTCI calculations for POIs. Available only for QGIS3.
    * - v2016a
@@ -571,3 +571,13 @@ References
    calculate mean radiant temperature in field studies and models. ICUC9
    - 9th International Conference on Urban Climate jointly with 12th
    Symposium on the Urban Environment.
+
+.. [10]
+   Wallenberg N, Lindberg F, Holmer B, Thorsson S, 2020: The influence of 
+   anisotropic diffuse shortwave radiation on mean radiant temperature in 
+   outdoor urban environments. Urban Climate 100589.
+   
+.. [11]
+   Wallenberg N, Holmer B, Lindberg F, Rayner D, 2023: An anisotropic 
+   parameterization scheme for longwave irradiance and its impact on
+   radiant load in urban outdoor settings. Int J Biometeorol.
