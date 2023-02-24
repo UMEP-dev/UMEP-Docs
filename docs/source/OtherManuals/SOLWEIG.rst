@@ -572,12 +572,12 @@ References
    - 9th International Conference on Urban Climate jointly with 12th
    Symposium on the Urban Environment.
 
-.. [10]
+..[10]
    Wallenberg N, Lindberg F, Holmer B, Thorsson S, 2020: The influence of 
    anisotropic diffuse shortwave radiation on mean radiant temperature in 
    outdoor urban environments. Urban Climate 100589.
    
-.. [11]
+..[11]
    Wallenberg N, Holmer B, Lindberg F, Rayner D, 2023: An anisotropic 
    parameterization scheme for longwave irradiance and its impact on
    radiant load in urban outdoor settings. Int J Biometeorol.
