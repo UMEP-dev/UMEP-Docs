@@ -39,7 +39,11 @@ Suggested reading
 Read the manual and papers listed below to get a full explanation of the
 model and previous evaluation:
 
--  Wallenberg, Nils, Lindberg F, Holmer B, and Thorsson S. (2020) 
+-  Wallenberg N, Holmer B, Lindberg F, and Rayner D. (2023)
+   An anisotropic scheme for longwave irradiance and its impact on
+   radiant load in urban outdoor settings. International Journal of 
+   Biometeorology. (`link to paper <https://doi.org/10.1007/s00484-023-02441-3>`__)
+-  Wallenberg, N, Lindberg F, Holmer B, and Thorsson S. (2020) 
    The Influence of Anisotropic Diffuse Shortwave Radiation on Mean Radiant 
    Temperature in Outdoor Urban Environments." Urban Climate 31 (2020).
    (`link to paper <https://doi.org/10.1016/j.uclim.2020.100589>`__)
