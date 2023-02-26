@@ -20,7 +20,7 @@ releases*:
    manager `(see details) <Getting_Started>`.
 #. **Current development version** - this can be obtained from the plugin
    `repository <https://github.com/UMEP-dev/UMEP>`__. This
-   version you need to manually install yourself `(see details) <Getting_Started>`.
+   version you need to manually install yourself (`see details <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html#adding-missing-python-libraries-and-other-osgeo-functionalities>`__).
 
 As of Spring 2020, **UMEP for processing** is also available. Find more info `here <UMEPforProcessing>`. 
 
