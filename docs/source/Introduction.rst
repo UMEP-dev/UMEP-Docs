@@ -17,10 +17,10 @@ that provides data viewing, editing, and analysis capabilities.
 releases*:
 
 #. **Long term release** - this may be obtained from the QGIS plugin
-   manager `(see details) <Getting_Started>`.
+   manager (`see details <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html#installing-the-umep-plugin>`__).
 #. **Current development version** - this can be obtained from the plugin
    `repository <https://github.com/UMEP-dev/UMEP>`__. This
-   version you need to manually install yourself (`see details <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html#adding-missing-python-libraries-and-other-osgeo-functionalities>`__).
+   version you need to manually install yourself (`see details <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html#installing-development-release-could-be-unstable>`__).
 
 As of Spring 2020, **UMEP for processing** is also available. Find more info `here <UMEPforProcessing>`. 
 
