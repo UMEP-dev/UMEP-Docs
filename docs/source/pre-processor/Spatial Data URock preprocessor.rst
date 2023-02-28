@@ -1,6 +1,6 @@
-.. _VectorGenerator:
+.. _URockPreprocessor:
 
-Spatial Data: Vector Data Generator
+Spatial Data: URock Preprocessor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Contributor:
    .. list-table::
@@ -15,17 +15,17 @@ Spatial Data: Vector Data Generator
         - Gothenburg
 
 * Introduction
-    Some processors need building and vegetation vector data as input (e.g. URock). This plugin convert Raster grids (DEM, DSM and CDSM) + building footprint to building and vegetation vector data with height attribute. For the vegetation, you can also provide points data (trunk location) and radius and / or height to create the vegetation footprint with height attribute.
+    URock needs building and vegetation vector data as input. This plugin convert Raster grids (DEM, DSM and CDSM) + building footprint to building and vegetation vector data with height attribute. For the vegetation, you can also provide points data (trunk location) and radius and / or height to create the vegetation footprint with height attribute.
 
 * Related processors
    `URock`
 
 * Dialog box
-   .. figure:: /images/VectorGenerator_v2022a.png
+   .. figure:: /images/URock_Preprocessor_v2023a.png
       :width: 100%
       :align: center
 
-      The processing dialog for the Vector generator. Click on image for enlargement.
+      The processing dialog for the URock Preprocessor. Click on image for enlargement.
 
 * Input parameters
    .. list-table::
