@@ -53,10 +53,11 @@ Meteorological Data: Download data (ERA5)
 	  - If your computer is not configured for downloading data from the Climate Data Store, follow the instructions `here <https://cds.climate.copernicus.eu/api-how-to>`__. You only need to consider the section **Install the CDS API key**.
 
 * Obtaining ERA5 data via UMEP：
-      .. figure::  /images/CopernicusDownloader.jpg
+      .. figure::  /images/CopernicusDownloaderProcessing.jpg
          :align: center
+         :width: 100%
 
-         Integrated ERA5 data downloader: control panel
+         ERA5 data downloader (UMEP for Processing): control panel
 
 * Running the tool：
       The downloader is separated into two sections:

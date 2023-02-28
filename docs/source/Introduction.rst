@@ -83,7 +83,7 @@ Pre-Processor
    * - `Download data (WATCH) <WATCH>`
      - Prepare meteorological dataset from `WATCH <http://www.eu-watch.org/data_availability>`__ (**deprecated**).
    * - `Download data (ERA5) <ERA5>` 
-     - Prepare meteorological dataset from `the Coopernicus programme <https://climate.copernicus.eu/>`__. (PM)
+     - Prepare meteorological dataset from `the Coopernicus programme <https://climate.copernicus.eu/>`__. (P)
 
 **Spatial Data**
 
