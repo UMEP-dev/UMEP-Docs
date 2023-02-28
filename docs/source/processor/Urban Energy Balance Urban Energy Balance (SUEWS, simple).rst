@@ -31,7 +31,7 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, simple)
     .. figure:: /images/SuewsSimple.jpg
        :width: 100%
 
-        Dialog for the SUEWS Simple plugin
+       Dialog for the SUEWS Simple plugin
 
 * Dialog sections
       .. list-table::

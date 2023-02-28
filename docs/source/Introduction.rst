@@ -17,10 +17,10 @@ that provides data viewing, editing, and analysis capabilities.
 releases*:
 
 #. **Long term release** - this may be obtained from the QGIS plugin
-   manager `(see details) <Getting_Started>`.
+   manager (`see details <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html#installing-the-umep-plugin>`__).
 #. **Current development version** - this can be obtained from the plugin
    `repository <https://github.com/UMEP-dev/UMEP>`__. This
-   version you need to manually install yourself `(see details) <Getting_Started>`.
+   version you need to manually install yourself (`see details <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html#installing-development-release-could-be-unstable>`__).
 
 As of Spring 2020, **UMEP for processing** is also available. Find more info `here <UMEPforProcessing>`. 
 
@@ -57,10 +57,8 @@ The manual should be cited as:
   Urban Multi-scale Environmental Predictor (UMEP) Manual. https://umep-docs.readthedocs.io/  
   University of Reading UK, University of Gothenburg Sweden, SIMS China*
 
-Email list
-----------
-To get updates, news and get help from other users, join our email list: `www.lists.reading.ac.uk/mailman/listinfo/met-umep <https://www.lists.reading.ac.uk/mailman/listinfo/met-umep>`_.
-
+YouTube channel
+---------------
 
 For a detailed description including how to install QGIS and UMEP for Windows, watch instruction video 1 and 2 on our `YouTube-channel <https://www.youtube.com/channel/UCTPkXncD3ghb5ZTdZe_u7gA>`__ where you also can find other instructional vidoes related to UMEP and QGIS.
 
@@ -85,7 +83,7 @@ Pre-Processor
    * - `Download data (WATCH) <WATCH>`
      - Prepare meteorological dataset from `WATCH <http://www.eu-watch.org/data_availability>`__ (**deprecated**).
    * - `Download data (ERA5) <ERA5>` 
-     - Prepare meteorological dataset from `the Coopernicus programme <https://climate.copernicus.eu/>`__. (PM)
+     - Prepare meteorological dataset from `the Coopernicus programme <https://climate.copernicus.eu/>`__. (P)
 
 **Spatial Data**
 
@@ -310,7 +308,7 @@ Evaluation and application studies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The tables of studies below is by no means complete. Please help us adding studies by submitting an issue to this documentation repository found at the top of this page.
-
+test
 * Mean Radiant Temperature (`SOLWEIG <SOLWEIG>`)
       - References: Evaluation
 
