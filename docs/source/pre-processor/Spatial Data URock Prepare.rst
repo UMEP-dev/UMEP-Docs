@@ -1,6 +1,6 @@
-.. _URockPreprocessor:
+.. _URockPrepare:
 
-Spatial Data: URock Preprocessor
+Spatial Data: URock Prepare
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Contributor:
    .. list-table::
@@ -21,11 +21,11 @@ Spatial Data: URock Preprocessor
    `URock`
 
 * Dialog box
-   .. figure:: /images/URock_Preprocessor_v2023a.png
+   .. figure:: /images/URock_Prepare_v2023a.png
       :width: 100%
       :align: center
 
-      The processing dialog for the URock Preprocessor. Click on image for enlargement.
+      The processing dialog for the URock Prepare module. Click on image for enlargement.
 
 * Input parameters
    .. list-table::
