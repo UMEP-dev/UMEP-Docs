@@ -24,24 +24,12 @@ Urban Morphology: Morphometric Calculator (Grid)
 * Introduction
      The Morphometric Calculator (Grid) pre-processor calculates various morphometric parameters based on digital surface models.
 
-
 * Dialog box
-        .. figure:: /images/Morph_Calc.png
+        .. figure:: /images/Morph_Calc.jpg
             :align: center
+            :width: 100%
 
             The dialog for the Morphometric Calculator (Grid)
-
-* Dialog sections
-   .. list-table::
-      :widths: 10 90
-      :header-rows: 0
-
-      * - upper
-        - Specifies the area of interest where the morphometric parameters are calculated. Set the search interval in degrees and from where the search should take place within each gri
-      * - middle
-        - Specifies the input data regarding 3D objects and ground as well as specifying what grid that should be used.
-      * - lower
-        - Specifies output and runs the calculations.
 
 * Search Throughout the Grid Extent
      Select if the search should be performed from one side of the grid to the opposite side.

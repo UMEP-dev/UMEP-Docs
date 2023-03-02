@@ -120,9 +120,9 @@ Pre-Processor
    * - `Land Cover Reclassifier <LandCoverReclassifier>`
      - Reclassifies a grid into UMEP format land cover grid. *Land surface models* (M)
    * - `Land Cover Fraction (Point) <LandCoverFraction(Point)>`
-     - Land cover fractions estimates from a land cover grid based on a specific point in space. (PM)
+     - Land cover fractions estimates from a land cover grid based on a specific point in space. (P)
    * - `Land Cover Fraction (Grid) <LandCoverFraction(Grid)>`
-     - Land cover fractions estimates from a land cover grid based on a polygon grid (PM)
+     - Land cover fractions estimates from a land cover grid based on a polygon grid (P)
 
 **Urban Morphology**
 
@@ -131,9 +131,9 @@ Pre-Processor
    :header-rows: 0
 
    * - `Morphometric Calculator (Point) <MorphometricCalculator(Point)>`
-     - Morphometric parameters from a DSM based on a specific point in space. (PM)
+     - Morphometric parameters from a DSM based on a specific point in space. (P)
    * - `Morphometric Calculator (Grid) <MorphometricCalculator(Grid)>`__
-     - Morphometric parameters estimated from a DSM based on a polygon grid. (PM)
+     - Morphometric parameters estimated from a DSM based on a polygon grid. (P)
    * - `Source Area Model (Point) <SourceArea(Point)>`
      - Source area calculated from a DSM based on a specific point in space. *Interpretation of observations* (M)
 
