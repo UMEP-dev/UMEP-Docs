@@ -22,22 +22,10 @@ Urban Land Cover: Land Cover Fraction (Point)
       A land cover grid suitable for the processor in UMEP can be derived using the Land Cover Classifier. The fraction will vary depending on what angle (wind direction) you are interested in. Thus, this plugin is able to derive the land cover fractions for different directions.
 
 * Dialog box
-      .. figure:: /images/Land_Cover_Reclass.png
+      .. figure:: /images/LandCoverFractionPoint.jpg
           :align: center
 
           The dialog for the Land Cover Fraction (Point) calculator
-
-* Dialog section
-   .. list-table::
-      :widths: 10 90
-      :header-rows: 0
-
-      * - upper
-        - Select a point on the map canvas by either clicking a location or selecting an existing point from a point vector layer.
-      * - middle
-        - Specify the area of interest where the morphometric parameters are calculated. Set the search interval in degrees.
-      * - lower
-        - Specify the input data regarding land cover fraction raster as well as specifying output and for running the calculations.
 
 * Select Point on Canvas
      Click to create a point from where the calculations will take place. When you click the button, the plugin will be disabled until you have clicked the map canvas.

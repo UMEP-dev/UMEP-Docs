@@ -18,22 +18,10 @@ Urban Land Cover: Land Cover Fraction (Grid)
       The Land Cover Fraction (Grid) plugin calculates land cover fractions required for UMEP (see `Land Cover Reclassifier <LandCoverReclassifier>`) from a point location based on a land cover raster grid. A land cover grid suitable for the processor in UMEP can be derived using the Land Cover Classifier. The fraction will vary depending on what angle (wind direction) you are interested in. Thus, this plugin is able to derive the land cover fractions for different directions. It is the same as the Land Cover Fraction (Point) except that this plugin calculates the fractions for each polygon object in polygon vector layer. The polygons should preferable be squares or any other regular shape. To create such a grid, built in functions in QGIS can be used (see *Vector -> Research Tools -> Vector Grid...*).   |
 
 * Dialog Box
-      .. figure:: /images/LandCoverFractionGrid2.png
+      .. figure:: /images/LandCoverFractionGrid.jpg
           :align: center
 
           The dialog for the Land Cover Fraction (Grid) calculator
-
-* Dialog sections
-    .. list-table::
-       :widths: 10 90
-       :header-rows: 0
-
-       * - upper
-         - Sets the parameters for the area of interest where the fractions are calculated. You also set the search interval in degrees and from where the search should take place within each grid.
-       * - middle
-         - Specifies the input data regarding polygon layer and the land cover raster grid that should be used.
-       * - lower
-         - Specifies output and runs the calculations.
 
 * Search Throughout the Grid Extent
      Select if the search should be performed from one side of the grid to the opposite side. Select the other option (Search from Grid Centroid) if the search should start from the centroid of the grid. Setting the **Search distance** can then allow for the search to extent beyond the grid. See the figure below for illustration. The left performs a search using the grid extent whereas the right illustrates a search from the centroid and extending outside of the grid.

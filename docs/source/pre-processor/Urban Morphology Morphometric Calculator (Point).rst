@@ -45,25 +45,11 @@ Urban Morphology: Morphometric Calculator (Point)
        - Height above ground where the wind speed is 0 m s\ :sup:`-1` as a result of obstacles to the flow such as trees or buildings [m].
 
 * Dialog box
-    .. figure:: /images/Morph_Calc_point.png
+    .. figure:: /images/Morph_Calc_point.jpg
         :align: center
+        :width: 100%
 
         The dialog for the Morphometric Calculator (Point)
-
-* Dialog sections
-   .. list-table::
-      :widths: 10 90
-      :header-rows: 0
-
-      * - upper
-        - Select a point on the map canvas by either clicking at a location or by selecting an existing point from a point vector layer.
-      * - middle upper
-        - -  Set the parameters for the area of interest where the morphometric parameters are calculated.
-          -  Set the search interval in degrees.
-      * - middle lower
-        - Specify the input data regarding buildings and ground.
-      * - lower
-        - Specify output and run the calculations.
 
 * Select Point on Canvas
      Click on this button to create a point from where the calculations will take place. When you click button, the plugin will be disabled until you have clicked the map canvas.
