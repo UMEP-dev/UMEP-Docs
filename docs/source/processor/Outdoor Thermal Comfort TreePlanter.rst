@@ -106,5 +106,4 @@ Outdoor Thermal Comfort: TreePlanter
       -  The greedy algorithm should be used when running the model with large number of trees.
 
 * References
-      -  Wallenberg N, Lindberg, F & Rayner, D: Locating trees to mitigate outdoor radiant load of humans in 
-	 urban areas using a metaheuristic hill climbing algorithm - Introducing TreePlanter v1.0. Geoscientific Model Development, *in review*.
+      -  Wallenberg, N., Lindberg, F., and Rayner, D.: Locating trees to mitigate outdoor radiant load of humans in urban areas using a metaheuristic hill-climbing algorithm – introducing TreePlanter v1.0, Geosci. Model Dev., 15, 1107–1128, https://doi.org/10.5194/gmd-15-1107-2022, 2022.
