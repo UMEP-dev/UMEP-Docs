@@ -94,9 +94,9 @@ Pre-Processor
    * - `Spatial Data Downloader <SpatialDataDownloader>`
      - Plugin for retrieving geodata from online services suitable for various UMEP related tools (**deprecated**, see `FAQ` on how to retrieve data such population density).
    * - `DSM generator <DSMGenerator>`
-     - Creation/manipulation of a DSM based on user-specified building footprint vector data and/or `Open Street Map <http://www.openstreetmap.org>`__ data (if available) (PM).
+     - Creation/manipulation of a DSM based on user-specified building footprint vector data and/or `Open Street Map <http://www.openstreetmap.org>`__ data (if available) (P).
    * - `Tree generator <TreeGenerator>`
-     - Creation/manipulation of vegetation input data. (PM)
+     - Creation/manipulation of vegetation input data. (P)
    * - `LCZ Converter <LCZConverter>`
      - Conversion from Local Climate Zones (LCZs) in the WUDAPT database into SUEWS input data. (M)
 
@@ -107,9 +107,9 @@ Pre-Processor
    :header-rows: 0
 
    * - `Sky View Factor <SkyViewFactorCalculator>`
-     - Calculation of continuous maps of Sky View Factors (SVF) based on high resolution digital surface models (DSM). *Solar access, urban heat island* (PM)
+     - Calculation of continuous maps of Sky View Factors (SVF) based on high resolution digital surface models (DSM). *Solar access, urban heat island* (P)
    * - `Wall Height and Aspect <WallHeightandAspect>`
-     - Calculation of height and aspect of building walls based on a DSM. (PM)
+     - Calculation of height and aspect of building walls based on a DSM. (P)
 
 **Urban land cover**
 
@@ -158,6 +158,15 @@ Pre-Processor
      - Preprocessing and preparing input data for the Urban Weather Generator. *Urban heat island*  (UWG) (M)
    * - `UWG Reclassifier <UWGReclassifier>`
      - Tool to reclassify urban topologies into UWG building classes. *Urban heat island* (M)
+     
+**Urban Wind fields**
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 0
+   
+   * - `URock Prepare  <URockPrepare>`
+     - Tool to prepare spatial input data for the URock model. (P)
 
 Processor
 ~~~~~~~~~
@@ -198,9 +207,9 @@ Processor
    :header-rows: 0
 
    * - `Solar Energy on Building Envelopes (SEBE) <SEBE>`
-     - Solar irradiance on building roofs and walls in urban environments. *Economy and planning: Energy production, resource planning* (PM)
+     - Solar irradiance on building roofs and walls in urban environments. *Economy and planning: Energy production, resource planning* (P)
    * - `Daily Shadow Patterns <DailyShadowPattern>`
-     - Shadow patterns on a DSM and CDSM. *Economy and planning: Resource planning Human Health: Outdoor thermal comfort; Park planning* (PM)
+     - Shadow patterns on a DSM and CDSM. *Economy and planning: Resource planning Human Health: Outdoor thermal comfort; Park planning* (P)
 
 **Urban Heat Island**
 
@@ -208,9 +217,17 @@ Processor
    :widths: 30 70
    :header-rows: 0
    
-   * - `Urban Weather Generatore  <UWG>`
+   * - `Urban Weather Generator  <UWG>`
      - Model to calculate nocturnal urban heat island. *Urban heat island* (P)
+     
+**Urban Wind fields**
 
+.. list-table::
+   :widths: 30 70
+   :header-rows: 0
+   
+   * - `URock  <URock>`
+     - Semi-empirical model to estimate 3D wind fields in urban settings. Model is based on (Röckle 1990) *Thermal comfort; Urban outdoor planning; Wind loads*. (P)
 
 Post-Processor
 ~~~~~~~~~~~~~~
@@ -232,6 +249,8 @@ Post-Processor
 
    * - `SOLWEIG analyzer <SOLWEIGAnalyzer>`
      - Plugin for plotting, statistical analysis and post-processing of model results from SOLWEIG. (PM)
+   * - `Spatial TC <SpatialTC>`
+     - Plugin to produce maps of thermal comfort indices using output from SOLWIEG and URock. (P)
 
 
 **Urban Energy Balance**
@@ -262,6 +281,15 @@ Post-Processor
 
    * - `Benchmark System <Benchmark>`
      - For statistical analysis of model results, such as SUEWS. (M)
+     
+**Urban Winds Fields**
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 0
+
+   * - `URock analyzer <URockAnalyzer>`
+     - Plugin for analyzing and vizualising URock resluts (P)
 
 .. _ToolApplications:
      

@@ -1,7 +1,7 @@
 .. _URock:
 
-Wind model: URock
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Urban Wind Fields: URock
+~~~~~~~~~~~~~~~~~~~~~~~~
 * Contributor:
    .. list-table::
       :widths: 50 50
@@ -20,7 +20,7 @@ Wind model: URock
     The **URock** plugin can be used to calculate spatial variations of wind speed and wind direction in 3 dimensions using 2.5D building and vegetation data. The methodology originates from Röckle (1990), has been implemented in proprietary softwares such as QUIC-URB (Brown et al., 2013) or SkyHelios (Fröhlich and Matzarakis, 2018) and is further described in (Bernard et al., 2023 - not published). The current version of the model is 2023a.
 
 * Related Preprocessors
-   `MetPreprocessor`, `ERA5`, `VectorGenerator`
+   `MetPreprocessor`, `ERA5`, `URockPrepare`
 
 * Dialog box
    .. figure:: /images/URock_v2023a.png

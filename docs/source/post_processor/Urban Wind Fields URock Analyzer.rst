@@ -1,7 +1,7 @@
-.. _URockAnalyser:
+.. _URockAnalyzer:
 
-Wind model: URock Analyser
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Urban Wind Fields: URock Analyzer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note:: This plugin is still experimental. Please report any issues to our `code repository <https://github.com/UMEP-dev/UMEP>`__.
 

@@ -125,6 +125,10 @@ Below you can see which tools that have been migrated to UMEP fro processing and
      - READY (only available via **UMEP for processing**)
    * - UWGAnalyzer
      - READY (only available via **UMEP for processing**)
+   * - SpatialTC
+     - READY (only available via **UMEP for processing**)
+   * - URock
+     - READY (only available via **UMEP for processing**)
 
 
 
