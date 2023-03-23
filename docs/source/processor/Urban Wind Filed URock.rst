@@ -1,6 +1,6 @@
 .. _URock:
 
-Urban Wind Fields: URock
+Urban Wind Field: URock
 ~~~~~~~~~~~~~~~~~~~~~~~~
 * Contributor:
    .. list-table::
