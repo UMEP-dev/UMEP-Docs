@@ -38,8 +38,6 @@ Urban Wind Fields: URock
         - Spatial input data containing buildings as 2.5D vector data
       * - Building height field
         - Name of the attribute used to store building height (considered as flat roof)
-      * - Building ID field (optional)
-        - Name of the attribute used to store building ID
       * - Vegetation polygons (optional)
         - Spatial input data containing buildings as 2.5D vector data
       * - Vegetation crown top height (optional)
@@ -48,8 +46,6 @@ Urban Wind Fields: URock
         - Name of the attribute used to store the height of the bottom of the vegetation crown (the default is set to 25% of the crown top height)
       * - Vegetation wind attenuation factor (optional)
         - Name of the attribute used to store the vegetation factor attenuation (the default is set to 1.00 - Larch plantation - for more values refer to Cionco et al. (1978))
-      * - Vegetation ID field (optional)
-        - Name of the attribute used to store vegetation ID
       * - Vertical wind profile file (.csv) (optional)
         - Text file containing the vertical wind profile. It consists in two columns and no header: 1st column contain measurement height (m), 2nd column the corresponding wind speed (m/s)
       * - Vertical wind profile type (optional)
@@ -76,8 +72,6 @@ Urban Wind Fields: URock
         - For each height specified in 'Output wind height', the horizontal variation of the wind field is saved in a vector file
       * - Save 2D wind speed in a NetCDF file
         - Save the URock output in a NetCDF file split into two groups containing: (i) 3D wind field for the whole domain, (ii) the vertical wind speed profile used as input
-      * - String to prefix the output 
-        - Save the URock output in a NetCDF file split into two groups containing: (i) 3D wind field for the whole domain, (ii) the vertical wind speed profile used as input
       * - Java environment path (should be set automatically)
         - Java is used for some calculation and Python needs to know what is the Java environment path on your computer (a default value should be identified automatically)
       * - Directory to save the outputs
@@ -86,7 +80,7 @@ Urban Wind Fields: URock
 * Quick example on how to run URock
              #. Download the (`Göteborg test dataset <https://urban-meteorology-reading.github.io>`__).
              #. Add the raster layers (DEM, DSM, and CDSM) and the building vector (buildings.shp) from the Goteborg folder into a new QGIS session. The coordinate system of the rasters is **Sweref99 1200 (EPSG:3007)**. Please verify that it is the case. If not, save it with this coordinate system.
-             #. In order to run URock, some additional datasets must be created based on the raster grids and vector layer you just added. Open the 'GenBuildVegVlayers' from the UMEP Pre-processor and create building and / or vegetation vectors using DEM, DSM and buildings vector for buildings and CDSM for vegetation. Leave all other settings as default. Two layers should be created at the end of this preprocess: 'Building with height' and 'Vegetation with height'.
+             #. In order to run URock, some additional datasets must be created based on the raster grids and vector layer you just added. Open the 'URock Prepare' module from the UMEP Pre-processor and create building and / or vegetation vectors using DEM, DSM and buildings vector for buildings and CDSM for vegetation. Leave all other settings as default. Two layers should be created at the end of this preprocess: 'Building with height' and 'Vegetation with height'.
              #. Now you are ready to generate your first wind maps. Open URock and use the settings as shown in the figure below but replace the paths to fit your computer environment (Java environment path should be set automatically, do not modify this one). When you are finished, press *Run*.
 
 .. figure:: /images/URockfirsttry.png
