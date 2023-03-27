@@ -1,7 +1,7 @@
 .. _URock:
 
-Wind model: URock
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Urban Wind Fields: URock
+~~~~~~~~~~~~~~~~~~~~~~~~
 * Contributor:
    .. list-table::
       :widths: 50 50
@@ -20,8 +20,7 @@ Wind model: URock
     The **URock** plugin can be used to calculate spatial variations of wind speed and wind direction in 3 dimensions using 2.5D building and vegetation data. The methodology originates from Röckle (1990), has been implemented in proprietary softwares such as QUIC-URB (Brown et al., 2013) or SkyHelios (Fröhlich and Matzarakis, 2018) and is further described in (Bernard et al., 2023 - not published). The current version of the model is 2023a.
 
 * Related Preprocessors
-   `MetPreprocessor`, `ERA5`, `VectorGenerator`
-
+   `MetPreprocessor`, `ERA5`, `URockPrepare`
 
 * Dialog box
    .. figure:: /images/URock_v2023a.png
@@ -39,6 +38,8 @@ Wind model: URock
         - Spatial input data containing buildings as 2.5D vector data
       * - Building height field
         - Name of the attribute used to store building height (considered as flat roof)
+      * - Building ID field (optional)
+        - Name of the attribute used to store building ID
       * - Vegetation polygons (optional)
         - Spatial input data containing buildings as 2.5D vector data
       * - Vegetation crown top height (optional)
@@ -47,6 +48,8 @@ Wind model: URock
         - Name of the attribute used to store the height of the bottom of the vegetation crown (the default is set to 25% of the crown top height)
       * - Vegetation wind attenuation factor (optional)
         - Name of the attribute used to store the vegetation factor attenuation (the default is set to 1.00 - Larch plantation - for more values refer to Cionco et al. (1978))
+      * - Vegetation ID field (optional)
+        - Name of the attribute used to store vegetation ID
       * - Vertical wind profile file (.csv) (optional)
         - Text file containing the vertical wind profile. It consists in two columns and no header: 1st column contain measurement height (m), 2nd column the corresponding wind speed (m/s)
       * - Vertical wind profile type (optional)
@@ -72,6 +75,8 @@ Wind model: URock
       * - Save 2D wind field as vector file(s)
         - For each height specified in 'Output wind height', the horizontal variation of the wind field is saved in a vector file
       * - Save 2D wind speed in a NetCDF file
+        - Save the URock output in a NetCDF file split into two groups containing: (i) 3D wind field for the whole domain, (ii) the vertical wind speed profile used as input
+      * - String to prefix the output 
         - Save the URock output in a NetCDF file split into two groups containing: (i) 3D wind field for the whole domain, (ii) the vertical wind speed profile used as input
       * - Java environment path (should be set automatically)
         - Java is used for some calculation and Python needs to know what is the Java environment path on your computer (a default value should be identified automatically)
