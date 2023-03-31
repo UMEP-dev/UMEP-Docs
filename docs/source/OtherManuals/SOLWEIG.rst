@@ -204,7 +204,7 @@ There is a possibility to include upto 20 ground cover classes in **landcovercla
                Alb  Emis Ts_deg Tstart TmaxLST 
 
 .. list-table::
-   :widths: 5 20 75
+   :widths: 20 75
    :header-rows: 1
 
    * - Column
