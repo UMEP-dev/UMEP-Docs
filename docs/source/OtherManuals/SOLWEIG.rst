@@ -193,11 +193,36 @@ temperature is parameterised for different surfaces is found in
 **landcoverclasses\_v2016a.txt**. For as detailed description of the
 ground cover scheme, see Lindberg et al. (2016)  [5]_.
 **landcoverclasses\_v2016a.txt** can be found in
-*C:\\Users\\xlinfr\\AppData\\Roaming\\QGIS\\QGIS3\\profiles\\default\\python\\plugins\\UMEP\\SOLWEIG*.
+*C:\\Users\\[you_username]\\AppData\\Roaming\\QGIS\\QGIS3\\profiles\\default\\python\\plugins\\UMEP\\SOLWEIG* on a Windows PC. 
 
 It should be noted that it is only grass and impervious surfaces that
 has been parameterisised and evaluated. Other surfaces such as bare soil
 and water are only first order approximations at this point.
+
+There is a possibility to include upto 20 ground cover classes in **landcoverclasses\_v2016a.txt**. Ground cover codes upto 20 can be added. The table below specify the information needed in **landcoverclasses\_v2016a.txt**:
+
+               Alb  Emis Ts_deg Tstart TmaxLST 
+
+.. list-table::
+   :widths: 5 20 75
+   :header-rows: 1
+
+   * - Column
+     - Description
+   * - Name
+     - Any name to identify type of ground cover
+   * - Code
+     - The values that should be used in ground cover raster to identify type
+   * - Alb
+     - Albedo
+   * - Emis
+     - Emmissivity
+   * - Ts_deg
+     - Increace of Ts per degree max sun altitude during clear weather (k in linerar eq.)
+   * - Tstart
+     - Start temperature at sunrise (m in linerar eq.)
+   * - TmaxLST
+     - Time during the day when maximum Ts is reached
 
 Human exposure parameters
 ^^^^^^^^^^^^^^^^^^^^^^^^^
