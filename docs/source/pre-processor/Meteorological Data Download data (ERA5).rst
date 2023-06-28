@@ -69,5 +69,6 @@ Meteorological Data: Download data (ERA5)
           
 * Considerations：
       -  **Spatial resolution**: The ERA5 data are provided for half-degree grid boxes. In regions with substantial heterogeneity within these grid boxes data at the grid-box scale may be not be representative of your study site (e.g. mountainous regions, urban areas).
+      -  **Downloading long time series**: The cdsapi can sometime be very busy and slow. The we recommend you to use www.shinyweatherdata.com where the same data can be downloaded at much faster speed.
 
 
