@@ -69,10 +69,10 @@ Urban Wind Fields: URock
       * - Save 2D wind speed as raster file(s)
         - For each height specified in 'Output wind height', the horizontal variation of the wind speed is saved in a raster file
       * - Save 2D wind field as vector file(s)
-        - For each height specified in 'Output wind height', the horizontal variation of the wind field is saved in a vector file
+        - For each height specified in 'Output wind height', a vector file is saved. It contains four fields: 'HWS' the horizontal wind speed (m/s), 'WS' the absolute wind speed (m/s), 'VWS' the vertical wind speed (m/s) and 'HWD' the horizontal wind direction (° from North clock-wise)
       * - Save 2D wind speed in a NetCDF file
         - Save the URock output in a NetCDF file split into two groups containing: (i) 3D wind field for the whole domain, (ii) the vertical wind speed profile used as input
-      * - Java environment path (should be set automatically)
+      * - Java environment path (should be set automastically)
         - Java is used for some calculation and Python needs to know what is the Java environment path on your computer (a default value should be identified automatically)
       * - Directory to save the outputs
         - A folder path where will be saved the output files
