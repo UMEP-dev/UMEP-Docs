@@ -24,7 +24,7 @@ Installing the UMEP-plugin
      :alt:  None
      :align: center
 
-     When installing UMEP, related Python packages can be installed by clicking **OK**. Packages can also be installed later (see below).
+     When installing UMEP, related Python packages can be installed blabla by clicking **OK**. Packages can also be installed later (see below).
 
 As from Spring 2020 parts of UMEP is also available as a `processing plugin <UMEPforProcessing>`. Install the same way but search for **UMEP for processing**. Some tools in **UMEP for processing** requires *Java*. If Java is not installed on your system, visit `www.java.com <www.java.com>`__ and install the latest version. Make sure to install correct version based on your system architecture (32- or 64-bit).
 
