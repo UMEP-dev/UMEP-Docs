@@ -17,7 +17,7 @@ Urban Wind Fields: URock
         - Vienna (ZAMG)
 
 * Introduction
-    The **URock** plugin can be used to calculate spatial variations of wind speed and wind direction in 3 dimensions using 2.5D building and vegetation data. The methodology originates from Röckle (1990) and has been previously implemented in proprietary softwares such as QUIC-URB (Brown et al., 2013) or SkyHelios (Fröhlich and Matzarakis, 2018). The URock model, based on the `H2GIS database <https://github.com/orbisgis/h2gis#readme>`__ and Python libraries is further described in (Bernard et al., 2023 - available as a preprint). The current version of the model is 2023a.
+    The **URock** plugin can be used to calculate spatial variations of wind speed and wind direction in 3 dimensions using 2.5D building and vegetation data. The methodology originates from Röckle (1990) and has been previously implemented in proprietary softwares such as QUIC-URB (Brown et al., 2013) or SkyHelios (Fröhlich and Matzarakis, 2018). The URock model, based on the `H2GIS database <https://github.com/orbisgis/h2gis#readme>`__ and Python libraries is further described in (Bernard et al., 2023 - available as a `preprint <https://egusphere.copernicus.org/preprints/2023/egusphere-2023-354/>`__ ). The current version of the model is 2023a.
 
 * Related Preprocessors
    `MetPreprocessor`, `ERA5`, `URockPrepare`
