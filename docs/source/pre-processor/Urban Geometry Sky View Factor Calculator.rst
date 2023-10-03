@@ -57,7 +57,7 @@ Urban Geometry: Sky View Factor Calculator
      If a trunk zone vegetation DSM is absent, this can be generated based on the height of the Canopy DSM. The default percentage is set to 25%.
      
 * Use method with 153 shadow images instead of 655 (required for anisotropic sky SOLWEIG>v2022a)
-     If ticked, the model only interates 145 times instead of 655. This produce almost identical SVF images but is about three times faster.
+     If ticked, the model only interates 153 times instead of 655. This produce almost identical SVF images but is about three times faster.
 
 * Output Folder
      Specify folder where results will be saved.
