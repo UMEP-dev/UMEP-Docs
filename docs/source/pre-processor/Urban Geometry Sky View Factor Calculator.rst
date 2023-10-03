@@ -56,7 +56,7 @@ Urban Geometry: Sky View Factor Calculator
 * Percentage of Canopy height
      If a trunk zone vegetation DSM is absent, this can be generated based on the height of the Canopy DSM. The default percentage is set to 25%.
      
-* Use method with 145 shadow images instead of 655 (required for anisotrophic sky SOLWEIG>v2019a
+* Use method with 153 shadow images instead of 655 (required for anisotropic sky SOLWEIG>v2022a)
      If ticked, the model only interates 145 times instead of 655. This produce almost identical SVF images but is about three times faster.
 
 * Output Folder
@@ -72,7 +72,7 @@ Urban Geometry: Sky View Factor Calculator
      Closes the plugin.
 
 * Output
-     16 files (geoTIFF) will be saved if vegetation DSM is used. Otherwise, 5 SVFs are saved. If the option using 145 patches is tick in, a *.npz is also written to disk. This file can later be used in the (`SOLWEIG model <SOLWEIG>`).
+     16 files (geoTIFF) will be saved if vegetation DSM is used. Otherwise, 5 SVFs are saved. If the option using 153 patches is ticked, a *.npz is also written to disk. This file can later be used in the (`SOLWEIG model <SOLWEIG>`).
 .. list-table::
    :widths: 30 70
    :header-rows: 1
