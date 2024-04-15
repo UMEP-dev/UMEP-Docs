@@ -12,6 +12,18 @@ Recommended Installation of QGIS on Windows
 
 Visit `www.qgis.org <http://www.qgis.org>`__ for installation on other operating systems.
 
+
+Recommended output files format in QGIS
+-------------------------------------------
+
+UMEP deals with raster and vector files for some models some file format may not work. We strongly recommend using the default format: *.tif* for raster files and *.shp* for vector files.  To set these values, Go to *Settings -> Options*. A window is opening, then you can set default formats going to *IDE -> Processing* in the General section.
+
+  .. figure:: /images/RecommendedFileFormat.jpg
+     :alt:  None
+     :align: center
+
+     Select *.tif* and *.shp* as default output file format to avoid troubles using UMEP processings
+
 Installing the UMEP-plugin
 --------------------------
 #. Go to: *Plugins -> Manage and Install Plugins...* in QGIS Desktop.

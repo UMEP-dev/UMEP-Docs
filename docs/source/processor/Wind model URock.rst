@@ -17,7 +17,7 @@ Urban Wind Fields: URock
         - Vienna (ZAMG)
 
 * Introduction
-    The **URock** plugin can be used to calculate spatial variations of wind speed and wind direction in 3 dimensions using 2.5D building and vegetation data. The methodology originates from Röckle (1990) and has been previously implemented in proprietary softwares such as QUIC-URB (Brown et al., 2013) or SkyHelios (Fröhlich and Matzarakis, 2018). The URock model, based on the `H2GIS database <https://github.com/orbisgis/h2gis#readme>`__ and Python libraries is further described in (Bernard et al., 2023 - available as a `preprint <https://egusphere.copernicus.org/preprints/2023/egusphere-2023-354/>`__ ). The current version of the model is 2023a.
+    The **URock** plugin can be used to calculate spatial variations of wind speed and wind direction in 3 dimensions using 2.5D building and vegetation data. The methodology originates from Röckle (1990) and has been previously implemented in proprietary softwares such as QUIC-URB (Brown et al., 2013) or SkyHelios (Fröhlich and Matzarakis, 2018). The URock model, based on the `H2GIS database <https://github.com/orbisgis/h2gis#readme>`__ and Python libraries is further described in `Bernard et al., 2023 <https://doi.org/10.5194/gmd-16-5703-2023/>`__. The current version of the model is 2023a.
 
 * Related Preprocessors
    `MetPreprocessor`, `ERA5`, `URockPrepare`
@@ -95,7 +95,7 @@ Urban Wind Fields: URock
       -  URock consider building roofs as flat, thus do not trust wind speed near roofs if your building roof is normally not flat.
 
 * References
-      - Bernard, J., Lindberg, F., and Oswald, S.: URock 2023a: An open source GIS-based wind model for complex urban settings, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2023-354, 2023. 
+      - Bernard, J., Lindberg, F., and Oswald, S.: URock 2023a: an open-source GIS-based wind model for complex urban settings, Geosci. Model Dev., 16, 5703–5727, https://doi.org/10.5194/gmd-16-5703-2023, 2023. 
       - Brown, Michael J., Akshay A. Gowardhan, Mathew A. Nelson, Michael D. Williams, et Eric R. Pardyjak. « QUIC transport and dispersion modelling of two releases from the Joint Urban 2003 field experiment ». International Journal of Environment and Pollution 52, nᵒ 3‑4 (1 janvier 2013): 263‑87. https://doi.org/10.1504/IJEP.2013.058458.
       - Fröhlich, Dominik, et Andreas Matzarakis. « Spatial Estimation of Thermal Indices in Urban Areas—Basics of the SkyHelios Model ». Atmosphere 9, nᵒ 6 (juin 2018): 209. https://doi.org/10.3390/atmos9060209.
       - Rockle, R. "Bestimmung der Stomungsverhaltnisse im Bereich komplexer Bebauungsstrukturen der Technischen Hochschule Darmstadt Germany." (1990).
