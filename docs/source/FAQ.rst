@@ -16,11 +16,14 @@ FAQ (Frequently Asked Questions)
 * How do I install other python packages (e.g. pandas) as well as other libraries not included in the Desktop Express Install of QGIS?
     Follow the instruction from this `link <Python_Libraries>`.
 
+* I have problem saving data to a Temporary file in UMEP for Processing. What am I doing wrong?
+    Since recent version in QGIS (3.30), user can set the output fileformat for raster and vector data when saving temporary data. This cause issues since new defalut data is e.g. .nc-files for raster data. You can change this by going to *Settings/Options/Processing/General* and make sure that you are using **.tif** as **Default output raster layer extension**. Also use shape or geopackage for vector files.
+
 *  My new raster is just black after using e.g. the *Wall Height and Aspect* plugin. What is wrong?
     Probably nothing. Is is just QGIS that scales the a loaded raster by excluding outliers and if you have large areas with e.g. zeros (which you have in the resulting raster from this plugin) it looks like there is only zeros in your new raster. Go to properties of your new raster layers and reclassify your values that should be visualized.
 
 * Can the UMEP-plugin be used when **Nodata**-values are present in the input rasters?
-    Yes, it can but we strongly recommend you to reclassify Nodata values to e.g. 0 before using them in UMEP. Here is a forum discussion that can help: https://gis.stackexchange.com/questions/12418/redefining-nodata-value-into-zero-in-qgis
+    Yes it can, but we strongly recommend you to reclassify Nodata values to e.g. 0 before using them in UMEP. Here is a forum discussion that can help: https://gis.stackexchange.com/questions/12418/redefining-nodata-value-into-zero-in-qgis
 
 * Why is UMEP having problems saving output files?
     Check that your path contains only English characters. For Mac users: the UMEP graphical interface will occasionally want to create a folder instead of selecting a folder. In this case in *Save As:* write the folder name you would like to save your output, press *Save*, when it asks *“...folder name...” already exists. Do you want to replace it?* press *Replace*.
