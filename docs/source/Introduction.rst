@@ -412,6 +412,8 @@ test
            - `Kong et al. (2022) <https://doi.org/10.1016/j.compenvurbsys.2022.101773>`__
          * - Phoenix, US
            - `Buo et al. (2023) <https://www.sciencedirect.com/science/article/pii/S2210670723001105>`__
+         * - Beijing, China
+           - `Lui et al. (2024) <https://www.sciencedirect.com/science/article/pii/S2212095524000671?via%3Dihub>`__
 
 * Pedestrian Wind Speed
       - References: Evaluation
