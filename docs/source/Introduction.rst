@@ -354,6 +354,8 @@ test
            - `Lindberg and Grimmond (2011) <http://link.springer.com/article/10.1007/s00704-010-0382-8>`__
          * - Kassel, Germany
            - `Lindberg and Grimmond (2011) <http://link.springer.com/article/10.1007/s00704-010-0382-8>`__
+         * - Freiburg, Germany
+           - `Chen et al. (2014) <https://link.springer.com/article/10.1007/s00704-013-1081-z>`__
          * - London, UK
            - `Lindberg et al. (2016) <http://link.springer.com/article/10.1007/s00484-016-1135-x>`__
          * - Hong Kong, China
