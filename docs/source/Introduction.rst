@@ -410,6 +410,8 @@ test
            - `Azcarate et al. (2021) <https://www.sciencedirect.com/science/article/pii/S2210670721002821>`__
          * - Nanjing, China
            - `Kong et al. (2022) <https://doi.org/10.1016/j.compenvurbsys.2022.101773>`__
+         * - Freiburg, Germany
+           - `Briegel et al. (2023) <https://www.sciencedirect.com/science/article/pii/S2212095522002772>`__
          * - Phoenix, US
            - `Buo et al. (2023) <https://www.sciencedirect.com/science/article/pii/S2210670723001105>`__
          * - Beijing, China
