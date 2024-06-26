@@ -336,7 +336,7 @@ Evaluation and application studies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The tables of studies below is by no means complete. Please help us adding studies by submitting an issue to this documentation repository found at the top of this page.
-test
+
 * Mean Radiant Temperature (`SOLWEIG <SOLWEIG>`)
       - References: Evaluation
 
