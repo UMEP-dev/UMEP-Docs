@@ -430,8 +430,10 @@ The tables of studies below is by no means complete. Please help us adding studi
 
          * - Spatial reference
            - Reference
-         * - Global
+         * - NA
            - `Johansson et al. (2015) <http://link.springer.com/article/10.1007/s00704-015-1405-2>`__
+         * - NA
+           - `Bernard et al. (2023) <https://gmd.copernicus.org/articles/16/5703/2023/>`__
 
 
 * Anthropogenic Heat (Qf) (LUCY)
