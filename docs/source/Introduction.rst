@@ -496,6 +496,8 @@ The tables of studies below is by no means complete. Please help us adding studi
                  - `Online mapping service (in Swedish) <http://www.goteborgenergi.se/Privat/Projekt_och_etableringar/Fornybar_energi/Solceller/Solkartan/>`__
                * - Eskilstuna, Sweden
                  - `Online mapping service (in Swedish) <http://karta.eskilstuna.se/eskilstunakartan/x/#maps/1069>`__
+               * - Trondheim, Norway
+                 - `Formolli et al. (2024) <https://www.sciencedirect.com/science/article/pii/S2210670724000921>`__
 
 * Daily Shadow Patterns
             - References: Evaluation
