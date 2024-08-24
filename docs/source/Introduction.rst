@@ -420,6 +420,8 @@ The tables of studies below is by no means complete. Please help us adding studi
            - `Lui et al. (2024) <https://www.sciencedirect.com/science/article/pii/S2212095524000671?via%3Dihub>`__
          * - Nanjing, China
            - `Jiang et al. (2024) <https://www.sciencedirect.com/science/article/pii/S0378778824008090?via%3Dihub>`__
+         * - Major cities, US
+           - `Xiaojiang el al. (2024) <https://iopscience.iop.org/article/10.1088/1748-9326/ad6c64>`__
 
 * Pedestrian Wind Speed
       - References: Evaluation
