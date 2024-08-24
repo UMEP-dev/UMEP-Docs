@@ -351,7 +351,7 @@ The tables of studies below is by no means complete. Please help us adding studi
          * - Vegetation scheme
            - `Lindberg and Grimmond (2011) <http://link.springer.com/article/10.1007/s00704-010-0382-8>`__
          * - Cylindric shaped human
-           - `Holmer et al. (2015) <http://www.meteo.fr/cic/meetings/2015/ICUC9/LongAbstracts/bph5-2-3271344_a.pdf>__`
+           - `Holmer et al. (2015) <http://www.meteo.fr/cic/meetings/2015/ICUC9/LongAbstracts/bph5-2-3271344_a.pdf>`__
          * - Ground cover scheme
            - `Lindberg et al. (2016) <http://link.springer.com/article/10.1007/s00484-016-1135-x>`__
          * - Anisotrophic shortwave radiation scheme
@@ -400,21 +400,13 @@ The tables of studies below is by no means complete. Please help us adding studi
            - Reference
          * - London, UK
            - `Lindberg and Grimmond (2011) <http://link.springer.com/article/10.1007/s11252-011-0184-5>`__
-         * - Gothenburg, Sweden
-           - `Lindberg et al. (2013) <http://link.springer.com/article/10.1007/s00484-013-0638-y>`__
-         * - Stockholm, Sweden
-           - `Lindberg et al. (2013) <http://link.springer.com/article/10.1007/s00484-013-0638-y>`__
-         * - Luleå, Sweden
+         * - Multiple cities, Sweden
            - `Lindberg et al. (2013) <http://link.springer.com/article/10.1007/s00484-013-0638-y>`__
          * - Adelaide, Australia
            - `Thom et al. (2016) <http://www.sciencedirect.com/science/article/pii/S1618866716301297>`__
          * - Berlin, Germany
            - `Jänicke et al. (2015) <http://www.sciencedirect.com/science/article/pii/S2212095515300341>`__
-         * - Gothenburg, Sweden
-           - `Lau et al. (2014) <http://link.springer.com/article/10.1007/s00484-014-0898-1>`__
-         * - Frankfurt, Germany
-           - `Lau et al. (2014) <http://link.springer.com/article/10.1007/s00484-014-0898-1>`__
-         * - Porto, Portugal
+         * - Multiple cities, Europe
            - `Lau et al. (2014) <http://link.springer.com/article/10.1007/s00484-014-0898-1>`__
          * - Gothenburg, Sweden
            - `Lindberg et al. (2016) <http://www.sciencedirect.com/science/article/pii/S2210670716300579>`__
@@ -432,6 +424,8 @@ The tables of studies below is by no means complete. Please help us adding studi
            - `Yi et al. (2018) <http://koreascience.or.kr/article/JAKO201810760745513.page>`__
          * - Bilbao, Spain
            - `Azcarate et al. (2021) <https://www.sciencedirect.com/science/article/pii/S2210670721002821>`__
+         * - Gothenburg, Sweden
+           - `Bäcklin et al. (2021) <https://www.sciencedirect.com/science/article/pii/S2210670721006004>`__
          * - Nanjing, China
            - `Kong et al. (2022) <https://doi.org/10.1016/j.compenvurbsys.2022.101773>`__
          * - Freiburg, Germany
