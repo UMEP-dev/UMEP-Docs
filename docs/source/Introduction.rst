@@ -356,6 +356,8 @@ The tables of studies below is by no means complete. Please help us adding studi
            - `Lindberg et al. (2016) <http://link.springer.com/article/10.1007/s00484-016-1135-x>`__
          * - Anisotrophic shortwave radiation scheme
            - `Wallenberg et al. (2020) <https://www.sciencedirect.com/science/article/pii/S2212095519301178>`__
+         * - GPU parallel computing
+           - `Li et al. (2021) <https://link.springer.com/article/10.1007/s00704-021-03692-z>`__
          * - Anisotrophic longwave radiation scheme
            - `Wallenberg et al. (2023) <https://link.springer.com/article/10.1007/s00484-023-02441-3>`__
 
@@ -437,7 +439,7 @@ The tables of studies below is by no means complete. Please help us adding studi
          * - Nanjing, China
            - `Jiang et al. (2024) <https://www.sciencedirect.com/science/article/pii/S0378778824008090?via%3Dihub>`__
          * - Major cities, US
-           - `Xiaojiang et al. (2024) <https://iopscience.iop.org/article/10.1088/1748-9326/ad6c64>`__
+           - `Li et al. (2024) <https://iopscience.iop.org/article/10.1088/1748-9326/ad6c64>`__
 
 * Pedestrian Wind Speed
       - References: Evaluation
