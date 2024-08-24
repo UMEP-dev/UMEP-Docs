@@ -338,6 +338,28 @@ Evaluation and application studies
 The tables of studies below is by no means complete. Please help us adding studies by submitting an issue to this documentation repository found at the top of this page.
 
 * Mean Radiant Temperature (`SOLWEIG <SOLWEIG>`)
+      - References: Development
+
+      .. list-table::
+         :widths: 50 50
+         :header-rows: 1
+
+         * - Action
+           - Reference
+         * - Main model
+           - `Lindberg et al. (2008) <http://link.springer.com/article/10.1007/s00484-008-0162-7>`__
+         * - Vegetation scheme
+           - `Lindberg and Grimmond (2011) <http://link.springer.com/article/10.1007/s00704-010-0382-8>`__
+         * - Cylindric shaped human
+           - `Holmer et al. (2015) <http://www.meteo.fr/cic/meetings/2015/ICUC9/LongAbstracts/bph5-2-3271344_a.pdf>__`
+         * - Ground cover scheme
+           - `Lindberg et al. (2016) <http://link.springer.com/article/10.1007/s00484-016-1135-x>`__
+         * - Anisotrophic shortwave radiation scheme
+           - `Wallenberg et al. (2020) <https://www.sciencedirect.com/science/article/pii/S2212095519301178>`__
+         * - Anisotrophic longwave radiation scheme
+           - `Wallenberg et al. (2023) <https://link.springer.com/article/10.1007/s00484-023-02441-3>`__
+
+
       - References: Evaluation
 
       .. list-table::
@@ -421,7 +443,7 @@ The tables of studies below is by no means complete. Please help us adding studi
          * - Nanjing, China
            - `Jiang et al. (2024) <https://www.sciencedirect.com/science/article/pii/S0378778824008090?via%3Dihub>`__
          * - Major cities, US
-           - `Xiaojiang el al. (2024) <https://iopscience.iop.org/article/10.1088/1748-9326/ad6c64>`__
+           - `Xiaojiang et al. (2024) <https://iopscience.iop.org/article/10.1088/1748-9326/ad6c64>`__
 
 * Pedestrian Wind Speed
       - References: Evaluation
@@ -526,11 +548,4 @@ The tables of studies below is by no means complete. Please help us adding studi
                * - Gothenburg, Sweden
                  - `Lindberg et al. (2011) <http://www.sciencedirect.com/science/article/pii/S0266352X11000693>`__
 
-
-.. _QGIS3Version:
-
-Road map for QGIS3 Version
---------------------------
-
-The migration of UMEP into QGIS3 is complete. Some plugins are still experimental. Please report any issues to our `repository <https://github.com/UMEP-dev/UMEP>`__. 
 
