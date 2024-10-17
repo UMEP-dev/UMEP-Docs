@@ -22,7 +22,7 @@ Urban Heat Island: UWG Prepare
 * Introduction:
     The **Urban Weather Generator** (UWG) tool is an implementation of the `Ladybug <https://github.com/ladybug-tools/uwg>`__ application with the same name. The `original Urban Weather Generator <http://urbanmicroclimate.scripts.mit.edu/uwg.php>`__ was developed by Bruno Bueno for `his PhD thesis at MIT <https://dspace.mit.edu/handle/1721.1/59107>`__. Since this time, it has been validated 3 times and has been `enhanced by Aiko Nakano <https://dspace.mit.edu/handle/1721.1/108779>`__. In 2016, Joseph Yang also `improved the engine and added a range of building templates <https://dspace.mit.edu/handle/1721.1/107347>`__. For more detailed information on UWG, follow the links above.
     
-    The pre-processor UWG Prepare can be used to prepare input data for the `UWG in UMEP <UWG>` or elsewhere. THis plugin generateds a **uwg**-file for each area that should modelled. An example of such a file can be found `here <https://github.com/ladybug-tools/uwg/blob/master/resources/initialize_singapore.uwg>`__ This plugin make use of other UMEP pre-processors that is used to gather spatial information required. 
+    The pre-processor UWG Prepare can be used to prepare input data for the `UWG in UMEP <UWG>` or elsewhere. This plugin generates a **uwg**-file for each area that should modelled. An example of such a file can be found `here <https://github.com/ladybug-tools/uwg/blob/master/resources/initialize_singapore.uwg>`__ This plugin make use of other UMEP pre-processors that gather spatial information required for UWG. 
 
 * Related Preprocessors, Processors and Postprocessors
    `UWGReclassifier`, `LandCoverFraction(Grid)`, `MorphometricCalculator(Grid)`, `UWG`, `UWGAnalyser`

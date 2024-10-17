@@ -63,4 +63,3 @@ Urban Heat Island: UWG Reclassifier
 * Remarks
       - There are possibilities to create new building types for the UWG. This, however, is not included here.
       - Polygons of urban typologies should consider the neighborhood scale or larger.
-      - A tutorial is being constructed on how to analyse the urban heat island using UMEP.

@@ -21,6 +21,7 @@ Urban Energy Balance: SUEWS Prepare
 
 * Introduction:
     The pre-processor SUEWS Prepare generates surface-related input data from geographical data for `SUEWS <SUEWSAdvanced>`, the Surface Urban Energy and Water Balance Scheme. SUEWS (Järvi et al. 2011, 2014; Ward et al. 2016a, b) simulates the urban radiation, energy and water balances using commonly measured/modelled meteorological variables and information about the surface cover. It utilizes an evaporation-interception approach (Grimmond et al. 1991), similar to that used in forests, to model evaporation from urban surfaces. The surface state for each surface type at each time step is calculated from the running water balance of the canopy where the evaporation is calculated from the Penman-Monteith equation. The soil moisture below each surface type (excluding water) is also taken into account.
+    
 * Terminology：
       * Components of the plugin window:
           .. figure:: /images/SuewsPrepareTerminology.jpg
@@ -57,7 +58,7 @@ Urban Energy Balance: SUEWS Prepare
            The identification code is used when there is a need to separate site entries into categories. If two site entries share the same identification code they belong to the same category.
 
 Using the plugin - The different components of the plugin and the plugin output：
----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
       * Main window:
             The main window contains all the user interface components of the plugin. Navigation uses tabs, with each providing some of the information needed. The are two categories:
@@ -143,7 +144,7 @@ Using the plugin - The different components of the plugin and the plugin output�
                 Box for land use data.
 
             Initial conditions ：
-                  The SUEWS model requires information of initial conditions. SUEWSPRepare generates some basic information used to create a file called **InitialConditionsXXXX\_YYYY.nml** where XXXX is the ID grid number.
+                  The SUEWS model requires information of initial conditions. SUEWSPrepare generates some basic information used to create a file called **InitialConditionsXXXX\_YYYY.nml** where XXXX is the ID grid number.
                   .. figure:: /images/SUEWSPrepare_init.png
 
                       Box for initial conditions.

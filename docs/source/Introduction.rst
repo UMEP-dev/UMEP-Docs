@@ -57,6 +57,11 @@ The manual should be cited as:
   Urban Multi-scale Environmental Predictor (UMEP) Manual. https://umep-docs.readthedocs.io/  
   University of Reading UK, University of Gothenburg Sweden, SIMS China*
 
+License
+-------
+
+**UMEP** and **UMEP for Processing** make use of GNU GPL2 license.
+
 YouTube channel
 ---------------
 

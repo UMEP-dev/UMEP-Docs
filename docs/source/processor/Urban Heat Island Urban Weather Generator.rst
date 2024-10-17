@@ -46,7 +46,7 @@ Urban Heat Island: Urban Weather Generator
       * - Number of days to run simulation
         - Specify the number of days that the UWG will model. Number of days in combination with Start date cannot exceed into next the following year.
       * - Input meteorological file (.epw)
-        - The UWG make use of Energy Plus Weather (EPW) files (.epw). These files are generated for purposes of building energy simulation and are one full year in length (hourly resolution). However, the UWG can preferably model just a portion of a year and not always a full year which will take long computation time, especially if multiple grids are inverstigated. Information on EWP-files and possible downloads for your location can be found `here <https://energyplus.net/weather>`__. The UMEP developer team is also working on a tool that can be used to generate epw-files from e.g. ERA5 data or observations.
+        - The UWG make use of Energy Plus Weather (EPW) files (.epw). These files are generated for purposes of building energy simulation and are one full year in length (hourly resolution). However, the UWG can preferably model just a portion of a year and not always a full year which will take long computation time, especially if multiple grids are inverstigated. Information on EWP-files and possible downloads for your location can be found `here <https://energyplus.net/weather>`__. 
       * - Save output in UMEP specific format
         - Tick this in if you are interested in continuing analysis from this tool in the `UWG Analyser <UWGAnalyser>` in the post-processing part of UMEP.
       * - Output folder
