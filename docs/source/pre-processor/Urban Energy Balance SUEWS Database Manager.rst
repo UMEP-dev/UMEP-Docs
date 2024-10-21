@@ -14,10 +14,6 @@ Urban Energy Balance: SUEWS Database Manager
          - Institution
        * - Oskar Bäcklin
          - Gothenburg
-       * - Ting Sun
-         - London
-       * - Sue Grimmond
-         - Reading
        * - Fredrik Lindberg
          - Gothenburg
 
