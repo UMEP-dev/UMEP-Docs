@@ -23,7 +23,7 @@ Urban Wind Fields: URock
    `MetPreprocessor`, `ERA5`, `URockPrepare`
 
 * Dialog box
-   .. figure:: /images/URock_v2023a.png
+   .. figure:: /images/URock_v2023a.jpg
       :width: 100%
       :align: center
 
@@ -72,8 +72,6 @@ Urban Wind Fields: URock
         - For each height specified in 'Output wind height', a vector file is saved. It contains four fields: 'HWS' the horizontal wind speed (m/s), 'WS' the absolute wind speed (m/s), 'VWS' the vertical wind speed (m/s) and 'HWD' the horizontal wind direction (° from North clock-wise)
       * - Save 2D wind speed in a NetCDF file
         - Save the URock output in a NetCDF file split into two groups containing: (i) 3D wind field for the whole domain, (ii) the vertical wind speed profile used as input
-      * - Java environment path (should be set automastically)
-        - Java is used for some calculation and Python needs to know what is the Java environment path on your computer (a default value should be identified automatically)
       * - Directory to save the outputs
         - A folder path where will be saved the output files
 
