@@ -16,10 +16,6 @@ Urban Energy Balance: SUEWS Database Prepare
          - Gothenburg
        * - Fredrik Lindberg
          - Gothenburg
-       * - Ting Sun
-         - London
-       * - Sue Grimmond
-         - Reading
 
 * Introduction:
     The pre-processor *SUEWS Prepare Database* make use of the database used in `SUEWS Database Manager <SUEWSDatabase>` to generate surface-related input data from geographical data for `SUEWS <SUEWSAdvanced>`, the Surface Urban Energy and Water Balance Scheme (`Järvi et al. 2011 <https://www.sciencedirect.com/science/article/pii/S0022169411006937?via%3Dihub>`__). SUEWS (`link to manual <https://suews.readthedocs.io/en/latest/>`__) simulates the urban radiation, energy and water balances using commonly measured/modelled meteorological variables and information about the surface cover. It utilizes an evaporation-interception approach (`Grimmond and Oke 1991 <https://agupubs.onlinelibrary.wiley.com/doi/10.1029/91WR00557>`__), similar to that used in forests, to model evaporation from urban surfaces. The surface state for each surface type at each time step is calculated from the running water balance of the canopy where the evaporation is calculated from the Penman-Monteith equation. The soil moisture below each surface type (excluding water) is also taken into account.
