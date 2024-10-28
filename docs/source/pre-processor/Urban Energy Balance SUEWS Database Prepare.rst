@@ -26,7 +26,7 @@ Urban Energy Balance: SUEWS Database Prepare
    `MetPreprocessor`, `LandCoverFraction(Grid)`, `MorphometricCalculator(Grid)`, `SUEWSDatabase`, `ERA5`, `SUEWSAdvanced`, `SUEWSAnalyser`
 
 * Dialog box：
-    .. figure:: /images/SUEWS_DBPrepare_main.jpg
+    .. figure:: /images/SUEWS_DBPrep_main.jpg
         :width: 100%
         :align: center
 
