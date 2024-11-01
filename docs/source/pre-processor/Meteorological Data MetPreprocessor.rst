@@ -21,7 +21,7 @@ Meteorological Data: MetPreprocessor
 * **Dialog box**
 .. figure::  /images/MetPreProcessor.jpg
 
- Interface for inputting an ascii data file into the correct format for SUEWS
+ Interface for inputting an ascii data file into the correct format for UMEP
 
 * **Dialog sections**
 .. list-table::

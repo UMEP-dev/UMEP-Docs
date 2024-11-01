@@ -14,6 +14,10 @@ Urban Energy Balance: SUEWS Database Manager
          - Institution
        * - Oskar Bäcklin
          - Gothenburg
+       * - Ting Sun
+         - London
+       * - Sue Grimmond
+         - Reading
        * - Fredrik Lindberg
          - Gothenburg
 
@@ -115,7 +119,7 @@ Urban Energy Balance: SUEWS Database Manager
         Building type (found in *Land Cover*-tab) connected to the urban typology.
 
     * Check compability:
-        Click this to see if name already exist in the database.
+        Click this to see if name allready exist in the database.
         
     * Generate New Type:
         If you pass the compability test, click this button to add your new typology to the database.

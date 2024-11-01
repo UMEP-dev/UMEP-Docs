@@ -50,7 +50,9 @@ Urban Heat Island: TARGET
       * - Estimate incoming longwave radiation from air temperature and realtive humidity.
         - If incoming longwave radiation is missing from the forcing data, tick this box and L\ :sub:`down` will be calculated according to `Loridan et al. 2011  <https://journals.ametsoc.org/view/journals/apme/50/1/2010jamc2474.1.xml?tab_body=pdf>`__.
       * - Save output as .csv text files
-        - Tick this in if you are interested in continuing analysis from this tool using csv-files. Output is also automatically saved in .npy-format, a standard binary file used by NumPy in Python.
+        - Output is also automatically saved in .npy-format, a standard binary file used by NumPy in Python. Tick this in if you are interested in continuing analysis from this tool using csv-files coming directly out from the model. 
+      * - Save output in UMEP specific format (required for the TARGET Analyzer)
+        - Tick this in if you like to use the analyzers connected to the TARGET model in the Post-processor.
 
 * Run
     Starts the calculations. 
