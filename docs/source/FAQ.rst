@@ -4,8 +4,11 @@
 
 FAQ (Frequently Asked Questions)
 --------------------------------
-* How do I upgrade the plugin?
+* How do I upgrade the plugin to a new LTR version?
     When a new LTR version is released it will be available from the repository. In QGIS to check for updates, go to *Plugins>Manage and Install Plugins...*. If the UMEP plugin is in bold, a new version is available. On how to upgrade to the development version, see `Getting started <Getting_Started>`.
+
+* How do I upgrade the plugin to the last snapshot version?
+    The developers may change the code when fixing an issue and this change will not be instantly available in the LTR version. If you cannot wait for the LTR version, you can download the code as a zip and install it using the methodology described in the `Getting started page <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html#installing-development-release-could-be-unstable>`__
 
 * How do I uninstall the plugin?
     Go to *Plugins>Manage and Install Plugins...*. Locate the UMEP plugin and click *Uninstall*.
