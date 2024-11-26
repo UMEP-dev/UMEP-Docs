@@ -111,9 +111,9 @@ repository.
 
 Installing development release (could be unstable)
 --------------------------------------------------
-#. Download UMEP from the `repository <https://github.com/UMEP-dev/UMEP>`__, as a ZIP-file. The main branch at the moment is **SuPy-QGIS3**.
+#. Download the code as a zip file:
+  * UMEP: from the `repository <https://github.com/UMEP-dev/UMEP>`__, click on the green button Code -> Download ZIP. Note that the main branch at the moment is **SuPy-QGIS3**.
+  * UMEP-Processing (processing toolbox): from the `repository <https://github.com/UMEP-dev/UMEP-processing>`__, click on the green button Code -> Download ZIP. Note that the main branch at the moment is **main**.
 #. If you have an installed version of UMEP in your QGIS, uninstall it by going to “Plugins -> Manage and Install Plugins -> Installed -> UMEP” and click **Uninstall plugin**.
 #. Go to “Plugins -> Manage and Install Plugins -> Install from zip”.
 #. Restart QGIS. The UMEP plugin should be visible in the QGIS toolbar. If not, go to “Plugins -> Manage and Install Plugins -> All” and search for UMEP. Make sure that you also tick in the box *Show also experimental plugins* in the “Settings”-tab.
-
-The same procedure as above can be used to install development release for **UMEP for Processing**. The repository is found  `here <https://github.com/UMEP-dev/UMEP-processing>`__ and the main branch is called **Main**.
