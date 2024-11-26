@@ -28,7 +28,7 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, simple)
       -  `MetPreprocessor`, `ERA5`, `LandCoverReclassifier`, `LandCoverFraction(Point)`, `MorphometricCalculator(Point)`, `SourceArea(Point)`
 
 * Dialog Box
-    .. figure:: /images/SuewsSimple.jpg
+    .. figure:: /images/Suews_Simple.jpg
        :width: 100%
 
        Dialog for the SUEWS Simple plugin
@@ -103,7 +103,4 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, simple)
     Button closes the plugin.
 
 * References
-      -  Järvi L, Grimmond CSB & Christen A (2011) The Surface Urban Energy and Water Balance Scheme (SUEWS): Evaluation in Los Angeles and Vancouver `J. Hydrol. 411, 219-237. <http://www.sciencedirect.com/science/article/pii/S0022169411006937>`__
-      -  Järvi L, Grimmond CSB, Taka M, Nordbo A, Setälä H &Strachan IB (2014) Development of the Surface Urban Energy and Water balance Scheme (SUEWS) for cold climate cities, Geosci. Model Dev. 7, 1691-1711, `doi:10.5194/gmd-7-1691-2014 <http://www.geosci-model-dev.net/7/1691/2014/>`__.                                                                 
-      -  Ward HC, L Järvi, S Onomura, F Lindberg, CSB Grimmond (2016a) `SUEWS Manual <https://suews.readthedocs.io/en/latest/>`__.
-      -  Ward HC. S Kotthaus, L Järvi, CSB Grimmond (2016b) Surface Urban Energy and Water Balance Scheme (SUEWS): development and evaluation at two UK sites `Urban Climate Volume 18, December 2016, Pages 1-32 <https://www.sciencedirect.com/science/article/pii/S2212095516300256>`__.
+      -  A full list of references related to the SUEWS model can be found at SUEWS manual (`<https://suews.readthedocs.io/en/latest/>`__).

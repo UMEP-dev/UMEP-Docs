@@ -22,7 +22,7 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, advanced)
       `MetPreprocessor`, `ERA5`, `LandCoverReclassifier`, `LandCoverFraction(Point)`, `LandCoverFraction(Grid)`, `MorphometricCalculator(Point)`, `MorphometricCalculator(Grid)`, `SourceArea(Point)`
 
 * Dialog box
-      .. figure:: /images/SUEWSAdvanced.jpg
+      .. figure:: /images/SUEWS_Advanced.jpg
           :align: center
 
           The dialog for SUEWS Advanced
@@ -30,13 +30,12 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, advanced)
 * Dialog sections
      -  When you run the plugin, you will see the dialog shown above. To use this plugin, all input data needs to be prepared beforehand. This can be done using the various plugins in the pre-processor in UMEP (see `ToolApplications`). The settings available in this plugin is used for specifying the settings for a specific model run. You should consult the manual (`<https://suews.readthedocs.io/en/latest/>`__) for instructions and information on what settings to use. 
      
-     -  For extensive models run it is recommended to execute the model outside of QGIS (see manual). 
+     -  For extensive models run it is recommended to execute the model outside of QGIS (see `manual <https://suews.readthedocs.io/en/latest/>`__). 
      
      -  The interface above creates a so-called namelist (**RunControl.nml**) that is used be the model for general settings. After running the model, this file can be found in the suewsmodel directory in the UMEP plugin directory as well as in the input folder specified.
      
-     -  It is always recommended to make use of a spin-up period to adjust e.g. water availbility in the model. This can be dome by e.g. start your model before (months-years) the time period of interest. one option to use a spin-up procedure using exisitng data is availabe. This requires a full year meteorological dataset. This option will run the model for one year and then run the same year using the state from the first model run.
+     -  It is always recommended to make use of a spin-up period to adjust e.g. water availbility in the model. This can be done by e.g. start your model before (months-years) the time period of interest.
 
 * References:
-      -  Järvi L, Grimmond CSB & Christen A (2011) The Surface Urban Energy and Water Balance Scheme (SUEWS): Evaluation in Los Angeles and Vancouver `J. Hydrol. 411, 219-237. <http://www.sciencedirect.com/science/article/pii/S0022169411006937>`__
-      -  Järvi L, Grimmond CSB, Taka M, Nordbo A, Setälä H &Strachan IB (2014) Development of the Surface Urban Energy and Water balance Scheme (SUEWS) for cold climate cities, Geosci. Model Dev. 7, 1691-1711, `doi:10.5194/gmd-7-1691-2014 <http://www.geosci-model-dev.net/7/1691/2014/>`__.                          
-      -  Ward HC. S Kotthaus, L Järvi, CSB Grimmond (2016b) Surface Urban Energy and Water Balance Scheme (SUEWS): development and evaluation at two UK sites `link) <https://www.sciencedirect.com/science/article/pii/S2212095516300256>`__.
+      -  A full list of references related to the SUEWS model can be found at SUEWS manual (`<https://suews.readthedocs.io/en/latest/>`__).
+

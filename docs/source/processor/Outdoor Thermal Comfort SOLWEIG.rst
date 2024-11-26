@@ -13,14 +13,14 @@ Outdoor Thermal Comfort: SOLWEIG
         - Gothenburg
 
 * Introduction
-    -  The **SOLWEIG** plugin can be used to calculate spatial variations of mean radiant temperature (T\ :sub:`mrt`) and radiant fluxes using digital surface models (DSM) and ground cover information. Optionally, vegetation DSMs could also be used. The methodology that is used to generate shadows originates from Ratti and Richens (1990) and is further developed and described in Lindberg and Grimmond (2011) and Lindberg et al. (2016). The current version of the model is 2019a.
+    -  The **SOLWEIG** plugin can be used to calculate spatial variations of mean radiant temperature (T\ :sub:`mrt`) and radiant fluxes using digital surface models (DSM) and ground cover information. Optionally, vegetation DSMs could also be used. The methodology that is used to generate shadows originates from Ratti and Richens (1990) and is further developed and described in Lindberg and Grimmond (2011), Lindberg et al. (2016), Wallenberg et al. 2020 and Wallenberg et al. 2023.
     -  The full manual of the SOLWEIG model can be found `here <SOLWEIGManual>`.
 
 * Related Preprocessors
    `MetPreprocessor`, `ERA5`, `SkyViewFactorCalculator`, `WallHeightandAspect`, `LandCoverReclassifier`
 
 * Dialog box
-   .. figure:: /images/SOLWEIG_v2019a.png
+   .. figure:: /images/SOLWEIG_v2022a.jpg
       :width: 100%
       :align: center
 
@@ -104,9 +104,10 @@ Outdoor Thermal Comfort: SOLWEIG
         - Tick this box to include adjustment (0.04) of sky emissivity which was present in the earlier versions of the SOLWEIG model (not recommended).
       * - Consider human as cylinder instead of box
         - Tick this box to consider man as a cylinder instead of a box according to Holmer at al. (2015).
+      * - Save file(s) for TreePlanter
+        - Tick this in to save all required files for running `TreePlanter`.
 
 * Environmental parameters
-    Emissivity (ground)||Emissivity of ground. Not used if land cover scheme is activated.
    .. list-table::
       :widths: 25 75
       :header-rows: 0
@@ -121,8 +122,6 @@ Outdoor Thermal Comfort: SOLWEIG
         - Emissivity of ground. Not used if land cover scheme is activated.
 
 * Human exposure parameters
-    Posture of the human body||Choose between standing (default) and sitting.
-
    .. list-table::
       :widths: 25 75
       :header-rows: 0
@@ -146,21 +145,6 @@ Outdoor Thermal Comfort: SOLWEIG
 * Close
     Closes the plugin.
 
-* Quick example on how to run SOLWEIG
-             #. Download the (`test dataset <https://urban-meteorology-reading.github.io>`__).
-             #. Add the raster layers (DSM, CDSM and land cover) from the Goteborg folder into a new QGIS session. The coordinate system of the grids is **Sweref99 1200 (EPSG:3007)**.
-             #. In order to run SOLWEIG, some additional datasets must be created based on the raster grids you just added. Open the SkyViewFactor Calculator from the UMEP Pre-processor and calculate SVFs using both your DSM and CDSM. Leave all other settings as default.
-             #. Open the Wall height and aspect plugin from the UMEP Pre-processor and calculate both wall height and aspect using the DSM and your input raster. Tick in the box to add them to your project. Leave all other settings as default.
-             #. Now you are ready to generate your first T\ :sub:`mrt` map. Open SOLWEIG and use the settings as shown in the figure below but replace the paths to the fit your computer environment. When you are finished, press *Run*.
-
-.. figure:: /images/SOLWEIGfirsttry.png
-   :width: 100%
-   :align: center
-
-   Setting for a first try with the SOLWEIG model. Click on image for enlargement.
- 
-There is also a meteorological file present in the test dataset that can be used to run the model for a whole day.
-
 * Remarks
       -  All DSMs need to have the same extent and pixel size.
       -  This plugin is computationally intensive i.e. large grids will take a lot of time and very large grids will not be possible to use. Large grids e.g. larger than 4000000 pixels should preferably be tiled before.
@@ -171,3 +155,5 @@ There is also a meteorological file present in the test dataset that can be used
       -  Konarska J, Lindberg F, Larsson A, Thorsson S, Holmer B 2013. Transmissivity of solar radiation through crowns of single urban trees—application for outdoor thermal comfort modelling. `Theoret. Appl. Climatol., 1–14 <http://link.springer.com/article/10.1007/s00704-013-1000-3>`__
       -  Lindberg, F., Grimmond, C.S.B., 2011a. The influence of vegetation and building morphology on shadow patterns and mean radiant temperatures in urban areas: model development and evaluation. `Theoret. Appl. Climatol. 105, 311–323 <http://link.springer.com/article/10.1007/s00704-010-0382-8>`__
       -  Riendl D.T., Beckman W.A. and Duffie J.A. (1990), Diffuse Fraction Correlations, `Solar Energy, Vol. 45, No.1, pp. 1-7. <https://www.sciencedirect.com/science/article/abs/pii/0038092X9090060P>`__
+      -  Wallenberg, Nils, Lindberg F, Holmer B, and Thorsson S. (2020) "The Influence of Anisotropic Diffuse Shortwave Radiation on Mean Radiant Temperature in Outdoor Urban Environments." `Urban Climate 31 (2020). <https://doi.org/10.1016/j.uclim.2020.100589>`__
+      -  Wallenberg, N., Lindberg, F., Holmer, B., and Rayner, D. (2023) An anisotropic parameterization scheme for longwave irradiance and its impact on radiant load in urban outdoor settings. `International journal of biometeorology. <https://doi.org/10.1007/s00484-023-02441-3>`__.
