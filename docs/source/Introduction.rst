@@ -22,7 +22,7 @@ releases*:
    `repository <https://github.com/UMEP-dev/UMEP>`__. This
    version you need to manually install yourself (`see details <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html#installing-development-release-could-be-unstable>`__).
 
-As of Spring 2020, **UMEP for processing** is also available. Find more info `here <UMEPforProcessing>`. 
+As of Spring 2020, most tools have been moved to **UMEP for processing**. This makes it easier to incorporate into prcesses within the QGIS eco-system. Find more info `here <UMEPforProcessing>`. 
 
 The UMEP plugin consist of three
 parts; a pre-processor, a processor and a post-processor. The
@@ -53,14 +53,14 @@ The manual should be cited as:
 
 .. epigraph::
 
-  *Lindberg F, Grimmond CSB, A Gabey, L Jarvi, CW Kent, N Krave, T Sun, N Wallenberg, HC Ward (2019) 
+  *Lindberg F, Grimmond CSB, J Bernard, A Gabey, L Jarvi, CW Kent, N Krave, T Sun, N Wallenberg, HC Ward (2019) 
   Urban Multi-scale Environmental Predictor (UMEP) Manual. https://umep-docs.readthedocs.io/  
   University of Reading UK, University of Gothenburg Sweden, SIMS China*
 
 License
 -------
 
-**UMEP** and **UMEP for Processing** make use of GNU GPL2 license.
+**UMEP** and **UMEP for Processing** make use of GNU GPL3 license.
 
 YouTube channel
 ---------------
@@ -148,6 +148,10 @@ Pre-Processor
    :widths: 30 70
    :header-rows: 0
    
+   * - `SUEWS Database Manager <SUEWSDatabase>`
+     - A plugin to easier introduce new, and investigate old parameters for the SUEWS model using an urban typology database (M)
+   * - `SUEWS Database Manager <SUEWSDatabase>`
+     - Preprocessing and preparing input data for the SUEWS model using an urban typology database (M)
    * - `SUEWS Prepare <SUEWSPrepare>`
      - Preprocessing and preparing input data for the SUEWS model (M)
    * - `SUEWS Converter <SUEWSConverter>`
@@ -159,10 +163,12 @@ Pre-Processor
    :widths: 30 70
    :header-rows: 0
    
+   * - `TARGET Prepare <TARGETPrepare>`
+     - Preprocessing and preparing input data for the TARGET-model. (P)   
    * - `UWG Prepare <UWGPrepare>`
-     - Preprocessing and preparing input data for the Urban Weather Generator. *Urban heat island*  (UWG) (M)
+     - Preprocessing and preparing input data for the Urban Weather Generator (UWG). (M)
    * - `UWG Reclassifier <UWGReclassifier>`
-     - Tool to reclassify urban topologies into UWG building classes. *Urban heat island* (M)
+     - Tool to reclassify urban topologies into UWG building classes. (M)
      
 **Urban Wind fields**
 
@@ -222,8 +228,10 @@ Processor
    :widths: 30 70
    :header-rows: 0
    
-   * - `Urban Weather Generator  <UWG>`
-     - Model to calculate nocturnal urban heat island. *Urban heat island* (P)
+   * - `Urban Weather Generator <UWG>`
+     - Model to calculate nocturnal urban heat island. (P)
+   * - `TARGET <TARGET>`
+     - Model to calculate intra-urban air temperature differences based on urban gepmetry and vegetation. (P)
      
 **Urban Wind fields**
 
@@ -275,8 +283,9 @@ Post-Processor
    :header-rows: 0
 
    * - `UWG analyser <UWGAnalyser>`
-     - Plugin for statistical spatial analysis of model results from UWG (P)
-
+     - Plugin for statistical spatial analysis of model results from UWG (PM)
+   * - `TARGET analyser <TARGETAnalyser>`
+     - Plugin for statistical spatial analysis of model results from TARGET (PM)
 
 **Benchmark**
 
