@@ -19,6 +19,8 @@ Urban Wind Fields: URock
 * Introduction
     The **URock** plugin can be used to calculate spatial variations of wind speed and wind direction in 3 dimensions using 2.5D building and vegetation data. The methodology originates from Röckle (1990) and has been previously implemented in proprietary softwares such as QUIC-URB (Brown et al., 2013) or SkyHelios (Fröhlich and Matzarakis, 2018). The URock model, based on the `H2GIS database <https://github.com/orbisgis/h2gis#readme>`__ and Python libraries is further described in `Bernard et al., 2023 <https://doi.org/10.5194/gmd-16-5703-2023/>`__. The current version of the model is 2023a.
 
+    This tools requires Java. If Java is not installed on your system, visit for example www.java.com and install the latest version. Make sure to install correct version based on your system architecture (32- or 64-bit). You can also download and install an open source packaged version of openjdk from `https://adoptium.net/ <https://adoptium.net/>`__ or vist `https://openjdk.org/ <https://openjdk.org/>`__ to install manually.
+
 * Related Preprocessors
    `MetPreprocessor`, `ERA5`, `URockPrepare`
 
