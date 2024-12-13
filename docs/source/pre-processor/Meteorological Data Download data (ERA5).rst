@@ -24,7 +24,7 @@ Meteorological Data: Download data (ERA5)
 
 
 * Introduction：
-       Basic meteorological variables are required for most applications in the UMEP processor. If observed data are not available for a particular location, hourly data can be retrieved from the global `the Coopernicus programme <https://climate.copernicus.eu/>`__ and thier Climate Data Store. This plugin allows climate reanalysis data to be extracted for a specific location and period of interest (1979-2020), and transformed into formatted forcing files suitable for models within UMEP.
+       Basic meteorological variables are required for most applications in the UMEP processor. If observed data are not available for a particular location, hourly data can be retrieved from the global `the Coopernicus programme <https://cds.climate.copernicus.eu/>`__ and thier Climate Data Store. This plugin allows climate reanalysis data to be extracted for a specific location and period of interest (1979-2020), and transformed into formatted forcing files suitable for models within UMEP.
 
 .. list-table::
    :widths: 50 50
@@ -69,6 +69,6 @@ Meteorological Data: Download data (ERA5)
           
 * Considerations：
       -  **Spatial resolution**: The ERA5 data are provided for half-degree grid boxes. In regions with substantial heterogeneity within these grid boxes data at the grid-box scale may be not be representative of your study site (e.g. mountainous regions, urban areas).
-      -  **Downloading long time series**: The cdsapi can sometime be very busy and slow. The we recommend you to use www.shinyweatherdata.com where the same data can be downloaded at much faster speed.
+      -  **Downloading long time series**: The cdsapi can sometime be very busy and slow. The we recommend you to use `www.shinyweatherdata.com <https://www.shinyweatherdata.com>`__  where the same data can be downloaded at much faster speed.
 
 
