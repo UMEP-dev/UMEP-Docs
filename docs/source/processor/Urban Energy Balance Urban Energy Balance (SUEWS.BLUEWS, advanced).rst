@@ -19,13 +19,14 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, advanced)
      - Model applicability: Local scale – so forcing data should be above the height of the roughness elements (trees, buildings)
 
 * Related Preprocessors
-      `MetPreprocessor`, `ERA5`, `LandCoverReclassifier`, `LandCoverFraction(Point)`, `LandCoverFraction(Grid)`, `MorphometricCalculator(Point)`, `MorphometricCalculator(Grid)`, `SourceArea(Point)`
+      `MetPreprocessor`, `ERA5`, `LandCoverReclassifier`, `LandCoverFraction(Point)`, `LandCoverFraction(Grid)`, `MorphometricCalculator(Point)`, `MorphometricCalculator(Grid)`, `SourceArea(Point)`, `SUEWSDatabase`, , `SUEWSDatabasePrepare`
 
 * Dialog box
       .. figure:: /images/SUEWS_Advanced.jpg
+          :width: 100%
           :align: center
 
-          The dialog for SUEWS Advanced
+          The dialog for SUEWS Advanced. Click on image for enlargement.
 
 * Dialog sections
      -  When you run the plugin, you will see the dialog shown above. To use this plugin, all input data needs to be prepared beforehand. This can be done using the various plugins in the pre-processor in UMEP (see `ToolApplications`). The settings available in this plugin is used for specifying the settings for a specific model run. You should consult the manual (`<https://suews.readthedocs.io/en/latest/>`__) for instructions and information on what settings to use. 
@@ -35,6 +36,8 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, advanced)
      -  The interface above creates a so-called namelist (**RunControl.nml**) that is used be the model for general settings. After running the model, this file can be found in the suewsmodel directory in the UMEP plugin directory as well as in the input folder specified.
      
      -  It is always recommended to make use of a spin-up period to adjust e.g. water availbility in the model. This can be done by e.g. start your model before (months-years) the time period of interest.
+     
+     -  If you encounter memory issues calculating many grids and/or long time periods, you can divide the calculation in chunks as seen in the figure above.
 
 * References:
       -  A full list of references related to the SUEWS model can be found at SUEWS manual (`<https://suews.readthedocs.io/en/latest/>`__).
