@@ -19,9 +19,12 @@ Meteorological Data: MetPreprocessor
     *Input data* can include any number of header lines and should be separated by conventional separators (e.g. comma, space, tab, etc). The *output format* is space-separated and includes time-related variables of year, day of year, hour and minute. The plugin is able to process other input time formats including month, day of month, etc. Possibility to use an EnergyPlus Weather (.epw) is also available. Note that .epw-files rarely have precipitation data included. This is is required for SUEWS-modelling and need to be acquired from elsewhere (external dataset).
 
 * **Dialog box**
-.. figure::  /images/MetPreProcessor.jpg
 
- Interface for inputting an ascii data file into the correct format for UMEP
+      .. figure:: /images/MetPreProcessor.jpg
+          :width: 100%
+          :align: center
+
+          Interface for inputting an ascii data file into the correct format for UMEP. Click on image for enlargement.
 
 * **Dialog sections**
 .. list-table::
