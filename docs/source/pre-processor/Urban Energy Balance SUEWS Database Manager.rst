@@ -95,7 +95,7 @@ Urban Energy Balance: SUEWS Database Manager
         This combobox can be used for two purposes: *1*. To retrive infomation regarding an urban typology and *2*. To use a typology as base when creating a new typology.
 
     * Name:
-        Mane of new typology to be added into the database. 
+        Name of new typology to be added into the database. 
 
     * Geographic Origin (if applicable):
         Location where this typology exist. Specify by country first, then more details if needed
@@ -160,7 +160,7 @@ Urban Energy Balance: SUEWS Database Manager
 
 
     * Top left combobox:
-        This combobox selects a parameter that a new entry should be added. Changing parameter type here, dispalys what values that should be set in the lower left panel.
+        This combobox selects a parameter that a new entry should be added. Changing parameter type here, display what values that should be set in the lower left panel.
 
     * Base Parameter:
         This combobox can be used for two purposes: *1*. To retrive infomation regarding a specific parameter setting and *2*. To use a parameter setting as base when creating a new database entry.
@@ -172,10 +172,10 @@ Urban Energy Balance: SUEWS Database Manager
         Location where this specific land cover exist. Specify by country first, then more details if needed
         
     * Reference:
-        If possible, point toa reference where your entry is specified/derived.
+        If possible, point to a reference where your entry is specified/derived.
         
     * Lower left panel:
-        For each parameter, one or many entries should be set. In this panel you see all entries that should be considered for the specific parameter choosen.
+        For each parameter, one or many entries should be set. In this panel you see all entries that should be considered for the specific parameter choosen. Hover over the parameters for explaination of specific parameter.
 
 
 * Emissions Tab
@@ -257,7 +257,7 @@ Urban Energy Balance: SUEWS Database Manager
         If possible, point to a reference where your entry is specified/derived.
         
     * Lower panel:
-        Here, values are shown and can be changed/added when new irrigation data is added into the database. Hower over an entry with mouse pointer to get more detailed info.
+        Here, values are shown and can be changed/added when new irrigation data is added into the database. Hover over an entry with mouse pointer to get more detailed info.
     
     
 * Snow Tab
