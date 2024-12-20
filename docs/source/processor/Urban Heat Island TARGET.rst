@@ -16,7 +16,13 @@ Urban Heat Island: TARGET
         - Gothenburg
 
 * Introduction:
-    **TARGET** (The Air-temperature Response to Green blue-infrastructure Evaluaition Tool) is a simple modelling framework used to examine intra urban climate (10\ :sup:`2` m resolution). It has specifically been developed as an efficient, easy-to-use model albe to investigate heat mitigation effects of green and blue infrastructure within urban areas but can also be used to model the canopy urban heat island (`Broadbent et al. 2019) <https://gmd.copernicus.org/articles/12/785/2019/>`__  
+    **TARGET** (The Air-temperature Response to Green blue-infrastructure Evaluaition Tool) is a simple modelling framework used to examine intra urban climate (10\ :sup:`2` m resolution). It has specifically been developed as an efficient, easy-to-use model albe to investigate heat mitigation effects of green and blue infrastructure within urban areas but can also be used to model the canopy urban heat island (`Broadbent et al. 2019) <https://gmd.copernicus.org/articles/12/785/2019/>`__ 
+    
+    TARGET should be automativally installed when **UMEP for Processing** is installed. In case if this does not happen, the **target-py** library can be installed with the command:
+    ::
+       pip install target-py 
+
+    as decribed in `Getting started <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html>`__.
 
 * Related Preprocessors, Processors and Postprocessors
    `LandCoverFraction(Grid)`, `MorphometricCalculator(Grid)`, `TARGETPrepare`, `TARGETAnalyser`
