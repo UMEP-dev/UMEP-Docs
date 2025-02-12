@@ -131,7 +131,7 @@ One essential information needed is to know what pixels that are
 occupied with buildings. In order to locate these pixels, there are two
 possible ways:
 
-#. By including a DEM which can be used in conjunction with the ground
+#. By including a DEM (masl) which can be used in conjunction with the ground
    and building DSM to derive building pixels.
 #. By using a land cover grid (see below) where buildings are
    represented.
@@ -455,18 +455,19 @@ People who have contributed to the development of SOLWEIG (plus co-authors of pa
 
 -  Current contributors:
 
-    -  Nils Wallenberg (Göteborg University, Sweden)
+    -  Nils Wallenberg (University of Gothenburg, Sweden)
     -  C.S.B. Grimmond (University of Reading; previously Indiana University, King’s College London, UK),
-    -  Fredrik Lindberg (Göteborg University, Sweden)
-    -  Björn Holmer (Göteborg University, Sweden)
+    -  Fredrik Lindberg (University of Gothenburg, Sweden)
+    -  Björn Holmer (University of Gothenburg, Sweden)
+    -  Jessika Lönn (University of Gothenburg, Sweden)
 
 -  Past Contributors:
 
-    -  Shiho Onomura (Göteborg University, Sweden)
-    -  Sofia Thorsson (Göteborg University, Sweden)
-    -  Ingegärd Eliasson (Göteborg University, Sweden)
-    -  Janina Konarska (Göteborg University, Sweden)
-    -  David Rayner (Göteborg University, Sweden)
+    -  Shiho Onomura (University of Gothenburg)
+    -  Sofia Thorsson (University of Gothenburg)
+    -  Ingegärd Eliasson (University of Gothenburg)
+    -  Janina Konarska (University of Gothenburg)
+    -  David Rayner (University of Gothenburg)
 
 -  Funding to support development:
 
