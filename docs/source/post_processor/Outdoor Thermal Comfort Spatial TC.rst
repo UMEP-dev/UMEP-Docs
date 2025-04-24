@@ -33,10 +33,6 @@ Outdoor Thermal Comfort: Spatial Thermal Comfort
         - A raster grid originating from a SOLWEIG run. Filename should not be changed (*Tmrt_YYYY_DOY_HHMMD.tif*).
       * - Pedestrian wind speed raster
         - A raster grid originating from a URock run.
-      * - Raster to exclude building pixels from analysis
-        - A raster grid originating from a SOLWEIG run. This is created if the tickbox specifying the building grid output is ticked in.
-      * - Input meteorological tile (.txt). Same as used for Tmrt map.
-        - Meterological forcing data used in the SOLWEIG run. This file can also be found in the output folder from a the SOLWEIG run executed via the Processing Toolbox in QGIS.
       * - Thermal Index to map
         - Here, a specific thermal index can be choosen. At the moment, PET is only available. More is coming!
 
@@ -60,4 +56,5 @@ Outdoor Thermal Comfort: Spatial Thermal Comfort
     
 * Remarks
     - The wind speed and direction columns found in the meteorological forcing data does not have to be the same used in URock. These column are used if PET or UTCI is calculated for Point of Interests (POI).
+    - Air temperature and relative humidity is obtaianed from the meteorological forcing file used for Tmrt calculations. Time is derived from Tmrt filename.
     - All rasters used must have the same sixe. This can be accomplished by setting the URock output to be the same size as the SOLWEIG output.
