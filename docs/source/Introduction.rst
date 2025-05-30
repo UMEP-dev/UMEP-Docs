@@ -448,18 +448,18 @@ The tables of studies below is by no means complete. Please help us adding studi
            - `Briegel et al. (2023) <https://www.sciencedirect.com/science/article/pii/S2212095522002772>`__
          * - Phoenix, US
            - `Buo et al. (2023) <https://www.sciencedirect.com/science/article/pii/S2210670723001105>`__
-         * - Beijing, China
-           - `Wallenberg et al. (2023) <https://doi.org/10.1007/s00484-023-02551-y>`__
          * - Gothenburg, Sweden
-           - `Weeding et al. (2023) <https://doi.org/10.1016/j.uclim.2023.101523>`__
+           - `Wallenberg et al. (2023) <https://doi.org/10.1007/s00484-023-02551-y>`__
          * - Hobart, Australia
-           - `Lui et al. (2024) <https://www.sciencedirect.com/science/article/pii/S2212095524000671?via%3Dihub>`__
+           - `Weeding et al. (2023) <https://doi.org/10.1016/j.uclim.2023.101523>`__
          * - Nanjing, China
            - `Jiang et al. (2024) <https://www.sciencedirect.com/science/article/pii/S0378778824008090?via%3Dihub>`__
          * - Major cities, US
            - `Li et al. (2024) <https://iopscience.iop.org/article/10.1088/1748-9326/ad6c64>`__
          * - Philadelphia, US
            - `Li et al. (2024) <https://journals.sagepub.com/doi/10.1177/23998083241274391>`__
+         * - Chengdu, China
+           - `Liu et al. (2024) <https://doi.org/10.1016/j.uclim.2024.101871>`__
          * - Barcelona, Spain
            - `Colaninno et al. (2025) <https://doi.org/10.1016/j.scs.2025.106498>`__
 
