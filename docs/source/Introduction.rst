@@ -449,6 +449,10 @@ The tables of studies below is by no means complete. Please help us adding studi
          * - Phoenix, US
            - `Buo et al. (2023) <https://www.sciencedirect.com/science/article/pii/S2210670723001105>`__
          * - Beijing, China
+           - `Wallenberg et al. (2023) <https://doi.org/10.1007/s00484-023-02551-y>`__
+         * - Gothenburg, Sweden
+           - `Weeding et al. (2023) <https://doi.org/10.1016/j.uclim.2023.101523>`__
+         * - Hobart, Australia
            - `Lui et al. (2024) <https://www.sciencedirect.com/science/article/pii/S2212095524000671?via%3Dihub>`__
          * - Nanjing, China
            - `Jiang et al. (2024) <https://www.sciencedirect.com/science/article/pii/S0378778824008090?via%3Dihub>`__
