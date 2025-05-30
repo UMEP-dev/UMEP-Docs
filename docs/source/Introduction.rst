@@ -456,6 +456,8 @@ The tables of studies below is by no means complete. Please help us adding studi
            - `Li et al. (2024) <https://iopscience.iop.org/article/10.1088/1748-9326/ad6c64>`__
          * - Philadelphia, US
            - `Li et al. (2024) <https://journals.sagepub.com/doi/10.1177/23998083241274391>`__
+         * - Barcelona, Spain
+           - `Colaninno et al. (2025) <https://doi.org/10.1016/j.scs.2025.106498>`__
 
 
 * Pedestrian Wind Speed
