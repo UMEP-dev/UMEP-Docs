@@ -30,7 +30,7 @@ Installing the UMEP-plugin
 
 #. Under the *All*-tab, Search for **UMEP**.
 
-#. Click on **UMEP** and then click **Install Plugin**. We recommend you to click **OK** to the popup question below. That will save you troubles later on. The python libraries that will be installed (if not present on your system) can be found `here (supy) <https://github.com/UMEP-dev/SUEWS/blob/520a26aede76ef68ef5d9c225178b1a636edc4b3/archive/supy-save/setup.py#L449>`__ and `here (umep-reqs) <https://github.com/UMEP-dev/umep-reqs/blob/b4152e0751c5f7a64e850b34f38d200e5b678ea7/umep-reqs/setup.py#L29C5-L29C23>`__.
+#. Click on **UMEP** and then click **Install Plugin**. We recommend you to click **OK** to the popup question below. That will save you troubles later on. The python libraries that will be installed (if not present on your system) can be found `here (supy) <https://github.com/UMEP-dev/SUEWS/blob/428434170bbf759e7e131ab54464b27d8a2948d1/pyproject.toml#L29>`__ and `here (umep-reqs) <https://github.com/UMEP-dev/umep-reqs/blob/b4152e0751c5f7a64e850b34f38d200e5b678ea7/umep-reqs/setup.py#L29C5-L29C23>`__.
 
   .. figure:: /images/Installsupy.jpg
      :alt:  None
