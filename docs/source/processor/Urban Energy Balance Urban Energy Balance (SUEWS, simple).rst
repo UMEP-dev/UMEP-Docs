@@ -17,7 +17,7 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, simple)
          - Gothenburg
 
  * Introduction
-        - SUEWS can be run as a standalone or via UMEP (see `SUEWS Manual <https://suews.readthedocs.io/en/latest/>`__).
+        - SUEWS can be run as a standalone or via UMEP (see `SUEWS Manual <https://suews.readthedocs.io>`__).
         - This plugin makes it possible to run a simplified version of the Surface Urban Energy and Water Balance Scheme (SUEWS). For a full version of the model, the SUEWS/BLUEWS (Advanced) plugin can be used. It is also available as a separate program.
         - SUEWS (Järvi et al. 2011, 2014, Ward et al. 2016a, b) simulates the urban radiation, energy and water balances using commonly measured/modeled meteorological variables and information about the surface cover. It utilizes an evaporation-interception approach (Grimmond et al. 1991), similar to that used in forests, to model evaporation from urban surfaces.
         - The model uses seven surface types: paved, buildings, evergreen trees/shrubs, deciduous trees/shrubs, grass, bare soil and water. The surface state for each surface type at each time step is calculated from the running water balance of the canopy where the evaporation is calculated from the Penman-Monteith equation. The soil moisture below each surface type (excluding water) is taken into account.
@@ -71,7 +71,7 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, simple)
        - To open the plugin from SUEWS Simple and generate the data.
 
 * Initial Conditions
-    The initial conditions are entered here. These relate to time of year, days since rain, soil moisture state and daily mean air temperature at the beginning of a model run. The state of the leaf cycle sets a rough estimate of leaf area index based on season. To adjust this in more detail, the SUEWS, BLUEWS (Advanced) plugin should be used.
+    The initial conditions are entered here. These relate to time of year, days since rain, soil moisture state and daily mean air temperature at the beginning of a model run. The state of the leaf cycle sets a rough estimate of leaf area index based on season. To adjust this in more detail, the SUEWS (Advanced) plugin should be used.
 
 * Meteorological File
     The location and filename (.txt) of the meteorological file should be specified here. The format used in most UMEP-related plugins where meteorological data is required can be generated using the Metdata Processor in UMEP. For details, see the help section in the Metdata Processor or the SUEWS manual (Ward et al. 2016a).
