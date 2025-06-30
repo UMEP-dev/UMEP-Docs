@@ -522,6 +522,8 @@ Version History
 
    * - Version
      - Changes from previous version
+   * - v2025a
+     - Introducing a new wall surface temperature scheme according to Wallenberg et al. (2025) [12]_.
    * - v2022a
      - Introducing anisotropic longwave radiation according to Wallenberg et al. (2023) [11]_.
    * - v2021a
@@ -611,3 +613,6 @@ References
    Wallenberg N, Holmer B, Lindberg F, Rayner D, 2023: An anisotropic 
    parameterization scheme for longwave irradiance and its impact on
    radiant load in urban outdoor settings. Int J Biometeorol.
+
+.. [12]
+   Wallenberg, N., Holmer, B., Lindberg, F., Lönn, J., Maesel, E., and Rayner, D.: A simple step heating approach for wall surface temperature estimation in the SOlar and LongWave Environmental Irradiance Geometry (SOLWEIG) model, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2025-2093, 2025.
