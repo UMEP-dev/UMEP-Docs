@@ -14,6 +14,8 @@ Outdoor Thermal Comfort: SOLWEIG
       * - Nils Wallenberg
         - Gothenburg
 
+.. note:: In menu-based UMEP, v2022a is available. For newer versions (v2025a), use SOLWEIG in **UMEP for Processing** instead.
+
 * Introduction
     -  The **SOLWEIG** plugin can be used to calculate spatial variations of mean radiant temperature (T\ :sub:`mrt`) and radiant fluxes using digital surface models (DSM) and ground cover information. Optionally, vegetation DSMs could also be used. The methodology that is used to generate shadows originates from Ratti and Richens (1990) and is further developed and described in Lindberg and Grimmond (2011), Lindberg et al. (2016), Wallenberg et al. 2020 and Wallenberg et al. 2023.
     -  The full manual of the SOLWEIG model can be found `here <SOLWEIGManual>`.
