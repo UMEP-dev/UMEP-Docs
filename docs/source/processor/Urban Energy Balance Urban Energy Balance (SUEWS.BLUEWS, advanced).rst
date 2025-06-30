@@ -11,6 +11,8 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, advanced)
         - Institution
       * - Fredrik Lindberg
         - Gothenburg
+      * - Oskar Bäcklin
+        - Gothenburg
 
 * Introduction
      - This plugin makes it possible to run the Surface Urban Energy and Water Balance Scheme (SUEWS). SUEWS is also available as a separate program and a simplified version within UMEP (SUEWS Simple).
@@ -40,5 +42,5 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, advanced)
      -  If you encounter memory issues calculating many grids and/or long time periods, you can divide the calculation in chunks as seen in the figure above.
 
 * References:
-      -  A full list of references related to the SUEWS model can be found at SUEWS manual (`<https://suews.readthedocs.io/en/latest/>`__).
+      -  A full list of references related to the SUEWS model can be found at SUEWS manual (`<https://suews.readthedocs.io/>`__).
 
