@@ -58,10 +58,8 @@ We are keen to get input and contributions from others. You can contribute in th
    processor/Processor
    post_processor/Post-Processor
    UMEPforProcessing
-   People_Involved_&_Acknowledgements
    How_to_Contribute
    DevelopmentGuidelines
-   Known_Issues
    FAQ
    Abbreviations
    Tutorials
