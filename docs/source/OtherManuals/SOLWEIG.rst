@@ -3,7 +3,7 @@
 SOLWEIG Manual
 --------------
 
-The current version of SOLWEIG is v2022a (released 10 December 2022).
+The current version of SOLWEIG is v2025a (released 2 May 2025).
 
 NEW in this version: see `Version History`_.
 
@@ -38,7 +38,7 @@ Suggested reading
 
 Read the manual and papers listed below to get a full explanation of the
 model and previous evaluation:
-
+-  Wallenberg, N., Holmer, B., Lindberg, F., Lönn, J., Maesel, E., and Rayner, D. (2025): A simple step heating approach for wall surface temperature estimation in the SOlar and LongWave Environmental Irradiance Geometry (SOLWEIG) model, EGUsphere [preprint] (`link to paper <https://doi.org/10.5194/egusphere-2025-2093>`__)
 -  Wallenberg, N., Holmer, B., Lindberg, F., and Rayner, D. (2023)
    An anisotropic scheme for longwave irradiance and its impact on
    radiant load in urban outdoor settings. International Journal of 
@@ -190,10 +190,10 @@ cover scheme is not used the bulk ground values are 0.15 (albedo) and
 If the ground cover scheme is activated (specific tick box found in the
 plugin-interface), the variables for albedo, emissivity and how surface
 temperature is parameterised for different surfaces is found in
-**landcoverclasses\_v2016a.txt**. For as detailed description of the
+**landcoverclasses\_v2016a.txt** (v2022a). For as detailed description of the
 ground cover scheme, see Lindberg et al. (2016)  [5]_.
 **landcoverclasses\_v2016a.txt** can be found in
-*C:\\Users\\[you_username]\\AppData\\Roaming\\QGIS\\QGIS3\\profiles\\default\\python\\plugins\\UMEP\\SOLWEIG* on a Windows PC. 
+*C:\\Users\\[you_username]\\AppData\\Roaming\\QGIS\\QGIS3\\profiles\\default\\python\\plugins\\UMEP\\SOLWEIG* on a Windows PC. As from v2025a a parameter file is introduced, where all setting can be found. This file is located at same location.
 
 It should be noted that it is only grass and impervious surfaces that
 has been parameterisised and evaluated. Other surfaces such as bare soil
@@ -508,7 +508,7 @@ SOLWEIG is an an open source model that we are keen to get others inputs
 and contributions. There are two main ways to contribute:
 
 #. Submit comments or issues to the
-   `issue tracker <https://urban-meteorology-reading.github.io/>`__
+   `issue tracker <https://github.com/UMEP-dev/UMEP/issues>`__
 #. Participate in Coding or adding new
    features `DevelopmentGuidelines`.
 
