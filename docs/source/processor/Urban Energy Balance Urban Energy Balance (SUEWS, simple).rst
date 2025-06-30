@@ -13,6 +13,8 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, simple)
          - Gothenburg
        * - Sue Grimmond
          - Reading
+       * - Oskar Bäcklin
+         - Gothenburg
 
  * Introduction
         - SUEWS can be run as a standalone or via UMEP (see `SUEWS Manual <https://suews.readthedocs.io/en/latest/>`__).
