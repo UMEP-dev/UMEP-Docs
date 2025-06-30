@@ -31,11 +31,11 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, advanced)
           The dialog for SUEWS Advanced. Click on image for enlargement.
 
 * Dialog sections
-     -  When you run the plugin, you will see the dialog shown above. To use this plugin, all input data needs to be prepared beforehand. This can be done using the various plugins in the pre-processor in UMEP (see `ToolApplications`). The settings available in this plugin is used for specifying the settings for a specific model run. You should consult the manual (`<https://suews.readthedocs.io/en/latest/>`__) for instructions and information on what settings to use. 
+     -  When you run the plugin, you will see the dialog shown above. To use this plugin, all input data needs to be prepared beforehand. This can be done using the various plugins in the pre-processor in UMEP (see `ToolApplications`). The settings available in this plugin is used for specifying the settings for a specific model run. You should consult the manual (`<https://suews.readthedocs.io>`__) for instructions and information on what settings to use. 
      
-     -  For extensive models run it is recommended to execute the model outside of QGIS (see `manual <https://suews.readthedocs.io/en/latest/>`__). 
+     -  For extensive models run it is recommended to execute the model outside of QGIS (see `manual <https://suews.readthedocs.io>`__). 
      
-     -  The interface above creates a so-called namelist (**RunControl.nml**) that is used be the model for general settings. After running the model, this file can be found in the suewsmodel directory in the UMEP plugin directory as well as in the input folder specified.
+     -  The interface above creates a yaml-file (**.yml**) that is used by the model for general settings. After running the model, this file can be found in the suewsmodel directory in the UMEP plugin directory as well as in the input folder specified.
      
      -  It is always recommended to make use of a spin-up period to adjust e.g. water availbility in the model. This can be done by e.g. start your model before (months-years) the time period of interest.
      
