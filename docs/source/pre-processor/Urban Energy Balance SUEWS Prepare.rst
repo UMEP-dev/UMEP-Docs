@@ -19,6 +19,8 @@ Urban Energy Balance: SUEWS Prepare
        * - Sue Grimmond
          - Reading
 
+.. note:: This tool will soon be deprecated. Use `SUEWS Database Manager and <SUEWSDatabase>` and `SUEWS Database Prepare <SUEWSDatabasePrepare>` instead.
+
 * Introduction:
     The pre-processor SUEWS Prepare generates surface-related input data from geographical data for `SUEWS <SUEWSAdvanced>`, the Surface Urban Energy and Water Balance Scheme. SUEWS (Järvi et al. 2011, 2014; Ward et al. 2016a, b) simulates the urban radiation, energy and water balances using commonly measured/modelled meteorological variables and information about the surface cover. It utilizes an evaporation-interception approach (Grimmond et al. 1991), similar to that used in forests, to model evaporation from urban surfaces. The surface state for each surface type at each time step is calculated from the running water balance of the canopy where the evaporation is calculated from the Penman-Monteith equation. The soil moisture below each surface type (excluding water) is also taken into account.
     
