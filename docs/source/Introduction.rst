@@ -404,6 +404,8 @@ The tables of studies below is by no means complete. Please help us adding studi
            - `Gal and Kantor (2020) <https://www.sciencedirect.com/science/article/pii/S2212095519301804?via%3Dihub>`__
          * - Phoenix, US
            - `Buo et al. (2023) <https://www.sciencedirect.com/science/article/pii/S2210670723001105>`__
+         * - Guangzhou, China
+           - `Zhao et al. (2022) <https://www.sciencedirect.com/science/article/pii/S0360132322005947?via%3Dihub>`__
 
 
       - References: Application
