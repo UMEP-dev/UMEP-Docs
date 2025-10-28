@@ -3,7 +3,7 @@
 Urban Heat Island: TARGET Prepare
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note:: This plugin is still experimental. Please report any issues to our `code repository <https://github.com/UMEP-dev/UMEP>`__.
+.. note:: Please report any issues to our `code repository <https://github.com/UMEP-dev/UMEP>`__.
 
 
 * Contributor:
