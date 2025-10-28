@@ -3,7 +3,7 @@
 Urban Energy Balance: SUEWS Database Manager
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note:: **UPCOMING PLUGIN**: This plugin is still experimental or non-existing. Please report any issues to our `code repository <https://github.com/UMEP-dev/UMEP>`__.
+.. note:: **NEW PLUGIN**: This plugin is still experimental. Please report any issues to our `code repository <https://github.com/UMEP-dev/UMEP>`__.
 
 * Contributor:
     .. list-table::
