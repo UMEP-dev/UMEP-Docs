@@ -105,4 +105,4 @@ Urban Energy Balance: Urban Energy Balance (SUEWS, simple)
     Button closes the plugin.
 
 * References
-      -  A full list of references related to the SUEWS model can be found at SUEWS manual (`<https://suews.readthedocs.io/en/latest/>`__).
+      -  A full list of references related to the SUEWS model can be found at SUEWS manual (`<https://suews.readthedocs.io/stable/related_publications.html>`__).
