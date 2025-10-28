@@ -507,7 +507,7 @@ The tables of studies below is by no means complete. Please help us adding studi
 
 
 * Urban Energy and Water Balance (`SUEWS <SUEWSSimple>`)
-            Publications related to SUEWS is found `here <https://suews.readthedocs.io/en/latest/related_publications.html>`__.
+            Publications related to SUEWS is found `here <https://suews.readthedocs.io/stable/related_publications.html>`__.
 
 
 * Solar Energy on Building Envelopes (SEBE)
