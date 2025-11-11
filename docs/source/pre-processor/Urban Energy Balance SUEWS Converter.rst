@@ -17,7 +17,7 @@ Urban Energy Balance: SUEWS Converter
 
 
 * Introduction:
-     The SUEWS Converter is a tool that can convert input data for SUEWS based on previous versions and vise versa.
+     The SUEWS Converter is a tool that can convert input data for SUEWS based on previous versions to the newest available version.
 
 
 * Dialog box
@@ -27,20 +27,14 @@ Urban Energy Balance: SUEWS Converter
         Dialog for the SUEWS Converter plugin
 
 
-* Old Version:
-    The version of the data to be converted.
-
-* New Version:
-    The version the data should be cenverted to. 
-
 * Load RunControl:
     Location of RunControl.nml of the old dataset.
 
-* Output folder:
-    Location where the converter data should be stored. 
+* Output .yml-file:
+    Location where the yml-file with the new input format for SUEWS should be stored. 
 
 * Run:
-    Starts the calculations.
+    Starts the convertion.
 
 * Close:
     Closes the plugin.
