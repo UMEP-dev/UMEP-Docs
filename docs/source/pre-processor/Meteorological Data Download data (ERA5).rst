@@ -50,7 +50,7 @@ Meteorological Data: Download data (ERA5)
 
 * Configuring your computer to enable download：
       - You might need to install/update the SuPy library. Follow the instruction at `link <Python_Libraries>` (**pip install supy --upgrade**).
-	  - If your computer is not configured for downloading data from the Climate Data Store, follow the instructions `here <https://cds.climate.copernicus.eu/how-to-api>`__. You only need to consider the section **Install the CDS API key**.
+	  - If your computer is not configured for downloading data from the Climate Data Store, follow the instructions `here <https://cds.climate.copernicus.eu/how-to-api>`__.
 
 * Obtaining ERA5 data via UMEP：
       .. figure::  /images/CopernicusDownloaderProcessing.jpg
@@ -69,6 +69,6 @@ Meteorological Data: Download data (ERA5)
           
 * Considerations：
       -  **Spatial resolution**: The ERA5 data are provided for half-degree grid boxes. In regions with substantial heterogeneity within these grid boxes data at the grid-box scale may be not be representative of your study site (e.g. mountainous regions, urban areas).
-      -  **Downloading long time series**: The cdsapi can sometime be very busy and slow. The we recommend you to use `www.shinyweatherdata.com <https://www.shinyweatherdata.com>`__  where the same data can be downloaded at much faster speed.
+      -  Remember to adjust the diagnistic height depending on application. For thermal comfort modelling (SOLWEIG), set a height close to ground level (e.g. 2m) and for urban energy balance modelling (SUEWS), set it to 3 times the height of the roughness elements (e.g. buildings and vegetataion).
 
 
