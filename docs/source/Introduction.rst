@@ -523,6 +523,8 @@ The tables of studies below is by no means complete. Please help us adding studi
                  - `Lindberg et al. (2015) <http://www.sciencedirect.com/science/article/pii/S0038092X15001164>`__
                * - Vienna, Austria
                  - `Revez et al. (2020) <https://www.sciencedirect.com/science/article/pii/S0038092X20300827>`__
+               * - São Paulo, Brazil and Raalte, the Netherlands
+                 - `León‐Sánchez et al. (2025) <https://onlinelibrary.wiley.com/doi/10.1111/tgis.13296>`__
 
             - References: Application
 
