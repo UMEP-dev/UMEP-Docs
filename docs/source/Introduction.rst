@@ -374,6 +374,10 @@ The tables of studies below is by no means complete. Please help us adding studi
            - `Li et al. (2021) <https://link.springer.com/article/10.1007/s00704-021-03692-z>`__
          * - Anisotrophic longwave radiation scheme
            - `Wallenberg et al. (2023) <https://link.springer.com/article/10.1007/s00484-023-02441-3>`__
+         * - GPU parallel computing
+           - `Kamath et al. (2026) <https://joss.theoj.org/papers/10.21105/joss.09535#>`__
+         * - Wall surface temperature scheme
+           - `Wallenberg et al. (2026) <hhttps://gmd.copernicus.org/articles/19/1321/2026/>`__
 
 
       - References: Evaluation
@@ -406,6 +410,8 @@ The tables of studies below is by no means complete. Please help us adding studi
            - `Buo et al. (2023) <https://www.sciencedirect.com/science/article/pii/S2210670723001105>`__
          * - Salt Lake City, US
            - `Zhong et al. (2026) <https://www.sciencedirect.com/science/article/pii/S0360132325012892?via%3Dihub>`__
+         * - Gothenburg, Sweden
+           - `Wallenberg et al. (2026) <hhttps://gmd.copernicus.org/articles/19/1321/2026/>`__
 
 
 
