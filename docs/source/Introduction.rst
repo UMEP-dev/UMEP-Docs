@@ -377,7 +377,7 @@ The tables of studies below is by no means complete. Please help us adding studi
          * - GPU parallel computing
            - `Kamath et al. (2026) <https://joss.theoj.org/papers/10.21105/joss.09535#>`__
          * - Wall surface temperature scheme
-           - `Wallenberg et al. (2026) <hhttps://gmd.copernicus.org/articles/19/1321/2026/>`__
+           - `Wallenberg et al. (2026) <https://gmd.copernicus.org/articles/19/1321/2026/>`__
 
 
       - References: Evaluation
@@ -411,7 +411,7 @@ The tables of studies below is by no means complete. Please help us adding studi
          * - Salt Lake City, US
            - `Zhong et al. (2026) <https://www.sciencedirect.com/science/article/pii/S0360132325012892?via%3Dihub>`__
          * - Gothenburg, Sweden
-           - `Wallenberg et al. (2026) <hhttps://gmd.copernicus.org/articles/19/1321/2026/>`__
+           - `Wallenberg et al. (2026) <https://gmd.copernicus.org/articles/19/1321/2026/>`__
 
 
 
