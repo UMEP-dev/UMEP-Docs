@@ -23,6 +23,7 @@ releases*:
    version you need to manually install yourself (`see details <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html#installing-development-release-could-be-unstable>`__).
 
 As of Spring 2020, most tools have been moved to **UMEP for processing**. This makes it easier to incorporate into prcesses within the QGIS eco-system. Find more info `here <UMEPforProcessing>`. 
+As of Spring 2026, versions of both **UMEP** and **UMEP for processing** compatible with QGIS4 is available as development release.
 
 The UMEP plugin consist of three
 parts; a pre-processor, a processor and a post-processor. The
