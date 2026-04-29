@@ -16,7 +16,7 @@ Visit `www.qgis.org <http://www.qgis.org>`__ for installation on other operating
 Recommended output files format in QGIS
 -------------------------------------------
 
-UMEP deals with raster and vector files but some file formats may not work. We strongly recommend using the following default formats: *.tif* for raster files and *.shp* for vector files.  To set these values, Go to *Settings -> Options*. A window is opening, then you can set the default formats going to *IDE -> Processing* in the General section.
+UMEP deals with raster and vector files but some file formats may not work. We strongly recommend using the following default formats: *.tif* for raster files and *.shp* or *.gpkg* for vector files. To set these values, Go to *Settings -> Options*. A window is opening, then you can set the default formats going to *IDE -> Processing* in the General section.
 
   .. figure:: /images/RecommendedFileFormat.jpg
      :alt:  None
