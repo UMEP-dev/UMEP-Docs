@@ -8,7 +8,7 @@ Recommended Installation of QGIS on Windows
 -------------------------------------------
 
 #. Visit `QGIS <http://www.qgis.org>`__ and go to the download page. Preferably, choose the **Online (OSGeo4W) installer**.
-#. **To install the latest version (3.x)**, start the installation and choose *Express Desktop Install*.
+#. **To install the latest version (4.x)**, start the installation and choose *Express Desktop Install*. Choose LTR for version 3.x (available until autumn 2026).
 
 Visit `www.qgis.org <http://www.qgis.org>`__ for installation on other operating systems.
 
@@ -30,7 +30,7 @@ Installing the UMEP-plugin
 
 #. Under the *All*-tab, Search for **UMEP**.
 
-#. Click on **UMEP** and then click **Install Plugin**. We recommend you to click **OK** to the popup question below. That will save you troubles later on. The python libraries that will be installed (if not present on your system) can be found `here (supy) <https://github.com/UMEP-dev/SUEWS/blob/428434170bbf759e7e131ab54464b27d8a2948d1/pyproject.toml#L29>`__ and `here (umep-reqs) <https://github.com/UMEP-dev/umep-reqs/blob/b4152e0751c5f7a64e850b34f38d200e5b678ea7/umep-reqs/setup.py#L29C5-L29C23>`__.
+#. Click on **UMEP** and then click **Install Plugin**. We recommend you to click **OK** to the popup question below. That will save you troubles later on. The python libraries that will be installed (if not present on your system) can be found `here (supy) <https://github.com/UMEP-dev/SUEWS/blob/428434170bbf759e7e131ab54464b27d8a2948d1/pyproject.toml#L24>`__ and `here (umep-reqs) <https://github.com/UMEP-dev/umep-reqs/blob/main/pyproject.toml>`__.
 
   .. figure:: /images/Installsupy.jpg
      :alt:  None
@@ -38,7 +38,7 @@ Installing the UMEP-plugin
 
      When installing UMEP, related Python packages can be installed by clicking **OK**. Packages can also be installed later (see below).
 
-As from Spring 2020 parts of UMEP is also available as a `processing plugin <UMEPforProcessing>`. Install the same way but search for **UMEP for processing**. Some tools in **UMEP for processing** requires *Java*. If Java is not installed on your system (which will prompt an error message when installing the plugin), download the `Java Oracle version <https://www.oracle.com/java/technologies/downloads/>`__ or the `Java JDK version <https://jdk.java.net/>`__ and install the latest version (>= 11). Make sure to install correct version based on your system architecture (32- or 64-bit).
+As from Spring 2020 parts of UMEP is also available as a `processing plugin <UMEPforProcessing>`. Install the same way but search for **UMEP for processing**. Some tools in **UMEP for processing** requires *Java*. If Java is not installed on your system (which will prompt an error message when installing the plugin), download the `Java Oracle version <https://www.oracle.com/java/technologies/downloads/>`__ or the `Java JDK version <https://jdk.java.net/>`__ and install the latest version (>= 11).
 
 Test `datasets <https://urban-meteorology-reading.github.io/>`__ and `tutorials <https://umep-docs.readthedocs.io/projects/tutorial/en/latest/index.html>`__ are available to try some of the tools out. Since QGIS is a multi-platform software system it works on other platforms as well. UMEP is constanlty under development so there may be missing documentation and instability. Please report any issues to the `issue tracker <https://github.com/UMEP-dev/UMEP/issues>`__. Also, have a look in `FAQ <FAQ>` for further installation tips and issues.
 
@@ -112,7 +112,7 @@ repository.
 Installing development release (could be unstable)
 --------------------------------------------------
 #. Download the code as a zip file:
-  * UMEP: from the `repository <https://github.com/UMEP-dev/UMEP>`__, click on the green button Code -> Download ZIP. Note that the main branch at the moment is **SuPy-QGIS3**.
+  * UMEP: from the `repository <https://github.com/UMEP-dev/UMEP>`__, click on the green button Code -> Download ZIP. Note that the main branch since april 2026 is **master**.
   * UMEP-Processing (processing toolbox): from the `repository <https://github.com/UMEP-dev/UMEP-processing>`__, click on the green button Code -> Download ZIP. Note that the main branch at the moment is **main**.
 #. If you have an installed version of UMEP in your QGIS, uninstall it by going to “Plugins -> Manage and Install Plugins -> Installed -> UMEP” and click **Uninstall plugin**.
 #. Go to “Plugins -> Manage and Install Plugins -> Install from zip”.
