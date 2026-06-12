@@ -3,8 +3,10 @@
 SOLWEIG Manual
 --------------
 
-The current stable version of SOLWEIG is v2025a (released 2 May 2025). This can be accessed via the **UMEP for Processing** plugin in QGIS. A development version (2026a) including a
-new ground surface temperature scheme is available as a development release. See `here <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html#installing-development-release-could-be-unstable>`__ how to download.
+The current stable version of SOLWEIG is v2025a (released 2 May 2025). This can be accessed via the **UMEP for Processing** plugin in QGIS. 
+
+A development version (2026a) including a new ground surface temperature scheme is available as a development release. 
+See `here <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html#installing-development-release-could-be-unstable>`__ how to download.
 
 NEW in this version: see `Version History`_.
 
