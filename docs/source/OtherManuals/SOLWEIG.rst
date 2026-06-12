@@ -3,13 +3,10 @@
 SOLWEIG Manual
 --------------
 
-The current version of SOLWEIG is v2025a (released 2 May 2025).
+The current stable version of SOLWEIG is v2025a (released 2 May 2025). This can be accessed via the **UMEP for Processing** plugin in QGIS. A development version (2026a) including a
+new ground surface temperature scheme is available as a development release. See `here <https://umep-docs.readthedocs.io/en/latest/Getting_Started.html#installing-development-release-could-be-unstable>`__ how to download.
 
 NEW in this version: see `Version History`_.
-
-The manual for SOLWEIG should be referenced as follows:
-
-*F Lindberg, CSB Grimmond 2019. SOLWEIG_v2019a Department of Earth Sciences, University of Gothenburg, Sweden, University of Reading, UK.*
 
 Introduction
 ~~~~~~~~~~~~
@@ -24,7 +21,7 @@ The model requires a limited number of inputs, such as direct, diffuse
 and global shortwave radiation, air temperature, relative humidity,
 urban geometry and geographical information (latitude, longitude and
 elevation). Additional vegetation and ground cover information can also
-be used to imporove the estimation of T\ :sub:`mrt`. Below is a
+be used to imporove the estimation of T\ :sub:`mrt`. Below is a simplified
 flowchart of the model.
 
 .. figure:: /images/SOLWEIG_flowchart.png
@@ -38,7 +35,10 @@ Suggested reading
 
 Read the manual and papers listed below to get a full explanation of the
 model and previous evaluation:
--  Wallenberg, N., Holmer, B., Lindberg, F., Lönn, J., Maesel, E., and Rayner, D. (2025): A simple step heating approach for wall surface temperature estimation in the SOlar and LongWave Environmental Irradiance Geometry (SOLWEIG) model, EGUsphere [preprint] (`link to paper <https://doi.org/10.5194/egusphere-2025-2093>`__)
+
+-  Wallenberg, N., Holmer, B., Lindberg, F., Lönn, J., Maesel, E., and Rayner, D. (2025): 
+   A simple step heating approach for wall surface temperature estimation in the SOlar and 
+   LongWave Environmental Irradiance Geometry (SOLWEIG) model, EGUsphere [preprint] (`link to paper <https://doi.org/10.5194/egusphere-2025-2093>`__)
 -  Wallenberg, N., Holmer, B., Lindberg, F., and Rayner, D. (2023)
    An anisotropic scheme for longwave irradiance and its impact on
    radiant load in urban outdoor settings. International Journal of 
@@ -74,11 +74,11 @@ model and previous evaluation:
 Install the model
 ^^^^^^^^^^^^^^^^^
 
-As SOLWEIG is included in UMEP (as from version 0.2.1) follow the
+As SOLWEIG is included in **UMEP** and **UMEP for Processing**, follow the
 `Getting_Started`
 on how to install QGIS and UMEP. When installed successfully, SOLWEIG is
 found under *UMEP -> Processor -> Outdoor Thermal Comfort -> Mean
-Radiant Temperature (SOLWEIG)*. SOLWEIG is also available as a processing tool.
+Radiant Temperature (SOLWEIG)*. SOLWEIG is also available as a Processing toolbox. Here you can find the most recent version.
 
 Input data
 ~~~~~~~~~~
@@ -97,8 +97,8 @@ is that all surface models are of the same extent and pixel resolution.
 Ground and building DSM
 #######################
 
-As the name suggest this DSM consist of both ground and building heights
-(masl).
+As the name suggest this Digital Surface Model (DSM) consist of both ground and building heights
+in meter above sea level (masl).
 
 Vegetation DSMs
 ###############
@@ -107,7 +107,7 @@ Vegetation DSMs
 (CDSM) which represents the top of the vegetation and second, a trunk
 zone DSM (TDSM) that describes the bottom of the vegetation (see
 schematic figure). Pixel without any 3D vegetation has the value of zero
-and vegetation pixels are given in magl. For a detailed description, see
+and vegetation pixels are given in meter above ground level (magl). For a detailed description, see
 Lindberg and Grimmond (2011)  [2]_.
 
 .. figure:: /images/Vegdems.png
@@ -131,7 +131,7 @@ One essential information needed is to know what pixels that are
 occupied with buildings. In order to locate these pixels, there are two
 possible ways:
 
-#. By including a DEM (masl) which can be used in conjunction with the ground
+#. By including a Digital Elevation Model (DEM) (masl) representing only ground elevation which can be used in conjunction with the ground
    and building DSM to derive building pixels.
 #. By using a land cover grid (see below) where buildings are
    represented.
@@ -193,7 +193,7 @@ temperature is parameterised for different surfaces is found in
 **landcoverclasses\_v2016a.txt** (v2022a). For as detailed description of the
 ground cover scheme, see Lindberg et al. (2016)  [5]_.
 **landcoverclasses\_v2016a.txt** can be found in
-*C:\\Users\\[you_username]\\AppData\\Roaming\\QGIS\\QGIS3\\profiles\\default\\python\\plugins\\UMEP\\SOLWEIG* on a Windows PC. As from v2025a a parameter file is introduced, where all setting can be found. This file is located at same location.
+*C:\\Users\\[you_username]\\AppData\\Roaming\\QGIS\\QGIS3\\profiles\\default\\python\\plugins\\UMEP\\SOLWEIG* on a Windows PC. As from v2025a a parameter file is introduced, where all setting can be found. This file is located at same location. 
 
 It should be noted that it is only grass and impervious surfaces that
 has been parameterisised and evaluated. Other surfaces such as bare soil
@@ -223,6 +223,8 @@ There is a possibility to include upto 20 ground cover classes in **landcovercla
      - Start temperature at sunrise (m in linerar eq.)
    * - TmaxLST
      - Time during the day when maximum Ts is reached
+
+As from v2026a, a new ground cover scheme will be introduced using a Force/Restore method to derive ground surface temperature. This method is more physically based than the previous method and will also include estimation to Ts during night which was not the case for the earlier scheme. This method use more common parameters such as heat capacity and conduction to derive Tsurface. A manuscript is under production.
 
 Human exposure parameters
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -397,6 +399,10 @@ The following section provides information on how to run the model and
 what consideration that should be taken into account in order for the
 model to perform at its best.
 
+GPU acceleration
+~~~~~~~~~~~~~~~~
+As from version 2026a, BLABLA.
+
 Run the model for example data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -426,7 +432,7 @@ Sweden or London, UK. Here, you will use the Göteborg data.
    :width: 100%
    :alt:  none|Dialog for the SOLWEIG model
 
-   Dialog for the SOLWEIG model
+   Dialog for the SOLWEIG model (version 2022a found in the menu-based UMEP plugin).
 
 Tips and Tricks
 ~~~~~~~~~~~~~~~
@@ -522,6 +528,8 @@ Version History
 
    * - Version
      - Changes from previous version
+   * - v2026a (Under development)
+     - Introducing a surface temperature scheme appying a force/restore method.
    * - v2025a
      - Introducing a new wall surface temperature scheme according to Wallenberg et al. (2025) [12]_.
    * - v2022a
