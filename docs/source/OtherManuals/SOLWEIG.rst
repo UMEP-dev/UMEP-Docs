@@ -533,7 +533,7 @@ Version History
    * - v2026a (Under development)
      - Introducing a surface temperature scheme appying a force/restore method.
    * - v2025a
-     - Introducing a new wall surface temperature scheme according to Wallenberg et al. (2025) [12]_.
+     - Introducing a new wall surface temperature scheme according to Wallenberg et al. (2025) [12]_. Also, compatible with QGIS 4.
    * - v2022a
      - Introducing anisotropic longwave radiation according to Wallenberg et al. (2023) [11]_.
    * - v2021a
