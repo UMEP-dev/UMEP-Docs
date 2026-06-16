@@ -412,13 +412,15 @@ The software takes care of all memory management behind the scenes. As soon as t
 
 Troubleshooting
 ^^^^^^^^^^^^^^^
-If your processing task stops because of an out-of-memory error, you can fix this by shrinking your input dataset or disabling the graphics acceleration entirely. Graphics cards generally have less memory capacity than standard system RAM, meaning massive datasets can easily exceed the hardware limits. If you have to process a very large region, dividing the area into several smaller tiles is a highly effective solution. Also, some times on the QGIS version the VRAM is not cleared properly so try to restar QGIS to free it.
+If your processing task stops because of an out-of-memory error, you can fix this by shrinking your input dataset or disabling the graphics acceleration entirely. Graphics cards generally have less memory capacity than standard system RAM, meaning massive datasets can easily exceed the hardware limits. If you have to process a very large region, dividing the area into several smaller tiles is a highly effective solution. 
+
+Also, some times on the QGIS version the VRAM is not cleared properly after use, so try to restart QGIS to free it.
 
 If the GPU selection is visible but causes an error when you try to run it, you should double-check your PyTorch installation. If you have just updated your operating system or installed a new graphics driver, a fresh reinstallation of PyTorch usually fixes the problem.
 
 If the simulation feels slower with the GPU turned on compared to the CPU, this is typical behavior for small datasets where the setup overhead is larger than the computation time. We recommend turning the GPU off for minor tasks and turning it on only for large-scale simulations.
 
-To keep your system running smoothly, make sure your graphics drivers stay updated. You can find the latest downloads on the official NVIDIA website, or use the Intel Driver and Support Assistant if your system relies on Intel graphics hardware.
+To keep your system running smoothly, make sure your graphics drivers stay updated via your manufacturer's website. 
 
 Backward Compatibility
 ^^^^^^^^^^^^^^^^^^^^^^
