@@ -396,7 +396,7 @@ specifiedː
 
 GPU acceleration
 ~~~~~~~~~~~~~~~~
-SOLWEIG supports GPU acceleration to speed up calculations. Using a graphics card to speed up SOLWEIG solar radiation calculations works best under specific conditions. For smaller datasets, the extra time required to transfer your data over to the GPU can be larger than the actual calculation time. This means you will mostly see a clear benefit when you process geographic areas that span more than a few square kilometers, or when you use high-resolution input data. Small datasets might show no performance gain at all. Your choice of hardware also plays a major role, since newer and more powerful graphics cards provide much better speedups than older models.
+SOLWEIG supports GPU acceleration to speed up calculations. Using a graphics card to speed up SOLWEIG solar radiation calculations works best under specific conditions. For smaller datasets, the extra time required to transfer your data over to the GPU can be larger than the actual calculation time. This means you will mostly see a clear benefit when you process geographic areas that span more than a few square kilometers, or when you use high-resolution input data. Small datasets might show no performance gain at all. Your choice of hardware also plays a major role, since newer and more powerful graphics cards provide much better speedup than older models.
 
 Supported Hardware
 ^^^^^^^^^^^^^^^^^^
@@ -404,7 +404,7 @@ The system supports hardware acceleration across a variety of graphics processin
 
 Requirements
 ^^^^^^^^^^^^
-Using the GPU acceleration functionality requires a compatible graphics card and a functional PyTorch installation. Additionally, your graphics drivers must be up to date to ensure the system communicates correctly with your hardware and runs calculations efficiently.
+Using the GPU acceleration functionality requires a compatible graphics card and a functional **PyTorch** installation. Additionally, your graphics drivers must be up to date to ensure the system communicates correctly with your hardware and runs calculations efficiently. To install, use **pip install torch** OR directly from the OSgeo4W setup. 
 
 Memory Management
 ^^^^^^^^^^^^^^^^^
