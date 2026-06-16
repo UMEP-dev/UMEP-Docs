@@ -393,6 +393,36 @@ specifiedː
    * - 35
      - UTCI
      - Universal Thermal Comfort Index
+
+GPU acceleration
+~~~~~~~~~~~~~~~~
+SOLWEIG supports GPU acceleration to speed up calculations. Using a graphics card to speed up SOLWEIG solar radiation calculations works best under specific conditions. For smaller datasets, the extra time required to transfer your data over to the GPU can be larger than the actual calculation time. This means you will mostly see a clear benefit when you process geographic areas that span more than a few square kilometers, or when you use high-resolution input data. Small datasets might show no performance gain at all. Your choice of hardware also plays a major role, since newer and more powerful graphics cards provide much better speedups than older models.
+
+Supported Hardware
+^^^^^^^^^^^^^^^^^^
+The system supports hardware acceleration across a variety of graphics processing units. This includes dedicated NVIDIA graphics cards as well as Intel graphics systems. If you're using an AMD GPU, you must setup AMD ROCM on your machine for your GPU to be utilized. Sweeping performance gains are highly dependent on your specific model, where modern and advanced GPUs deliver the highest efficiency.
+
+Requirements
+^^^^^^^^^^^^
+Using the GPU acceleration functionality requires a compatible graphics card and a functional PyTorch installation. Additionally, your graphics drivers must be up to date to ensure the system communicates correctly with your hardware and runs calculations efficiently.
+
+Memory Management
+^^^^^^^^^^^^^^^^^
+The software takes care of all memory management behind the scenes. As soon as the GPU-accelerated solar radiation calculations are complete, the system automatically wipes the graphics memory. This ensures your hardware is immediately ready for other applications, and it requires no manual effort from you.
+
+Troubleshooting
+^^^^^^^^^^^^^^^
+If your processing task stops because of an out-of-memory error, you can fix this by shrinking your input dataset or disabling the graphics acceleration entirely. Graphics cards generally have less memory capacity than standard system RAM, meaning massive datasets can easily exceed the hardware limits. If you have to process a very large region, dividing the area into several smaller tiles is a highly effective solution. Also, some times on the QGIS version the VRAM is not cleared properly so try to restar QGIS to free it.
+
+If the GPU selection is visible but causes an error when you try to run it, you should double-check your PyTorch installation. If you have just updated your operating system or installed a new graphics driver, a fresh reinstallation of PyTorch usually fixes the problem.
+
+If the simulation feels slower with the GPU turned on compared to the CPU, this is typical behavior for small datasets where the setup overhead is larger than the computation time. We recommend turning the GPU off for minor tasks and turning it on only for large-scale simulations.
+
+To keep your system running smoothly, make sure your graphics drivers stay updated. You can find the latest downloads on the official NVIDIA website, or use the Intel Driver and Support Assistant if your system relies on Intel graphics hardware.
+
+Backward Compatibility
+^^^^^^^^^^^^^^^^^^^^^^
+The addition of GPU support does not affect older workflows because the system is designed with full backward compatibility. You are never forced to use the graphics card features. If you do not have PyTorch installed, or if your computer lacks the right hardware, the algorithms will seamlessly fall back to CPU computation. All of your older projects and saved scripts will run perfectly without requiring any modifications.
      
 How to run the model
 ~~~~~~~~~~~~~~~~~~~~
@@ -401,9 +431,6 @@ The following section provides information on how to run the model and
 what consideration that should be taken into account in order for the
 model to perform at its best.
 
-GPU acceleration
-~~~~~~~~~~~~~~~~
-As from version 2026a, BLABLA.
 
 Run the model for example data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
