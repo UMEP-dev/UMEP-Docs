@@ -425,7 +425,8 @@ To keep your system running smoothly, make sure your graphics drivers stay updat
 Backward Compatibility
 ^^^^^^^^^^^^^^^^^^^^^^
 The addition of GPU support does not affect older workflows because the system is designed with full backward compatibility. You are never forced to use the graphics card features. If you do not have PyTorch installed, or if your computer lacks the right hardware, the algorithms will seamlessly fall back to CPU computation. All of your older projects and saved scripts will run perfectly without requiring any modifications.
-     
+
+
 How to run the model
 ~~~~~~~~~~~~~~~~~~~~
 
