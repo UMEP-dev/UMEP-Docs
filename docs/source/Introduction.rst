@@ -64,7 +64,7 @@ License
 YouTube channel
 ---------------
 
-*Outdated but still relevant as general concepts are the same*
+*Outdated but still relevant as general concepts are the same.*
 
 For a detailed description including how to install QGIS and UMEP for Windows, watch instruction video 1 and 2 on our `YouTube-channel <https://www.youtube.com/channel/UCTPkXncD3ghb5ZTdZe_u7gA>`__ where you also can find other instructional videos related to UMEP and QGIS.
 
@@ -209,7 +209,7 @@ Processor
    * - `SUEWS (Simple) <SUEWSSimple>`
      - Urban Energy and Water Balance. *Disaster Risk Management: Drought, Heat; Environment evaluation for construction, Water Management, Green infrastructure* (M)
    * - `SUEWS (Advanced) <SUEWSadvanced>`
-     - Urban Energy and Water Balance. *Disaster Risk Management: Drought, Heat; Environment evaluation for construction, Water Management, Green infrastructure* (PM)
+     - Urban Energy and Water Balance. *Disaster Risk Management: Drought, Heat; Environment evaluation for construction, Water Management, Green infrastructure* (P)
 
  
 **Solar Radiation**
@@ -345,7 +345,15 @@ other.
    Workflow and geodata used for analysing solar irradiance on building
    envelopes using the SEBE model. Bold outlines are mandatory
    items. Yellow, orange and red indicates pre-processor, processor and
-   post-processor tools, respectively. Grey boxes indicate geodatasets.   
+   post-processor tools, respectively. Grey boxes indicate geodatasets. 
+
+.. figure:: /images/flowchart_SpatialTC.jpg
+   :alt:   None
+   :width: 100%
+
+   Workflow and geodata used for analysing spatial variations of 
+   Thermal comfort indicies. Yellow, orange and red indicates pre-processor, processor and
+   post-processor tools, respectively. Grey boxes indicate geodatasets. 
 
 Evaluation and application studies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -472,6 +480,8 @@ The tables of studies below is by no means complete. Please help us adding studi
            - `Liu et al. (2024) <https://doi.org/10.1016/j.uclim.2024.101871>`__
          * - Barcelona, Spain
            - `Colaninno et al. (2025) <https://doi.org/10.1016/j.scs.2025.106498>`__
+         * - Ghent, Belgium
+           - `Daelman et al. (2026) <https://www.sciencedirect.com/science/article/pii/S2212095526002312?via%3Dihub>`__
 
 
 * Pedestrian Wind Speed
