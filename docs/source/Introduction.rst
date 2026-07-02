@@ -64,7 +64,9 @@ License
 YouTube channel
 ---------------
 
-For a detailed description including how to install QGIS and UMEP for Windows, watch instruction video 1 and 2 on our `YouTube-channel <https://www.youtube.com/channel/UCTPkXncD3ghb5ZTdZe_u7gA>`__ where you also can find other instructional vidoes related to UMEP and QGIS.
+*Outdated but still relevant as general concepts are the same*
+
+For a detailed description including how to install QGIS and UMEP for Windows, watch instruction video 1 and 2 on our `YouTube-channel <https://www.youtube.com/channel/UCTPkXncD3ghb5ZTdZe_u7gA>`__ where you also can find other instructional videos related to UMEP and QGIS.
 
 .. _PluginArchitecture:
 
@@ -150,7 +152,7 @@ Pre-Processor
    * - `SUEWS Database Manager <SUEWSDatabase>`
      - A plugin to easier introduce new, and investigate old parameters for the SUEWS model using an urban typology database (M)
    * - `SUEWS Database Manager <SUEWSDatabase>`
-     - Preprocessing and preparing input data for the SUEWS model using an urban typology database (M)
+     - Preprocessing and preparing input data for the SUEWS model using an urban typology database (P)
    * - `SUEWS Prepare <SUEWSPrepare>`
      - Preprocessing and preparing input data for the SUEWS model (M)
    * - `SUEWS Converter <SUEWSConverter>`
