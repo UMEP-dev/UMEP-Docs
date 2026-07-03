@@ -485,7 +485,6 @@ The tables of studies below is by no means complete. Please help us adding studi
          * - Vancouver, Canada
            - `Ahmed et al. (2026) <https://www.sciencedirect.com/science/article/pii/S1618866726002864?via%3Dihub>`__
 
-
 * Pedestrian Wind Speed
       - References: Evaluation
       
