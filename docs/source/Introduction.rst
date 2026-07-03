@@ -482,6 +482,8 @@ The tables of studies below is by no means complete. Please help us adding studi
            - `Colaninno et al. (2025) <https://doi.org/10.1016/j.scs.2025.106498>`__
          * - Ghent, Belgium
            - `Daelman et al. (2026) <https://www.sciencedirect.com/science/article/pii/S2212095526002312?via%3Dihub>`__
+         * - Vancouver, Canada
+           - `Ahmed et al. (2026) <https://www.sciencedirect.com/science/article/pii/S1618866726002864?via%3Dihub>`__
 
 
 * Pedestrian Wind Speed
