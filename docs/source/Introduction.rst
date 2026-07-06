@@ -541,6 +541,8 @@ The tables of studies below is by no means complete. Please help us adding studi
                  - Reference
                * - Gothenburg, Sweden
                  - `Lindberg et al. (2015) <http://www.sciencedirect.com/science/article/pii/S0038092X15001164>`__
+               * - Bolzano, Italy
+                 - `Pappaccogli et al. (2019) <https://publications.ibpsa.org/proceedings/bsa/2019/papers/bsa2019_9788860461766_11.pdf>`__
                * - Vienna, Austria
                  - `Revez et al. (2020) <https://www.sciencedirect.com/science/article/pii/S0038092X20300827>`__
                * - São Paulo, Brazil and Raalte, the Netherlands
@@ -564,6 +566,8 @@ The tables of studies below is by no means complete. Please help us adding studi
                  - `Online mapping service (in Swedish) <http://www.goteborgenergi.se/Privat/Projekt_och_etableringar/Fornybar_energi/Solceller/Solkartan/>`__
                * - Eskilstuna, Sweden
                  - `Online mapping service (in Swedish) <http://karta.eskilstuna.se/eskilstunakartan/x/#maps/1069>`__
+               * - Madrid, Spain
+                 - `Polo and Garcia (2023) <https://www.mdpi.com/2072-4292/15/3/567>`__
                * - Trondheim, Norway
                  - `Formolli et al. (2024) <https://www.sciencedirect.com/science/article/pii/S2210670724000921>`__
 
