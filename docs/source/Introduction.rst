@@ -347,7 +347,7 @@ other.
    items. Yellow, orange and red indicates pre-processor, processor and
    post-processor tools, respectively. Grey boxes indicate geodatasets. 
 
-.. figure:: /images/flowchart_SpatialTC.jpg
+.. figure:: /images/flowchart_spatialTC.jpg
    :alt:   None
    :width: 100%
 
